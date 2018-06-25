@@ -1,0 +1,23 @@
+name: "PSY 511.001 Fall 2017"
+navbar:
+  title: "PSY 511"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Evaluation"
+      href: evaluation.html
+    - text: "Resources"
+      href: resources.html
+    - text: "Site info"
+      href: site-info.html
+output_dir: "docs"
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    include:
+      after_body: footer.html

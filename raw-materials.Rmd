@@ -1,0 +1,68 @@
+---
+title: "raw-materials"
+author: "Rick Gilmore"
+date: "8/8/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Emotion
+
+### Fear
+
+Pellman, B. A., & Kim, J. J. (2016). What Can Ethobehavioral Studies Tell Us about the Brain’s Fear System? Trends in neurosciences, 39(6), 420–431. Retrieved from http://dx.doi.org/10.1016/j.tins.2016.04.001
+
+### Reward
+
+Navratilova, E., Atcherley, C. W., & Porreca, F. (2015). Brain Circuits Encoding Reward from Pain Relief. Trends in neurosciences, 38(11), 741–750. Retrieved from http://dx.doi.org/10.1016/j.tins.2015.09.003
+
+
+## Perception
+
+### Multisensory/binding
+
+Bizley, J. K., Maddox, R. K., & Lee, A. K. C. (2016). Defining Auditory-Visual Objects: Behavioral Tests and Physiological Mechanisms. Trends in neurosciences, 39(2), 74–85. Retrieved January 31, 2016, from http://www.sciencedirect.com/science/article/pii/S0166223615002817
+
+## Learning/plasticity
+
+Bonin, R. P., & De Koninck, Y. (2015). Reconsolidation and the regulation of plasticity: moving beyond memory. Trends in neurosciences, 38(6), 336–344. Retrieved from http://dx.doi.org/10.1016/j.tins.2015.04.007
+
+### NMDA receptor
+
+Banerjee, A., Larsen, R. S., Philpot, B. D., & Paulsen, O. (2016). Roles of Presynaptic NMDA Receptors in Neurotransmission and Plasticity. Trends in neurosciences, 39(1), 26–39. Retrieved from http://dx.doi.org/10.1016/j.tins.2015.11.001
+
+
+
+## Disorder
+
+### Depression
+
+Yirmiya, R., Rimmerman, N., & Reshef, R. (2015). Depression as a microglial disease. Trends in neurosciences, 38(10), 637–658. Retrieved from http://dx.doi.org/10.1016/j.tins.2015.08.001
+
+## Neuroanatomy
+
+### Motor cortex
+
+Barbas, H., & García-Cabezas, M. Á. (2015). Motor cortex layer 4: less is more. Trends in neurosciences, 38(5), 259–261. Retrieved from http://dx.doi.org/10.1016/j.tins.2015.03.005
+
+### Insula
+
+Namkung, H., Kim, S.-H., & Sawa, A. (2017). The Insula: An Underestimated Brain Area in Clinical Neuroscience, Psychiatry, and Neurology. Trends in neurosciences, 40(4), 200–207. Retrieved from http://dx.doi.org/10.1016/j.tins.2017.02.002
+
+### Claustrum
+
+Goll, Y., Atlan, G., & Citri, A. (2015). Attention: the claustrum. Trends in neurosciences, 38(8), 486–495. Retrieved from http://dx.doi.org/10.1016/j.tins.2015.05.006
+
+## Microbiome
+
+Sarkar, A., Lehto, S. M., Harty, S., Dinan, T. G., Cryan, J. F., & Burnet, P. W. J. (2016). Psychobiotics and the Manipulation of Bacteria-Gut-Brain Signals. Trends in neurosciences, 39(11), 763–781. Retrieved from http://dx.doi.org/10.1016/j.tins.2016.09.002
+
+## Resting state/DMN/Connectome
+
+Swanson, L. W., & Lichtman, J. W. (2016). From Cajal to Connectome and Beyond. Annual review of neuroscience, 39, 197–216. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-071714-033954>
+
+Raichle, M. E. (2015). The brain’s default mode network. Annual review of neuroscience, 38, 433–447. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-071013-014030>.
+

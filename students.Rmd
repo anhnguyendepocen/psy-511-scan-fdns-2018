@@ -1,0 +1,31 @@
+---
+title: "Glossary"
+---
+
+## Brain anatomy
+
+- Forebrain
+    - Amygdala
+    - Claustrum
+    - Frontal lobe (frontal cortex)
+        - Dorsolateral prefrontal cortex
+        - Orbitofrontal cortex
+    - Hippocampus
+    - Hypothalamus
+    - Insula
+    - Precuneus
+    - Uncus
+- Midbrain
+    - Tectum
+        - Superior Colliculus
+        - Inferior Colliculus
+    - Tegmentum
+        - Substantia Nigra
+        - Ventral Tegmental Area
+
+## Methods
+
+- Electroencephalography
+    - Power
+        - Delta ($\delta$), theta ($\theta$), alpha ($\alpha$), beta ($\beta$), mu ($\mu$), gamma ($\gamma$) frequency bands
+    - Event-related potentials (ERPs)

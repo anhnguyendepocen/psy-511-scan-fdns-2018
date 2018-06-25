@@ -1,0 +1,28 @@
+---
+title: "Evaluation"
+---
+
+PSY 511 course performance will be evaluated based on the following scheme:
+
+| Component           | Points                      | % of Grade |
+|---------------------|------------------------------|-------|
+| Class participation | 2 pts/class * 15 weeks = 30  | 30    |
+| Quizzes             | 10 pts * 3 quizzes = 30      | 30    |
+| Group presentation  | 20 pts                       | 20    |
+| Paper write-up      | 20 pts                       | 20    |
+| **TOTAL**           | **100**                      | **100** |
+
+## Group presentation
+
+## Resource write-up
+
+Please write-up a review of i) one of the references you discuss in your group presentation or ii) another paper of your choosing in the style of a *Neuron* "Preview" or a *Nature* "Research Highlights" paper ([examples](https://www.nature.com/search?article_type=research-highlights&order=date_desc)). Your review should be 2,000-2,500 words (6-10 pp in length) and is due by **noon on Wednesday, December 13, 2017**.
+
+**Do's**
+
+- Put your last name and first name in the file name of your submitted paper. `gilmore-rick-psy-511-2017-final-paper.docx` works fine.
+- Submit your paper as a MS Word document or as a Google drive document that I can comment on using the track changes feature.
+- Include a cover page and title.
+- Include all end-of-paper citations in a format that is convenient to you and easy to extract from your reference manager.
+- Include author-date citations in the text, even if the article type (e.g., a newspaper or magazine) would not typically use them.
+- Use double-spacing.
