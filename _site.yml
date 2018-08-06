@@ -1,4 +1,4 @@
-name: "PSY 511.001 Fall 2017"
+name: "PSY 511.001 Fall 2018"
 navbar:
   title: "PSY 511"
   left:
@@ -17,7 +17,7 @@ navbar:
 output_dir: "docs"
 output:
   html_document:
-    theme: yeti
+    theme: paper
     highlight: textmate
     include:
       after_body: footer.html
