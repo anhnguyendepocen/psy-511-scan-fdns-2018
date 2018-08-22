@@ -296,7 +296,7 @@ And here is one from Santiago Ramon y Cajal.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Camillo_Golgi.jpg/330px-Camillo_Golgi.jpg", height=500px/>
 </div>
 
-## Nissl stain
+## **Nissl stain**
 
 - Cell bodies
 
@@ -342,7 +342,7 @@ Here's a Nissl-stained section of the macaque brain. It stains only cell bodies,
 
 ## Mapping structures
 
-￼- Computed axial tomography (CAT), CT
+- **Computed axial tomography (CAT), CT**
 - X-ray based
 
 ---
@@ -371,13 +371,14 @@ Here's a Nissl-stained section of the macaque brain. It stains only cell bodies,
 Here's a CT image of two brains, the one on the right has an intracerebral hemorrhage.
 </div>
 
-## Magnetic Resonance Imaging
+## **Magnetic Resonance Imaging (MRI)**
 
 - Magnetic resonance a property of some isotopes and complex molecules
-- In magnetic field, absorb and release radio frequency energy
 - Hydrogen ($H$), common in water & fat, is one
-- Aligns with strong magnetic field
-- When perturbed, speed of realignment varies by tissue
+- In magnetic field, $H$ atoms absorb and release radio frequency (RF) energy
+- $H$ atoms align with strong magnetic field
+- Applying RF pulse perturbs alignment
+- Rate/timing of realignment varies by tissue
 - Realignment gives off radio frequency (RF) signals
 - Strength of RF ~ density
 
@@ -389,11 +390,11 @@ Here's a CT image of two brains, the one on the right has an intracerebral hemor
 <http://s.hswstatic.com/gif/mri-steps.jpg>
 </div>
 
-## Structural MRI
+## **Structural MRI**
 
 - Tissue density/type differences
-- Gray (nerve cells & dendrites) vs. white matter (axon fibers)
-- Spectroscopy (specific metabolites)
+- **Gray matter** (nerve cells & **dendrites**) vs. **white matter** (**axon fibers**)
+- **Spectroscopy** (specific metabolites)
 - Region sizes/volumes
 
 ---
@@ -426,7 +427,7 @@ Here's an illustration of how different RF pulse sequences and decoding schemes 
 Here's an example of MR spectroscopy showing the concentrations of several different metabolites in a large voxel of brain tissue.
 </div>
 
-## Voxel-based morphometry (VBM)
+## **Voxel-based morphometry (VBM)**
 
 <div class="centered">
 Volume differences in schizophrenic patients vs. controls
@@ -468,7 +469,7 @@ The idea is analogous to electronics. We want the schematic. Without the schemat
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nvXuq9jRWKE" frameborder="0" allowfullscreen></iframe>
 
-## Diffusion Tensor Imaging (DTI)
+## **Diffusion Tensor Imaging (DTI)**
 
 - Structural MRI technique
 - Diffusion tensor: measurement of spatial pattern of $H_2O$ diffusion in small volume
