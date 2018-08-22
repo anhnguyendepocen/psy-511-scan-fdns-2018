@@ -27,3 +27,7 @@ rogilmore AT-SIGN psu PERIOD edu</br>
 Wed & Fri 2:30-3:45 pm, 114 Keller</br>
 August 20 - December 7, 2018</br>
 Course 15128</br>
+
+## Syllabus
+
+You can find a PDF version of the syllabus [here](lectures/psy-511-2018-fall-gilmore-syllabus.pdf).
