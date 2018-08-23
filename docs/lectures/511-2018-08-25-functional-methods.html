@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PSY 511 2018-08-25 Functional Methods</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'PSY 511 2018-08-25 Functional Methods',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Rick Gilmore' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <link href="libs/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="libs/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="libs/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="css/ioslides.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+            <p style="margin-top: 6px; margin-left: -2px;">2018-08-23 08:12:17</p>
+          </hgroup>
+  </slide>
+
+<slide class=""><hgroup><h2>Prelude</h2></hgroup><article  id="prelude">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I64X7vHSHOE" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Today&#39;s topics</h2></hgroup><article  id="todays-topics">
+
+<ul>
+<li>Spatial and temporal scales</li>
+<li>A bit more about structural methods</li>
+<li>Functional methods</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Your turn</h2></hgroup><article  id="your-turn">
+
+<ol>
+<li>Pick two papers you want to read and (better) understand</li>
+</ol>
+
+<ul>
+<li>Email me APA formatted citation (with DOIs)</li>
+<li>Indicate three concepts/terms you are especially interested in understanding</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<ol>
+<li>Choose a behavior or mental state you want to (better) understand</li>
+</ol>
+
+<ul>
+<li>Take an information processing perspective and briefly sketch out (in no more than a short paragraph) the main inputs, outputs, and computations involved.</li>
+<li>When thinking about <em>outputs</em> make sure to distinguish between <em>behaviors</em> (e.g., movements, facial expressions, vocalizations) and <em>physiological states</em> (e.g., changes in heart rate, hormone concentrations in the blood, etc.)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Functional methods</h2></hgroup><article  id="functional-methods">
+
+<ul>
+<li>Recording from the brain</li>
+<li>Interfering with the brain</li>
+<li>Stimulating the brain</li>
+<li>Simulating the brain</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>￼Recording from the brain</h2></hgroup><article  id="recording-from-the-brain">
+
+<ul>
+<li><strong>Single/multi unit recording</strong></li>
+<li>Microelectrodes</li>
+<li>Small numbers of nerve cells</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Single/multi-unit Recording</h2></hgroup><article  id="singlemulti-unit-recording" class="flexbox vcenter smaller">
+
+<div class="centered">
+<p><img src="img/multi-unit-recording.jpg"/></p>
+
+<p><a href='http://www.nature.com/nrn/journal/v5/n11/images/nrn1535-i1.jpg' title=''>http://www.nature.com/nrn/journal/v5/n11/images/nrn1535-i1.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Single/multi-unit recording</h2></hgroup><article  id="singlemulti-unit-recording-1">
+
+<ul>
+<li>What does neuron X respond to?</li>
+<li>Great temporal (ms), spatial resolution (um)</li>
+<li>Invasive</li>
+<li>Rarely suitable for humans, but&#8230;</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='https://en.wikipedia.org/wiki/Electrocorticography' title=''><strong>Electrocorticography (ECoG)</strong></a></h2></hgroup><article  id="electrocorticography-ecog">
+
+<div class="centered">
+<p><a href="http://www.neurofisiologia.net/wp-content/uploads/2009/07/corticografia.jpg"> <img src="http://www.neurofisiologia.net/wp-content/uploads/2009/07/corticografia.jpg" height=450px/> </a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HluVToAamXY" frameborder="0" allowfullscreen>
+
+</iframe></div>
+
+<aside class='note'><section><p>Story about child who underwent ECoG surgery.</p></section></aside>
+
+</article></slide><slide class=""><hgroup><h2>￼Single-cell studies ask&#8230;</h2></hgroup><article  id="single-cell-studies-ask...">
+
+<ul>
+<li>How does firing frequency, timing vary with behavior?</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='https://en.wikipedia.org/wiki/Positron_emission_tomography' title=''><strong>Positron Emission Tomography (PET)</strong></a></h2></hgroup><article  id="positron-emission-tomography-pet">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GHLBcCv4rqk" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2><a href='https://en.wikipedia.org/wiki/Positron_emission_tomography' title=''>Positron Emission Tomography (PET)</a></h2></hgroup><article  id="positron-emission-tomography-pet-1">
+
+<ul>
+<li>Radioactive tracers (glucose, oxygen)</li>
+<li>Positron decay activates paired detectors</li>
+<li>Tomographic techniques reconstruct 3D geometry</li>
+<li>Experimental condition - control</li>
+<li>Average across individuals</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>￼More on PET</h2></hgroup><article  id="more-on-pet">
+
+<ul>
+<li>Temporal (~ s) and spatial (mm-cm) resolution worse than fMRI</li>
+<li>Radioactive exposures + mildly invasive</li>
+<li>Dose &lt; airline crew exposure in 1 yr</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><strong>Functional Magnetic Resonance Imaging (fMRI)</strong></h2></hgroup><article  id="functional-magnetic-resonance-imaging-fmri">
+
+<ul>
+<li>Neural activity -&gt; local \(O_2\) consumption increase</li>
+<li>Blood Oxygen Level Dependent (BOLD) response</li>
+<li>Oxygenated vs. deoxygenated hemoglobin ≠ magnetic susceptibility</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<ul>
+<li>How do regional blood \(O_2\) levels (&amp; flow &amp; volume) vary with behavior X?</li>
+<li>MRI &quot;signals&quot; relate to the speed (1/T) of &quot;relaxation&quot; of the perturbed nuclei to their state of alignment with the main (\(B_0\)) magnetic field.</li>
+<li>Imaging protocols emphasize different time constants of this relaxation (\(T1\), \(T2\), \(T2^*\)); \(T^2*\) for BOLD imaging</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Evaluating fMRI</h2></hgroup><article  id="evaluating-fmri">
+
+<ul>
+<li>Non-invasive, but expensive</li>
+<li>Moderate but improving (mm) spatial, temporal (~sec) resolution</li>
+<li>Spatial limits due to
+
+<ul>
+<li>field strength (@ 3T ~3mm^3 voxel)</li>
+<li>Physiology of hemodynamic response</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<ul>
+<li>Temporal limits due to
+
+<ul>
+<li>Hemodynamic Response Function (HRF): ~ 1s delay plus 3-6 s ramp-up</li>
+<li>Speed of image acquisition</li>
+</ul></li>
+<li><em>Indirect</em> measure of neural activity</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><strong>Hemodynamic Response Function (HRF)</strong></h2></hgroup><article  id="hemodynamic-response-function-hrf" class="smaller">
+
+<div class="centered">
+<p><img src="img/hemodynamic-response-function.png" height=450px/></p>
+
+<p><a href='http://openi.nlm.nih.gov/imgs/512/236/3109590/3109590_TONIJ-5-24_F1.png' title=''>http://openi.nlm.nih.gov/imgs/512/236/3109590/3109590_TONIJ-5-24_F1.png</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p>Generate &quot;predicted&quot; BOLD response to event; compare to actual</p>
+
+<p><img src="http://mriquestions.com/uploads/3/4/5/7/34572113/convolution-of-3-events_orig.gif" width=800px></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://images.slideplayer.com/29/9493553/slides/slide_4.jpg" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Higher field strengths (3 Tesla vs. 7 Tesla)</h2></hgroup><article  id="higher-field-strengths-3-tesla-vs.-7-tesla" class="smaller">
+
+<div class="centered">
+<p><img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3629563/bin/gr3.jpg" height=400px></p>
+
+<p><a href='http://dx.doi.org/10.1016/j.ejrad.2011.09.025' title=''><span class="cite">(Sladky et al., 2013)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>I want some power&#8230;</h2></hgroup><article  id="i-want-some-power..." class="smaller">
+
+<div class="centered">
+<p><img src="http://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797.g003&type=large" width=800px></p>
+
+<p>(<a href='http://doi.org/10.1371/journal.pbio.2000797' title=''>Szucs &amp; Ioannides, 2017</a>)</p></div>
+
+<aside class='note'><section><p>As Szucs and Ioannides have shown based on an analysis of more than 10,000 papers in the cognitive neuroscience literature, sample sizes are small, and the probability of false negatives is high, especially for small to medium effect sizes.</p></section></aside>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<blockquote>
+<p>&quot;<em>Assuming a realistic range of prior probabilities for null hypotheses, false report probability is likely to exceed 50% for the whole literature.</em>&quot;</p>
+</blockquote>
+
+<p><small>(<a href='http://doi.org/10.1371/journal.pbio.2000797' title=''>Szucs &amp; Ioannides, 2017</a>)</small></p></div>
+
+<ul>
+<li>Solution
+
+<ul>
+<li>Make data, materials (analysis code) more widely and openly available</li>
+<li><a href='http://openneuro.org' title=''>OpenNeuro.org</a>, <a href='http://www.humanconnectomeproject.org/' title=''>Human Connectome Project</a>, etc.</li>
+<li>Increases sample size, improves detection of small effects</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><strong>Electroencephalography (EEG)</strong></h2></hgroup><article  id="electroencephalography-eeg">
+
+<ul>
+<li>How does it work?</li>
+<li>Electrodes on scalp or brain surface</li>
+<li>What do we measure?
+
+<ul>
+<li>Voltage <em>differences</em> between source and reference electrode</li>
+</ul></li>
+<li>Combined activity of huge # of neurons</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>How does EEG arise?</h2></hgroup><article  id="how-does-eeg-arise">
+
+<ul>
+<li>Current/voltage gradients between <em>apical</em> (near surface) dendrites and <em>basal</em> (deeper) dendrites and cell body/soma</li>
+</ul>
+
+<div class="centered">
+<p><img src="http://neurofeedbackalliance.org/wp-content/uploads/2016/10/Dipole.jpg"
+</br> <img src="http://www.ijbem.org/volume4/number2/nfigs2/image054.jpg"></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Collecting EEG</h2></hgroup><article  id="collecting-eeg" class="flexbox vcenter smaller">
+
+<div class="centered">
+<p><img src="img/baby-eeg.jpg"/></p>
+
+<p><a href='http://sfari.org/images/images-2013-folder/images-sfn-2013/20131110sfneeg' title=''>http://sfari.org/images/images-2013-folder/images-sfn-2013/20131110sfneeg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>EEG</h2></hgroup><article  id="eeg">
+
+<ul>
+<li>High temporal, poor spatial resolution</li>
+<li>Analyze activity in different &#39;bands&#39; of frequencies
+
+<ul>
+<li>LOW: deep sleep (\(\delta\) band)</li>
+<li>MIDDLE: Quiet, alert state (\(\alpha\) band)</li>
+<li>HIGHER: Sensorimotor activity reflecting observed actions? (\(\mu\) band), <a href='http://dx.doi.org/10.1098/rsos.160662' title=''><span class="cite">(Hobson &amp; Bishop, 2017)</span></a></li>
+<li>HIGHER STILL: “Binding” information across senses or plasticity? (\(\gamma\) band), <a href='http://dx.doi.org/10.1371/journal.pone.0186008' title=''><span class="cite">(Amo et al., 2017)</span></a></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>EEG Frequency</h2></hgroup><article  id="eeg-frequency" class="flexbox vcenter smaller">
+
+<div class="centered">
+<p><img src="img/eeg-frequency.jpg"/></p>
+
+<p><a href='http://www.peakmind.co.uk/images/frequency.jpg' title=''>http://www.peakmind.co.uk/images/frequency.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2><a href='https://en.wikipedia.org/wiki/Event-related_potential' title=''><strong>Event-related potentials (ERPs)</strong></a></h2></hgroup><article  id="event-related-potentials-erps">
+
+<ul>
+<li>EEGs time-locked to some event - Averaged over many trials</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>ERPs</h2></hgroup><article  id="erps">
+
+<div class="centered">
+<p><a href="http://2.bp.blogspot.com/_2ob-1_LsjJs/TAUjw9i_dYI/AAAAAAAAAQQ/9AfiHsnD-P8/s1600/ERP_technique.gif"> <img src="http://2.bp.blogspot.com/_2ob-1_LsjJs/TAUjw9i_dYI/AAAAAAAAAQQ/9AfiHsnD-P8/s1600/ERP_technique.gif" height=500px/> </a></p></div>
+
+</article></slide><slide class=""><hgroup><h2><a href='http://computer.howstuffworks.com/brain-computer-interface.htm' title=''>Brain Computer Interface (BCI)</a></h2></hgroup><article  id="brain-computer-interface-bci" class="smaller">
+
+<div class="centered">
+<p><img src="http://s.hswstatic.com/gif/brain-computer-interface-3.gif"/></p>
+
+<p><a href='http://s.hswstatic.com/gif/brain-computer-interface-3.gif' title=''>http://s.hswstatic.com/gif/brain-computer-interface-3.gif</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2><strong>Magneto-encephalography (MEG)</strong></h2></hgroup><article  id="magneto-encephalography-meg">
+
+<ul>
+<li>Like EEG, but measuring magnetic fields</li>
+<li>High temporal resolution</li>
+<li>Magnetic field propagates w/o distortion
+
+<ul>
+<li>But are orthogonal to electric field</li>
+</ul></li>
+<li>Requires shielded chamber (to keep out strong magnetic fields)</li>
+<li>++ cost vs. EEG</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>MEG</h2></hgroup><article  id="meg" class="flexbox vcenter">
+
+<div class="centered">
+<p><img src="http://www.massgeneral.org/psychiatry/assets/images/Magnetoencephalography_MEG_MGH.jpg"/ height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>How do EEG/MEG and fMRI relate?</h2></hgroup><article  id="how-do-eegmeg-and-fmri-relate" class="flexbox vcenter">
+
+<div class="centered">
+<p><img src="img/logothetis-2001.jpg"/></p>
+
+<p><a href='http://doi.org/10.1038/35084005' title=''><span class="cite">(Logothetis, Pauls, Augath, Trinath, &amp; Oeltermann, 2001)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>How do EEG/MEG and fMRI relate?</h2></hgroup><article  id="how-do-eegmeg-and-fmri-relate-1">
+
+<ul>
+<li>BOLD fMRI likely reflects <strong>presynaptic</strong> <em>input</em> to area</li>
+<li>EEG/MEG likely reflects <strong>postsynaptic</strong> <em>response</em> to those inputs</li>
+<li><a href='http://doi.org/10.1038/35084005' title=''><span class="cite">(Logothetis et al., 2001)</span></a> and <a href='http://doi.org/10.1146/annurev.physiol.66.082602.092845' title=''><span class="cite">(Logothetis &amp; Wandell, 2004)</span></a></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Manipulating the brain</h2></hgroup><article  id="manipulating-the-brain">
+
+<ul>
+<li>Interfering with it</li>
+<li>Stimulating it</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Interfering with the brain</h2></hgroup><article  id="interfering-with-the-brain">
+
+<ul>
+<li>Nature’s“experiments”</li>
+<li>Stroke, head injury, tumor</li>
+<li>Neuropsychology</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Phineas Gage</h2></hgroup><article  id="phineas-gage" class="flexbox vcenter smaller">
+
+<div class="centered">
+<p><img src="http://onlinestorybank.com/wp-content/uploads/2014/03/Phineas-Gage.png" height=500px/></p></div>
+
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2></h2></hgroup><article  id="section" class="flexbox vcenter smaller">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/en/9/98/The_Man_Who_Mistook_His_Wife_for_a_Hat_cover.jpg"></p></div>
+
+</article></slide><slide class=""><hgroup><h2>￼Evaluating neuropsychological methods</h2></hgroup><article  id="evaluating-neuropsychological-methods">
+
+<ul>
+<li>Logic: damage impairs performance = region critical for behavior</li>
+<li>Weaker spatial/temporal resolution</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>￼Stimulating the brain</h2></hgroup><article  id="stimulating-the-brain">
+
+<ul>
+<li>Electrical (<strong>Direct Current Stimulation - DCS</strong>)</li>
+<li>Pharmacological</li>
+<li>Magnetic (<strong>Transcranial magnetic stimulation - TMS</strong>)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Stimulating the brain</h2></hgroup><article  id="stimulating-the-brain-1">
+
+<ul>
+<li>Spatial/temporal resolution?</li>
+<li>Assume stimulation mimics natural activity?</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Deep brain stimulation as therapy</h2></hgroup><article  id="deep-brain-stimulation-as-therapy">
+
+<ul>
+<li>Depression</li>
+<li>Epilepsy</li>
+<li>Parkinson’s Disease</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article  id="section-1" class="flexbox vcenter smaller">
+
+<div class="centered">
+<p><img src="img/deep-brain-stimulation.jpg"/></p>
+
+<p><a href='http://www.nimh.nih.gov/images/health-and-outreach/mental-health-topic-brain-stimulation-therapies/dbs_60715_3.jpg' title=''>http://www.nimh.nih.gov/images/health-and-outreach/mental-health-topic-brain-stimulation-therapies/dbs_60715_3.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KDjWdtDyz5I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+
+</iframe>
+
+<p><a href='https://youtu.be/KDjWdtDyz5I' title=''>https://youtu.be/KDjWdtDyz5I</a></p>
+
+</article></slide><slide class=""><hgroup><h2>Optogenetics more closely mimics brain activity</h2></hgroup><article  id="optogenetics-more-closely-mimics-brain-activity">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I64X7vHSHOE" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2><a href='https://en.wikipedia.org/wiki/Optogenetics' title=''>Optogenetics</a></h2></hgroup><article  id="optogenetics">
+
+<ul>
+<li>Gene splicing techniques insert light-sensitive molecules into neuronal membranes</li>
+<li>Application of light at specific wavelengths alters neuronal function</li>
+<li>Cell-type specific and temporally precise control</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FlGbznBmx8M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+
+</iframe>
+
+<p><a href='https://youtu.be/FlGbznBmx8M' title=''>https://youtu.be/FlGbznBmx8M</a></p>
+
+</article></slide><slide class=""><hgroup><h2><em>Sim</em>ulating the brain</h2></hgroup><article  id="simulating-the-brain">
+
+<ul>
+<li>Computer/mathematical models of brain function</li>
+<li>Example: neural networks</li>
+<li>Cheap, noninvasive, can be stimulated or “lesioned”</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p>Blue Brain project</p>
+
+<p><img src="http://www.nature.com/nrn/journal/v7/n2/images/nrn1848-f4.jpg"></p>
+
+<p><a href='http://doi.org/10.1038/nrn1848' title=''>Markram, 2006</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gn4nRCC9TwQ" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>￼Main points</h2></hgroup><article  id="main-points">
+
+<ul>
+<li>Multiple structural, functional methods</li>
+<li>Different levels of spatial &amp; temporal analysis</li>
+<li>Functional tools have different strengths &amp; weaknesses</li>
+</ul>
+
+<!-- Scrolling final reference page -->
+
+<!-- http://stackoverflow.com/q/38260799 -->
+
+<style>
+slides > slide { overflow: scroll; }
+slides > slide:not(.nobackground):before {
+  background: none;
+  }
+slides > slide:not(.nobackground):after {
+  content: '';
+  background: none;
+  }
+}
+</style>
+
+</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  id="references" class="unnumbered smaller">
+
+<div id="refs" class="references">
+<div id="ref-Amo2017-tz">
+<p>Amo, C., De Santiago, L., Zarza Luciáñez, D., León Alonso-Cortés, J. M., Alonso-Alonso, M., Barea, R., &amp; Boquete, L. (2017). Induced gamma band activity from EEG as a possible index of training-related brain plasticity in motor tasks. <em>PloS One</em>, <em>12</em>(10), e0186008. <a href='https://doi.org/10.1371/journal.pone.0186008' title=''>https://doi.org/10.1371/journal.pone.0186008</a></p></div>
+
+<div id="ref-Hobson2017-oj">
+<p>Hobson, H. M., &amp; Bishop, D. V. M. (2017). The interpretation of mu suppression as an index of mirror neuron activity: Past, present and future. <em>Royal Society Open Science</em>, <em>4</em>(3), 160662. <a href='https://doi.org/10.1098/rsos.160662' title=''>https://doi.org/10.1098/rsos.160662</a></p></div>
+
+<div id="ref-Logothetis2004-mn">
+<p>Logothetis, N. K., &amp; Wandell, B. A. (2004). Interpreting the BOLD signal. <em>Annu. Rev. Physiol.</em>, <em>66</em>(1), 735–769. <a href='https://doi.org/10.1146/annurev.physiol.66.082602.092845' title=''>https://doi.org/10.1146/annurev.physiol.66.082602.092845</a></p></div>
+
+<div id="ref-Logothetis2001-ul">
+<p>Logothetis, N. K., Pauls, J., Augath, M., Trinath, T., &amp; Oeltermann, A. (2001). Neurophysiological investigation of the basis of the fMRI signal. <em>Nature</em>, <em>412</em>(6843), 150–157. <a href='https://doi.org/10.1038/35084005' title=''>https://doi.org/10.1038/35084005</a></p></div>
+
+<div id="ref-Sladky2013-bu">
+<p>Sladky, R., Baldinger, P., Kranz, G. S., Tröstl, J., Höflich, A., Lanzenberger, R., … Windischberger, C. (2013). High-resolution functional MRI of the human amygdala at 7 T. <em>Eur. J. Radiol.</em>, <em>82</em>(5), 728–733. <a href='https://doi.org/10.1016/j.ejrad.2011.09.025' title=''>https://doi.org/10.1016/j.ejrad.2011.09.025</a></p></div></div></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
