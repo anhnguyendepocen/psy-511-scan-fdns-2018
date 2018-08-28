@@ -1,0 +1,743 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={511-2018-08-28-anatomy},
+            pdfauthor={Rick Gilmore},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{511-2018-08-28-anatomy}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Rick Gilmore}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2018-08-28 08:23:20}
+
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\subsection{Prelude}\label{prelude}
+
+\url{https://www.youtube.com/snO68aJTOpM}
+
+\subsection{Today's Topics}\label{todays-topics}
+
+\begin{itemize}
+\tightlist
+\item
+  Wrap-up on functional methods
+\item
+  Gross neuroanatomy
+\end{itemize}
+
+\section{Wrap-up on functional
+methods}\label{wrap-up-on-functional-methods}
+
+\subsection{￼Stimulating the brain}\label{stimulating-the-brain}
+
+\begin{itemize}
+\tightlist
+\item
+  Pharmacological
+\item
+  Electrical (\textbf{Transcranial Direct Current Stimulation -
+  \href{https://en.wikipedia.org/wiki/Transcranial_direct-current_stimulation}{tDCS}})
+\item
+  Magnetic (\textbf{Transcranial magnetic stimulation -
+  \href{https://en.wikipedia.org/wiki/Transcranial_magnetic_stimulation}{TMS}})
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{figure}
+
+{\centering \includegraphics{https://upload.wikimedia.org/wikipedia/commons/6/67/Transcranial_magnetic_stimulation} 
+
+}
+
+\caption{TMS}\label{fig:unnamed-chunk-1}
+\end{figure}
+
+\subsection{Stimulating the brain}\label{stimulating-the-brain-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Spatial/temporal resolution?
+\item
+  Assume stimulation mimics natural activity?
+\end{itemize}
+
+\subsection{Deep brain stimulation as
+therapy}\label{deep-brain-stimulation-as-therapy}
+
+\begin{itemize}
+\tightlist
+\item
+  Depression
+\item
+  Epilepsy
+\item
+  Parkinson's Disease
+\end{itemize}
+
+\subsection{}\label{section}
+
+\url{http://www.nimh.nih.gov/images/health-and-outreach/mental-health-topic-brain-stimulation-therapies/dbs_60715_3.jpg}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\url{https://youtu.be/KDjWdtDyz5I}
+
+\subsection{Optogenetics more closely mimics brain
+activity}\label{optogenetics-more-closely-mimics-brain-activity}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Optogenetics}{Optogenetics}}{Optogenetics}}\label{optogenetics}
+
+\begin{itemize}
+\tightlist
+\item
+  Gene splicing techniques insert light-sensitive molecules into
+  neuronal membranes
+\item
+  Application of light at specific wavelengths alters neuronal function
+\item
+  Cell-type specific and temporally precise control
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\url{https://youtu.be/FlGbznBmx8M}
+
+\subsection{\texorpdfstring{\emph{Sim}ulating the
+brain}{Simulating the brain}}\label{simulating-the-brain}
+
+\begin{itemize}
+\tightlist
+\item
+  Computer/mathematical models of brain function
+\item
+  Example: neural networks
+\item
+  Cheap, noninvasive, can be stimulated or ``lesioned''
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+Blue Brain project
+
+\href{http://doi.org/10.1038/nrn1848}{Markram, 2006}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Main points}\label{main-points}
+
+\begin{itemize}
+\tightlist
+\item
+  Multiple structural, functional methods
+\item
+  Different levels of spatial \& temporal analysis
+\item
+  Functional tools have different strengths \& weaknesses
+\end{itemize}
+
+\section{Gross neuroanatomy}\label{gross-neuroanatomy}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+
+\url{https://www.pastmedicalhistory.co.uk/the-nervous-system-of-harriet-cole/}
+
+\subsection{Brain anatomy through
+dance}\label{brain-anatomy-through-dance}
+
+ Your browser does not support the audio tag.
+
+\subsection{Finding our way around}\label{finding-our-way-around}
+
+\subsubsection{Anterior/Posterior}\label{anteriorposterior}
+
+\subsubsection{Medial/Lateral}\label{mediallateral}
+
+\subsubsection{Superior/Inferior}\label{superiorinferior}
+
+\subsubsection{Dorsal/Ventral}\label{dorsalventral}
+
+\subsubsection{Rostral/Caudal}\label{rostralcaudal}
+
+\subsection{Directional image}\label{directional-image}
+
+\url{https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Blausen_0019_AnatomicalDirectionalReferences.png/800px-Blausen_0019_AnatomicalDirectionalReferences.png}
+
+\subsection{Bipeds vs.~quadripeds}\label{bipeds-vs.quadripeds}
+
+\url{https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/1303_Human_Neuroaxis.jpg/800px-1303_Human_Neuroaxis.jpg}
+
+\subsection{No matter how you slice
+it}\label{no-matter-how-you-slice-it}
+
+\subsubsection{Horizontal/Axial}\label{horizontalaxial}
+
+\subsubsection{Coronal/Transverse/Frontal}\label{coronaltransversefrontal}
+
+\subsubsection{Sagittal (from the side)}\label{sagittal-from-the-side}
+
+\subsection{Slice diagram}\label{slice-diagram}
+
+\url{http://www.scienceteacherprogram.org/biology/chillemistudentguide1-06/brain_directions_planes_sections__directions_-_small.gif}
+
+\subsection{Supporting structures}\label{supporting-structures}
+
+\subsubsection{Meninges}\label{meninges}
+
+\subsubsection{Ventricular system}\label{ventricular-system}
+
+\subsubsection{Blood supply}\label{blood-supply}
+
+\subsection{Meninges}\label{meninges-1}
+
+\subsubsection{\texorpdfstring{Dura mater (`tough
+mother')}{Dura mater (tough mother)}}\label{dura-mater-tough-mother}
+
+\subsubsection{Arachnoid membrane}\label{arachnoid-membrane}
+
+\subsubsection{Subarachnoid space}\label{subarachnoid-space}
+
+\subsubsection{\texorpdfstring{Pia mater (`gentle
+mother')}{Pia mater (gentle mother)}}\label{pia-mater-gentle-mother}
+
+\subsection{Meninges}\label{meninges-2}
+
+\url{https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Meninges-en.svg/1280px-Meninges-en.svg.png}
+
+\subsection{Ventricular system}\label{ventricular-system-1}
+
+\url{https://upload.wikimedia.org/wikipedia/commons/d/d4/Blausen_0896_Ventricles_Brain.png}
+
+\subsection{Ventricles}\label{ventricles}
+
+\subsubsection{Lateral (1st \& 2nd)}\label{lateral-1st-2nd}
+
+\subsubsection{3rd}\label{rd}
+
+\subsubsection{Cerebral aqueduct}\label{cerebral-aqueduct}
+
+\subsubsection{4th}\label{th}
+
+\subsubsection{Cerebrospinal fluid (CSF)}\label{cerebrospinal-fluid-csf}
+
+\begin{itemize}
+\tightlist
+\item
+  Clears metabolites during sleep (Xie et al., 2013).
+\end{itemize}
+
+\subsection{Blood Supply}\label{blood-supply-1}
+
+\url{http://surgery.med.miami.edu/images/Circulation_of_brain.gif}
+
+\subsection{Blood Supply}\label{blood-supply-2}
+
+\subsubsection{Arteries}\label{arteries}
+
+\begin{itemize}
+\tightlist
+\item
+  Circle of Willis
+\end{itemize}
+
+\subsubsection{Blood/brain barrier}\label{bloodbrain-barrier}
+
+\begin{itemize}
+\tightlist
+\item
+  Cells forming blood vessel walls tightly packed
+\item
+  Active transport of molecules typically required
+\end{itemize}
+
+\subsection{Blood/brain barrier}\label{bloodbrain-barrier-1}
+
+\url{http://www.nature.com/nrn/journal/v7/n1/images/nrn1824-f3.jpg}
+
+\subsection{Area Postrema}\label{area-postrema}
+
+\begin{itemize}
+\tightlist
+\item
+  Brainstem, blood-brain barrier thin
+\end{itemize}
+
+\url{http://www.nature.com/nrendo/journal/v9/n10/images/nrendo.2013.136-f2.jpg}
+
+\subsection{Organization of the Nervous
+System}\label{organization-of-the-nervous-system}
+
+\subsubsection{Central Nervous System
+(CNS)}\label{central-nervous-system-cns}
+
+\begin{itemize}
+\tightlist
+\item
+  Brain
+\item
+  Spinal Cord
+\item
+  Everything encased in bone
+\end{itemize}
+
+\subsubsection{Peripheral Nervous System
+(PNS)}\label{peripheral-nervous-system-pns}
+
+\subsection{Organization of the brain}\label{organization-of-the-brain}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+Major division & Ventricular Landmark & Embryonic Division &
+Structure\tabularnewline
+\midrule
+\endhead
+Forebrain & Lateral & Telencephalon & Cerebral cortex\tabularnewline
+& & & Basal ganglia\tabularnewline
+& & & Hippocampus, amygdala\tabularnewline
+& Third & Diencephalon & Thalamus\tabularnewline
+& & & Hypothalamus\tabularnewline
+Midbrain & Cerebral Aqueduct & Mesencephalon & Tectum,
+tegmentum\tabularnewline
+\bottomrule
+\end{longtable}
+
+\subsection{Organization of the
+brain}\label{organization-of-the-brain-1}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+Major division & Ventricular Landmark & Embryonic Division &
+Structure\tabularnewline
+\midrule
+\endhead
+Hindbrain & 4th & Metencephalon & Cerebellum, pons\tabularnewline
+& -- & Mylencephalon & Medulla oblongata\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/File:EmbryonicBrain.svg}{Hindbrain}}{Hindbrain}}\label{hindbrain}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/File:EmbryonicBrain.svg}{Hindbrain}}{Hindbrain}}\label{hindbrain-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Structures adjacent to 4th ventricle
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Medulla oblongata
+  \item
+    Cerebellum
+  \item
+    Pons
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Medulla_oblongata}{Medulla
+oblongata}}{Medulla oblongata}}\label{medulla-oblongata}
+
+\url{https://upload.wikimedia.org/wikipedia/commons/6/69/1311_Brain_Stem.jpg}
+
+\subsection{Medulla}\label{medulla}
+
+\begin{itemize}
+\tightlist
+\item
+  Cardiovascular regulation
+\item
+  Muscle tone
+\item
+  Fibers of passage
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Ascending fibers (from body), a.k.a. afferents
+  \item
+    Descending fibers (\textbf{e}xiting brain), a.k.a.,
+    \textbf{e}fferents
+  \end{itemize}
+\end{itemize}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Cerebellum}{Cerebellum}}{Cerebellum}}\label{cerebellum}
+
+\begin{itemize}
+\tightlist
+\item
+  ``Little brain''
+\item
+  Dorsal to pons
+\item
+  Movement coordination, simple learning
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Pons}{Pons}}{Pons}}\label{pons}
+
+\begin{itemize}
+\tightlist
+\item
+  Bulge on brain stem
+\item
+  Neuromodulatory nuclei
+\item
+  Relay to cerebellum
+\end{itemize}
+
+\subsection{Midbrain}\label{midbrain}
+
+\url{http://antranik.org/wp-content/uploads/2011/11/the-brain-stem-mid-brain-left-lateral-view-superior-colliculus-inferior-cerebellar-peduncle.jpg}
+
+\subsection{Midbrain components}\label{midbrain-components}
+
+\subsubsection{Tectum}\label{tectum}
+
+\subsubsection{Tegmentum}\label{tegmentum}
+
+\subsection{Tectum}\label{tectum-1}
+
+\url{https://upload.wikimedia.org/wikipedia/commons/0/0b/Gray719.png}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Tectum}{Tectum}}{Tectum}}\label{tectum-2}
+
+\begin{itemize}
+\tightlist
+\item
+  ``Roof'' of the midbrain
+\item
+  Superior and inferior colliculus
+\item
+  Reflexive orienting of eyes, head, ears
+\end{itemize}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Tegmentum}{Tegmentum}}{Tegmentum}}\label{tegmentum-1}
+
+\begin{itemize}
+\tightlist
+\item
+  ``Floor'' of the midbrain
+\item
+  Species-typical movement sequences
+\item
+  Neuromodulatory nuclei
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Norepinephrine (NE)
+  \item
+    Serotonin (5-HT)
+  \item
+    Dopamine (DA) -- from \emph{ventral tegmental area (VTA)}
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Forebrain}\label{forebrain}
+
+\url{http://classconnection.s3.amazonaws.com/252/flashcards/1048252/png/forebrain1328987872235.png}
+
+\subsection{Forebrain Components}\label{forebrain-components}
+
+\subsubsection{Diencephalon}\label{diencephalon}
+
+\subsubsection{Telencephalon}\label{telencephalon}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Diencephalon}{Diencephalon}}{Diencephalon}}\label{diencephalon-1}
+
+\url{https://upload.wikimedia.org/wikipedia/commons/a/a0/1310_Diencephalon.jpg}
+
+\subsection{Diencephalon Components}\label{diencephalon-components}
+
+\begin{itemize}
+\tightlist
+\item
+  Thalamus
+\item
+  Hypothalamus
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Thalamus}{Thalamus}}{Thalamus}}\label{thalamus}
+
+\url{http://neurobiologychapter3.weebly.com/uploads/1/4/1/8/1418733/5118342.jpg?401x231}
+
+\subsection{Thalamus functions}\label{thalamus-functions}
+
+\begin{itemize}
+\tightlist
+\item
+  Input to cortex
+\item
+  Functionally distinct \emph{nuclei} (collection of neurons)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Lateral geniculate nucleus (LGN), vision
+  \item
+    Medial geniculate nucleus (MGN), audition
+  \item
+    Pulvinar, attention?
+  \end{itemize}
+\end{itemize}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Hypothalamus}{Hypothalamus}}{Hypothalamus}}\label{hypothalamus}
+
+\begin{itemize}
+\tightlist
+\item
+  Five Fs: fighting, fleeing/freezing, feeding, and reproduction
+\item
+  Controls pituitary gland (``master'' gland)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Anterior pituitary (indirect release of hormones)
+  \item
+    Posterior pituitary (direct release of hormones)
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Oxytocin
+    \item
+      Vasopressin
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\subsection{Hypothalamus}\label{hypothalamus-1}
+
+\url{http://higheredbcs.wiley.com/legacy/college/tortora/0470565101/hearthis_ill/pap13e_ch14_illustr_audio_mp3_am/simulations/figures/hypothalamus.jpg}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Telencephalon}\label{telencephalon-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Basal ganglia
+\item
+  Hippocampus, amygdala
+\item
+  Cerebral cortex
+\end{itemize}
+
+\subsection{\texorpdfstring{\href{https://en.wikipedia.org/wiki/Basal_ganglia}{Basal
+Ganglia}}{Basal Ganglia}}\label{basal-ganglia}
+
+\begin{itemize}
+\tightlist
+\item
+  Skill and habit learning
+\item
+  Linked to Tourette syndrome, obsessive-compulsive disorder (OCD),
+  addiction, movement disorders
+\item
+  Example: Parkinson's Disease
+\end{itemize}
+
+\subsection{Basal ganglia}\label{basal-ganglia-1}
+
+\url{http://webspace.ship.edu/cgboer/basalgangliagray.gif}
+
+\subsection{￼Basal ganglia}\label{basal-ganglia-2}
+
+\begin{itemize}
+\tightlist
+\item
+  Striatum
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Caudate nucleus
+  \item
+    Putamen
+  \end{itemize}
+\item
+  Globus pallidus
+\item
+  Subthalamic nucleus
+\item
+  Substantia nigra (tegmentum)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Hippocampus}\label{hippocampus}
+
+\begin{itemize}
+\tightlist
+\item
+  Immediately lateral to lateral ventricles
+\item
+  Memories of specific facts or events
+\item
+  Fornix projects to hypothalamus
+\item
+  Mammillary bodies
+\end{itemize}
+
+\subsection{Hippocampus}\label{hippocampus-1}
+
+\url{http://homepage.smc.edu/wissmann_paul/physnet/anatomynet/anatomy/amy.jpg}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{\texorpdfstring{Amygdala
+(``almond'')}{Amygdala (almond)}}\label{amygdala-almond}
+
+\begin{itemize}
+\tightlist
+\item
+  Physiological state, behavioral readiness, affect
+\item
+  NOT the fear center! (LeDoux, 2015).
+\end{itemize}
+
+\subsection{Amygdala}\label{amygdala}
+
+\url{http://homepage.smc.edu/wissmann_paul/physnet/anatomynet/anatomy/amy.jpg}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\subsection{Next time}\label{next-time}
+
+\begin{itemize}
+\tightlist
+\item
+  Gilmore's cautionary notes
+\item
+  The cerebral cortex
+\item
+  The peripheral nervous system
+\end{itemize}
+
+\subsection*{References}\label{references}
+\addcontentsline{toc}{subsection}{References}
+
+\hypertarget{refs}{}
+\hypertarget{ref-ledoux_amygdala_2015}{}
+LeDoux, J. (2015, August 10). The Amygdala Is NOT the Brain's Fear
+Center. \emph{Psychology Today}. Retrieved from
+\url{https://www.psychologytoday.com/blog/i-got-mind-tell-you/201508/the-amygdala-is-not-the-brains-fear-center}
+
+\hypertarget{ref-xie2013sleep}{}
+Xie, L., Kang, H., Xu, Q., Chen, M. J., Liao, Y., Thiyagarajan, M.,
+\ldots{} others. (2013). Sleep drives metabolite clearance from the
+adult brain. \emph{Science}, \emph{342}(6156), 373--377.
+\url{https://doi.org/10.1126/science.1241224}
+
+
+\end{document}
