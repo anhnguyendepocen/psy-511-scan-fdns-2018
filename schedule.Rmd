@@ -9,7 +9,7 @@ title: "Schedule"
 ### Wed, Aug 22
 
 - Topics
-    + Structure of the course
+    + Structure of the course, Read BW[^1] 1:1-21.
     + Does neuroscience need behavior? Does behavioral science need the brain?
     + Methods in neuroscience
 - Readings
@@ -22,7 +22,7 @@ title: "Schedule"
 ### Fri, Aug 24
 
 - Topics
-    + Methods in neuroscience
+    + Methods in neuroscience, Read BW[^1] 2:51-57, 3:88-92.
 - Materials
     + Lecture notes | [HTML slides](lectures/511-2018-08-25-functional-methods.html) | [PDF](lectures/511-2018-08-25-functional-methods.pdf)
     + <https://en.wikibooks.org/wiki/Cognitive_Psychology_and_Cognitive_Neuroscience/Behavioural_and_Neuroscience_Methods>
@@ -37,14 +37,14 @@ title: "Schedule"
 ### Wed, Aug 29
 
 - Topics
-    + Neuroanatomy. Read BW[^1] pp. 36-51.
+    + Neuroanatomy. Read BW[^1] 2:36-51.
 - Materials
     + Lecture notes | [HTML slides](lectures/511-2018-08-29-anatomy.html) | [PDF](lectures/511-2018-08-29-anatomy.pdf)
  
 ### Fri, Aug 31
 
 - Topics
-    + Neuroanatomy. Read BW 2:34-49.
+    + Neuroanatomy. Read BW[^1] 2:36-51.
 - Materials
    + Lecture notes | [HTML slides]()
 
@@ -73,7 +73,7 @@ title: "Schedule"
 ### Wed, Sep 12
 
 - Topics
-    + Cellular neuroanatomy. Read BW 2:23-33. 
+    + Cellular neuroanatomy. Read BW 2:24-35. 
 - Reading
     + Zeng, H., & Sanes, J. R. (2017). Neuronal cell-type classification: challenges, opportunities and the path forward. *Nature Reviews Neuroscience*. Retrieved from <http://dx.doi.org/10.1038/nrn.2017.85>.
     + Oliveira, J. F., Sardinha, V. M., Guerra-Gomes, S., Araque, A., & Sousa, N. (2015). Do stars govern our actions? Astrocyte involvement in rodent behavior. *Trends in Neurosciences*, *38*(9), 535–549. Retrieved from http://dx.doi.org/10.1016/j.tins.2015.07.006
@@ -84,7 +84,7 @@ title: "Schedule"
 
 - Topics
     + **Quiz 1**. | [Download](quiz/quiz-01/511-quiz-1.pdf) |. Due at start of class on Friday, September 20, 2018.
-    + Neurophysiology. Read BW 3:57-73.
+    + Neurophysiology. Read BW 3:61-78.
 - Materials
     + Lecture notes | [HTML slides]()
 
@@ -99,8 +99,8 @@ title: "Schedule"
 ### Fri, Sep 20
 
 - Topics
-    + Neural communication. Read BW 3:55-89.
-    + Neurochemistry. Read BW: 4:107-124.
+    + Neural communication. Read BW 3:78-92.
+    + Neurochemistry. Read BW: 4:95-100.
 - Materials
     + Lecture notes | [HTML slides]()
 
@@ -111,14 +111,14 @@ title: "Schedule"
 ### Wed, Sep 26
 
 - Topics
-    + Neurochemistry II. Read BW: 4:107-124.
+    + Neurochemistry II. Read BW 4:101-130.
 - Materials
     + Lecture notes | [HTML slides]()
 
 ### Fri, Sep 28
 
 - Topic
-    - Hormones. 5:125-154.
+    - Hormones. 5:125-154. Read BW 5:131-159.
     - Brain/gut connection
 - Reading
     - Sarkar, A., Lehto, S. M., Harty, S., Dinan, T. G., Cryan, J. F., & Burnet, P. W. J. (2016). Psychobiotics and the manipulation of bacteria-gut-brain signals. *Trends in Neurosciences*, *39*(11), 763–781. Retrieved from http://dx.doi.org/10.1016/j.tins.2016.09.002
@@ -151,7 +151,7 @@ title: "Schedule"
 ### Wed, Oct 10
 
 - Topics
-    + Perception. Read BW 8:223-247.
+    + Perception. Read BW 8:229-264.
 - Materials
     + Lecture notes | [HTML slides]()
 
