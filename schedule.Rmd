@@ -37,9 +37,9 @@ title: "Schedule"
 ### Wed, Aug 29
 
 - Topics
-    + Neuroanatomy. Read BW 2:34-49.
+    + Neuroanatomy. Read BW[^1] pp. 36-51.
 - Materials
-   + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides](lectures/511-2018-08-29-anatomy.html) | [PDF](lectures/511-2018-08-29-anatomy.pdf)
  
 ### Fri, Aug 31
 
@@ -319,3 +319,5 @@ title: "Schedule"
 ### Wed, Dec 12
 
 - Resource [write-up/review papers](evaluation.html) due by **noon**.
+
+[^1]: BW refers to the Behavioral Neuroscience text by Breedlove and Watson.

@@ -1,5 +1,5 @@
 ---
-title: "511-2018-08-28-anatomy"
+title: "511-2018-08-29-anatomy"
 author: "Rick Gilmore"
 date: "`r Sys.time()`"
 css: css/ioslides.css
@@ -38,6 +38,22 @@ suppressMessages(library(tidyverse))
 
 - Wrap-up on functional methods
 - Gross neuroanatomy
+
+---
+
+<div class="centered">
+**Neuroscience Seminar**
+
+"*Combinatorial Strategies for the Plasticity and Regeneration of the Injured Spinal Cord*"
+
+Dr. Xiao-Ming Xu
+Indiana University
+
+Wednesday, September 5, 2018
+4:00 - 5:00 P.M.
+
+108 Wartik Lab
+</div>
 
 # Wrap-up on functional methods
 
