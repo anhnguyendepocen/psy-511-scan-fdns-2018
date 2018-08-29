@@ -6,266 +6,203 @@ title: "Student interests"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<!-- ### Julian Scheffer -->
+## Rhea Banerjee
 
-<!-- #### Papers -->
+Collura, Thomas F,PhD., B.C.N., Wigton, Nancy L, PhD, LPC,Q.E.E.G.D., B.C.N., Zalaquett, Carlos,PhD., L.M.H.C., Chatters-Smith, S., & Bonnstetter, R. J., PhD. (2016). The value of EEG-based electromagnetic tomographic analysis in human performance and mental health. *Biofeedback (Online)*, *44*(2), 58-65. doi:http://dx.doi.org.ezaccess.libraries.psu.edu/10.5298/1081-5937-44.2.03
 
-<!-- - Crockett, M. J., Siegel, J. Z., Kurth-Nelson, Z., Dayan, P., & Dolan, R. J. (2017). Moral transgressions corrupt neural representations of value. Nature Neuroscience, 20(6), 879-885. doi:10.1038/nn.4557. -->
-<!-- - Wang, S., Yu, R., Tyszka, J. M., Zhen, S., Kovach, C., Sun, S., ... & Mamelak, A. N. (2017). The human amygdala parametrically encodes the intensity of specific facial emotions and their categorical ambiguity. Nature Communications, 8, 1-13. doi:10.1038/ncomms14821. -->
+Flaisch, T., Häcker, F., Renner, B., & Schupp, H. T. (2011). Emotion and the processing of symbolic gestures: an event-related brain potential study. *Social Cognitive & Affective Neuroscience*, *6*(1), 109-118. doi:10.1093/scan/nsq022
 
-<!-- #### Concepts -->
+### Key terms and concepts
 
-<!-- - Computational Modeling -->
-<!-- - Value-Based Decision-Making  -->
-<!-- - Empathy and Compassion -->
+- Electromagnetic tomographic analysis (ETA) including all its forms – LORETA, sLORETA, eLORETA and other variants;
+- the concept of voxels and what specific numbers of voxels mean; 
+- Validating [Ipsative](https://www.psychometrictest.org.uk/ipsative-items/) Decision-making with Electroencephalography (on page 61).
+- Early posterior negativity (EPN) and late positive potential (LPP)
+- the P1 component
+- the whole section below the title “ERP data acquisition and analysis” on page 111.
 
-<!-- ### Alicia Vallorani -->
+## Chloe Bliton
 
-<!-- #### Papers -->
+Lamm, C., & Majdandžić, J. (2015). The role of shared neural activations, mirror neurons, and morality in empathy–A critical comment. *Neuroscience Research*, *90*, 15-24. doi:http://dx.doi.org.ezaccess.libraries.psu.edu/10.1016/j.neures.2014.10.008
 
-<!-- - Tóth, B., Urbán, G., Háden, G. P., Márk, M., Török, M., Stam, C. J., & Winkler, I. (2017). Large-scale network organization of EEG functional connectivity in newborn infants. Human brain mapping, 38(8), 4019–4033. Retrieved from http://dx.doi.org/10.1002/hbm.23645 -->
-<!-- - Schmälzle, R., Brook O’Donnell, M., Garcia, J. O., Cascio, C. N., Bayer, J., Bassett, D. S., Vettel, J. M., et al. (2017). Brain connectivity dynamics during social interaction reflect social network structure. Proceedings of the National Academy of Sciences of the United States of America, 114(20), 5153–5158. Retrieved from http://dx.doi.org/10.1073/pnas.1616130114 -->
+Praszkier, R. (2016). Empathy, mirror neurons and SYNC. *Mind & Society*, *15*(1), 1-25. doi:http://dx.doi.org.ezaccess.libraries.psu.edu/10.1007/s11299-014-0160-x
 
-<!-- #### Concepts -->
+### Key terms and concepts
 
-<!-- I have a basic understanding of functional connectivity, but I would like to understand it at a deeper level. What computations are used to assess connectivity and networks, etc.? Also, what are some key differences between EEG and MRI functional connectivity? Do they provide us with comparable information? Or are they significantly different as in ERP vs fMRI? -->
+- I am fascinated with the construct of empathy. At a basic level, empathy is critical to interpersonal functioning. Thus, I am interested in how empathy occurs (e.g., social learning, neural processes) and the outcomes of a lack of empathy/apathy. 
+- I am curious about the role mirror neurons play (or do not play) in the interpersonal experience of empathy.
+- A relatively new concept to me is brain-to-brain coupling, which I understand as synchronization of two brains through environmental cues. However, this process of syncing still seems mystical to me.
 
-<!-- #### Information processing model -->
+## Samantha English
 
-<!-- Early Peer Rejection -->
+Langner, R., Leiberg, S., Hoffstaedter, F., & Eickhoff, S. B. (2018). Towards a human self-regulation system: Common and distinct neural signatures of emotional and behavioural control. *Neuroscience & Biobehavioral Reviews*, *90*, 400-410. doi: 10.1016/j.neubiorev.2018.04.022
 
-<!-- I imagine in some cases this may function as a sort of feedback loop (Ladd, 2006). Some children may be more sensitive to or aroused by inputs from the environment. This may look like hyperactivity in the amygdala and/or reduced top-down control from prefrontal cortical structures. Due to their sensitivity to the environment, they may be less likely to approach novelty, including new social situations (Fox, Snidman, Haas, Degnan, & Kagan, 2015). This output behavior impacts their environment as peers will -->
-<!-- be more likely to form relationships with other children who are engaging in new social situations. The sensitive child may recognize these signs of impending exclusion which may again elicit internal responses that may exacerbate withdrawal outputs. As the cycle continues, the sensitive child may miss out on important foundational childhood social experiences and thus be slower to recognize or act upon social cues setting them on a course that may eventually lead to peer rejection. -->
+Dörfel, D., Lamke, J. P., Hummel, F., Wagner, U., Erk, S., & Walter, H. (2014). Common and differential neural networks of emotion regulation by detachment, reinterpretation, distraction, and expressive suppression: a comparative fMRI investigation. *Neuroimage*, *101*, 298-309. doi: 10.1016/j.neuroimage.2014.06.051
 
-<!-- ### Jungtae Soh -->
+### Key terms and concepts
 
-<!-- #### Papers -->
+- Voxel-wise difference
+- Probabilistic cytoarchitectonic maps
+- Hierarchical cluster analysis
 
-<!-- - Das, J. P., Kirby, J., & Jarman, R. F. (1975). Simultaneous and successive -->
-<!-- synthesis: An alternative model for cognitive abilities. -->
-<!-- http://dx.doi.org/10.1037/h0076163 -->
-<!-- - Nicholls, M. E., & Cooper, C. J. (1991). Hemispheric differences in the -->
-<!-- rates of information processing for simple non-verbal stimuli. Neuropsychologia, 29(7), 677-684. https://doi.org/10.1016/0028-3932(91)90101-D -->
+## Kelley Gunther
 
-<!-- #### Concepts -->
+Merz, E., Tottenham, N., & Noble, K. (2017). Socioeconomic Status, Amygdala Volume, and Internalizing Symptoms in Children and Adolescents. *Journal of Clinical Child and Adolescent Psychology*, *2*, 1-12. doi: 10.1080/15374416.2017.1326122
 
-<!-- - left visual field-right hemisphere (LVF-RH), right visual field-left hemisphere -->
-<!-- (RVF-LH) -->
-<!-- - information integration -->
+Silvers, J.A., Goff, B., Gabard-Durnam, L.J., Gee, D.G., Fareri, D.S., Caldera, C., Tottenham, N. (2017). Vigilance, the amygdala, and anxiety in youth with a history of institutional care. *Biological Psychiatry: Cognitive Neuroscience and Neuroimaging*, *2*(6), 493-501. doi: http://dx.doi.org/10.1016/j.bpsc.2017.03.016 
 
-<!-- ### Yushuang Liu -->
+### Key terms and concepts
 
-<!-- #### Papers -->
+- Amygdala reactivity/overreactivity to fearful stimuli
+- Connectivity between prefrontal cortex and limbic system; top-down control of reactivity
+- What does amygdala volume actually mean for the way that the amygdala may function and relate to behavior?
 
-<!-- - Takashima, A., Bakker, I., van Hell, J. G., Janzen, G., & McQueen, J. M. (2014). Richness of information about novel words influences how episodic and semantic memory networks interact during lexicalization. Neuroimage, 84, 265-278. doi: 10.1016/j.neuroimage.2013.08.023 -->
-<!-- - Takashima, A., Bakker, I., Van Hell, J. G., Janzen, G., & McQueen, J. M. (2017). Interaction between episodic and semantic memory networks in the acquisition and consolidation of novel spoken words. Brain and language, 167, 44-60. doi:10.1016/j.bandl.2016.05.009 -->
+## Nate Hall
 
-<!-- #### Concepts -->
+Diaconescu, A. O., Litvak, V., Mathys, C., Kasper, L., Friston, K. J., & Stephan, K. E. (2017). A computational hierarchy in human cortex. *ArXiv:1709.02323 [q-Bio]*. Retrieved from http://arxiv.org/abs/1709.02323
 
-<!-- - seed region  -->
-<!-- - psycho-physiological interaction (PPI) analysis -->
-<!-- - the relationship between functional connectivity and structural Connectivity -->
+Friston, K. (2010). The free-energy principle: A unified brain theory? *Nature Reviews Neuroscience*, *11*(2), 127–138. https://doi.org/10.1038/nrn2787
 
-<!-- #### Information processing model -->
+### Key terms and concepts
 
-<!-- I would like to understand more about how we learn new vocabulary, both in childhood and adulthood. Regarding inputs, we have different aspects of word forms. In general, we have orthographic, phonological, and semantic information of each word. However, we may acquire these words in different ways. For example, we may learn these words in formal classroom setting (i.e., explicit learning), or simply by overhearing some conversations (i.e., implicit learning). Regarding outputs, it matters whether we can spell, pronounce the word, as well as whether we can articulate the meaning. However, as psycholinguistic studies have revealed, whether the recently learnt words can interact dynamically with existing lexicons is another important output of word learning. For example, after you learn a new word, you may know its spelling, pronunciation and meaning pretty well. However, this novel word may be still isolated in your lexical network. Lastly, the computations involved is the most intriguing but also unknown part. Relating to my question of interest, previous research has suggested that the initial encoding of the novel word information happens in the hippocampus. After a period of offline consolidation, the information gets transferred to neocortex as a place for long-term storage. It is also argued that only after this offline consolidation stage, the new lexicon can interact dynamically with existing lexical network.  -->
+-	Social cognition and the “neural architecture” of the self 
+-	Computational models of appetitive motivation
+-	Cortico-striatal-thalamic loops
+    -	Further, functional specificity for each of these “stages” in the loop
 
-<!-- ### Victoria Spring -->
+## Brandon Patallo
 
-<!-- #### Papers -->
+Cecil, C. A., Lysenko, L. J., Jaffee, S. R., Pingault, J. B., Smith, R. G., Relton, C. L., ... & Barker, E. D. (2014). Environmental risk, Oxytocin Receptor Gene (OXTR) methylation and youth callous-unemotional traits: a 13-year longitudinal study. *Molecular Psychiatry*, *19*(10), 1071.  https://doi.org/10.1038/mp.2014.95  
 
-<!-- - Koster-Hale, J., Saxe, R., Dungan, J., &amp; Young, L. L. (2013). Decoding moral -->
-<!-- judgments from neural representations of intentions. Proceedings of the National -->
-<!-- Academy of Sciences, 110, 5648-5653. doi: 10.1073/pnas.1207992110 -->
-<!-- - Lonsdorf, T. B., Golkar, A., Lindström, K. M., Haaker, J., Öhman, A., Schalling, -->
-<!-- M., &amp; Ingvar, M. (2014). BDNF val66met affects neural activation pattern during -->
-<!-- fear conditioning and 24 h delayed fear recall. Social Cognitive and Affective -->
-<!-- Neuroscience, 10, 664-671. https://doi.org/10.1093/scan/nsu102 -->
+Van Loey, N. E., Hofland, H. W. C., Vlig, M., Vandermeulen, E., Rose, T., Beelen, R. H. J., & Ulrich, M. M. W. (2018). Associations between traumatic stress symptoms, pain and bio-active components in burn wounds. *Psychoneuroendocrinology*.  https://doi.org/10.1016/j.psyneuen.2018.05.037
 
-<!-- #### Concepts -->
+## Kaitlin Riegler 
 
-<!-- - Brain-derived neurotrophic factor (or neurotrophin in general) -->
-<!-- - Multivoxel pattern analysis -->
-<!-- - Gaussian random field theory -->
+Duff, J. (2004). The Usefulness of Quantitative EEG(QEEG) and Neurotherapy in the Assessment and Treatment of Post-concussion Syndrome. *Clinical EEG and Neuroscience*, *35*(4). https://doi-org.ezaccess.libraries.psu.edu/10.1177/155005940403500410
 
-<!-- #### Information processing model -->
+Hunter, L. E., Branch, C. A., & Lipton, M. L. (2018). The neurobiological effects of repetitive head impacts in collision sports. *Neurobiology of Disease*, (May), 0–1. https://doi.org/10.1016/j.nbd.2018.06.016.
 
-<!-- I take a constructionist approach to emotion (see Lindquist et al., 2012), and -->
-<!-- would love to better understand the biological and neural functions involved in -->
-<!-- emotional experience. Emotion involves both internal and external inputs. -->
-<!-- Externally, an individual observes the social environment (including others’ -->
-<!-- facial expressions and words) and non-social environment (threats, appetitive -->
-<!-- stimuli, etc.). They also perceive external stimuli such as sounds, sights, smells, -->
-<!-- etc. in the environment which may be emotionally evocative (e.g., a bad smell -->
-<!-- may evoke disgust). Internal inputs include interoceptive sensations such as -->
-<!-- pain, temperature, hunger, valence, and signals of arousal such as increased -->
-<!-- heartbeat and respiration. Internal inputs also include nonphysiological inputs -->
-<!-- like personal learning history with an emotion or emotion-evoking experience -->
-<!-- (e.g., past fear conditioning) and conceptual knowledge about emotion drawn -->
-<!-- from cultural experience, norms, language used to describe an internal -->
-<!-- experience, etc. These internal and external inputs interact in iterative feedback -->
-<!-- loops to produce an emotional experience such as anger, disgust, etc., as -->
-<!-- individuals map their experiences to known emotion concepts. Outputs include -->
-<!-- facial expressions, motor impulses (e.g., approach/avoid/freeze), and also -->
-<!-- perhaps intensification of the emotion if feeling—say-- anger makes one angrier. -->
+### Key terms and concepts
 
-<!-- ### Thomas Crow -->
+- Neurotherapy (EEG biofeedback)-specifically how this process works and how can it be applied to treatment of post-concussion syndrome (other treatments more broadly)
+- Metabolic cascade and the window of vulnerability caused by physiological changes following concussion
+- The impact of head injury on the blood brain barrier (so the impact at the more micro level/neuronal level) and subsequent clinical implications of this. How can these changes at the neural level compare to clinically observed behavior?
 
-<!-- #### Papers -->
+## Lia Rosenstein
 
-<!-- - Geller, S. M., & Porges, S. W. (2014). Therapeutic presence: Neurophysiological mechanisms mediating feeling safe in therapeutic relationships. Journal of Psychotherapy Integration, 24(3), 178–192. https://doi.org/10.1037/a0037511 -->
-<!-- - Tottenham, N., Hare, T. A., Quinn, B. T., McCarry, T. W., Nurse, M., Gilhooly, T., … Casey, B. (2010). Prolonged institutional rearing is associated with atypically larger amygdala volume and difficulties in emotion regulation. Developmental Science, 13(1), 46. https://doi.org/10.1111/j.1467-7687.2009.00852.x -->
+Mier, D., Lis, S., Esslinger, C., Sauer, C., Hagenhoff, M., Ulferts, J., . . . Kirsch, P. (2012). Neuronal correlates of social cognition in borderline personality disorder. *Scan*, *8*, 531–537. doi:10.1093/scan/nss028.
 
-<!-- #### Concepts -->
+Minzenberg, M. J., Fan, J., New, A. S., Tang, C. Y., & Siever, L. J. (2007). Fronto-limbic dysfunction in response to facial emotion in borderline personality disorder: An event-related fMRI study. *Psychiatry Research-Neuroimaging*, *155*(3), 231–243. doi:10.1016/j.pseychresns.2007.03.006 
 
-<!-- - Emotion regulation -->
-<!-- - Empathy/Intersubjectivity/the feeling of being connected or attuned to others (especially in psychotherapy) -->
-<!-- - Developmental origins of these two aforementioned capacities -->
+### Key terms and concepts
 
-<!-- #### Information processing model -->
+-	What is involved in pre-processing fMRI data?
+-	What does it mean if something was “small volume corrected?”
+-	ROI analyses
+-	What are the ACC sub-regions?
+-	What is hemodynamic activation?
+-	What is serotonergic activity?
 
-<!-- Rage/extreme anger -->
+## Michael Sanders
 
-<!-- - Inputs could be:  -->
-<!--     - External: a person aggressing towards the subject; something annoying/frustrating in the environment; a limiting environment -->
-<!--     - Internal: certain thoughts or memories -->
-<!-- - Computations: -->
-<!--     - Appraisal of the situation as threatening, limiting, or somehow goal-blocking -->
-<!-- - Output -->
-<!--     - Subjective experience of anger; muscle tension and other ANS arousal; behaviors like yelling, stomping, hitting, cutting, etc. -->
+Pavlakis, A. E., Noble, K., Pavlakis, S. G., Ali, N., & Frank, Y. (2015). Brain imaging and electrophysiology biomarkers: Is there a role in poverty and education outcome research? *Pediatric Neurology*, 52(4), 383-388. https://doi.org/10.1016/j.pediatrneurol.2014.11.005
 
-<!-- ### Siyuan Huang -->
+Lee, V., & Hoaken, P. N. (2007). Cognition, emotion, and neurobiological development: Mediating the relation between maltreatment and aggression. *Child Maltreatment*, *12*(3), 281-298. https://doi.org/10.1177/1077559507303778
 
-<!-- #### Papers -->
+### Key terms
 
-<!-- - Koob, G. F. &amp; Volkow, N. D. (2016). Neurobiology of addiction: A neurocircuitry -->
-<!-- analysis. The Lancet Psychiatric, 3(8), 760-770. Doi: 10.1016/S2215- -->
-<!-- 0366(16)00104-8 -->
-<!-- - Donamayor, N. Marco-Pallares, J. Heldmann, M., Schoenfeld, M. A. Munte, T. F. -->
-<!-- (2011). Temporal dynamics of reward processing revealed by -->
-<!-- magnetoencephalography. Human Brain Mapping, 32(12), 2228-2240. Doi: -->
-<!-- 10.1002/hbm.21184 -->
+- Diffusion Tensor Imaging
+- Gamma and Theta power in EEG studies
+- DLPFC's role in perseverative functioning
 
-<!-- #### Concepts -->
+## Alison Schreiber
 
-<!-- - addiction -->
-<!-- - reward processing -->
-<!-- - mesocorticolimbic dopamine system -->
+Wilson, R. C., & Niv, Y. (2015). Is model fitting necessary for model-based fMRI?. *PLoS Computational Biology*, 11(6), e1004237.
+https://doi.org/10.1371/journal.pcbi.1004237
 
-<!-- #### Information processing model -->
+King-Casas, B., & Chiu, P. H. (2012). Understanding interpersonal function in psychiatric illness through multiplayer economic games. *Biological Psychiatry*, 72(2), 119-125.
+https://doi.org/10.1016/j.biopsych.2012.03.033
 
-<!-- Addictive behavior -->
+### Key terms and concepts 
 
-<!-- For example, an alcohol addict happens to be exposed to an alcohol-related -->
-<!-- cue in his daily life, such as seeing an alcohol shop in the street (inputs). This alcohol cue quickly induces enhanced activations in his prefrontal cortex mediated by -->
-<!-- glutamate, and his mesolimbic system (e.g., striatum, amygdala) mediated by -->
-<!-- dopamine, thereby stimulating strong craving for alcohol in him. In addition, the -->
-<!-- addict also experiences difficulties in inhibiting his alcohol-seeking impulses due to a -->
-<!-- suppressed GABA-mediated activity in the prefrontal cortex (computations). These -->
-<!-- neuroadaptations are a long-term consequence of his exposure to alcohol. As a result, -->
-<!-- the addict goes into the alcohol shop and buys a dozen beers, and finishes them in that -->
-<!-- single night at home (outputs), although he just decided to abstain from drinking. This -->
-<!-- addict cycle prevents him from successful alcohol cessation and maintains his -->
-<!-- addictive behaviors. -->
+- Neuropeptides
+- Tryptophan and serotonergic systems
+- Bandit Tasks
 
-<!-- ### Erin Guty -->
+## Emily Taverna
 
-<!-- #### Papers -->
+Rasmusson, A. M., Vasek, J., Lipschitz, D. S., Vojvoda, D., Mustone, M. E., Shi, Q., ... & Charney, D. S. (2004). An increased capacity for adrenal DHEA release is associated with decreased avoidance and negative mood symptoms in women with PTSD. *Neuropsychopharmacology*, *29*(8), 1546.
 
-<!-- - Rubinov, M., & Sporns, O. (2010). Complex network measures of brain connectivity: uses and interpretations. Neuroimage, 52(3), 1059-1069. https://doi.org/10.1016/j.neuroimage.2009.10.003 -->
-<!-- - Bassett, D. S., & Sporns, O. (2017). Network neuroscience. Nature neuroscience, 20(3), 353. doi:  10.1038/nn.4502 -->
+Szeszko, P. R., Lehrner, A., & Yehuda, R. (2018). Glucocorticoids and hippocampal structure and function in PTSD. *Harvard Review of Psychiatry*, *26*(3), 142-157. doi: 10.1097/HRP.0000000000000188
 
-<!-- #### Topics -->
+### Key terms and concepts
 
-<!-- - Cognitive Reserve vs. Brain Reserve -->
-<!-- - Effective Connectivity -->
-<!-- - Computational Modeling -->
+- HPA axis
+- glucocorticoids/ACTH/DHEA/cortisol
+- hippocampus
 
-<!-- #### Information processing model -->
+## Austen Trainer
 
-<!-- My lab studies the intersections of neurodegeneration, emotion, and cognition. In one of the populations that we study, Multiple Sclerosis, the incidence rate of depression is around 50% which is much higher than the general population, and also higher than in other populations with chronic illness. One of the mental states that I’m interested in understanding more is depression in this specific population. Main inputs for this mental state include the practical and functional difficulties of living with a debilitating illness which can obviously contribute to a depressive state. Another potential input for this is the neurodegeneration from the disease and how can detrimentally impact limbic and other potential emotion regulation systems in the brain. One of the currently asked questions is how these effects intersect and why some individuals may have the same inputs but different outcomes. The computational piece is still very much up for debate. Our lab studies individual differences that may make individuals more or less vulnerable to depression after an MS diagnosis. From an information processing framework, we could consider each individual’s computations being affected by things such as existing social support or cognitive reserve.  For some individuals, these inputs from having MS can lead to depression which causes typical mental outputs such as sadness, fatigue, irritability, lack of motivation, difficulty concentrating. These can then cause further behavioral outputs such as spending most of one’s free time at home alone or having difficulties at work which have larger implications for a person’s well-being. Also some of these outputs are also symptoms of MS generally, without depression. Disentangling the effect of neurodegeneration versus the added effect of depression on mood and cognition is something I hope to better understand. -->
+Kim, Sang Hee, and Stephan Hamann. Neural Correlates of Positive and Negative Emotion Regulation (2007). *Journal of Cognitive Neuroscience*, *19*(5), 776–798, https://doi.org/10.1162/jocn.2007.19.5.776 
 
-<!-- ### Dever Carney -->
+Ochsner, Kevin N., and James J. Gross. (2008). Cognitive Emotion Regulation. *Current Directions in Psychological Science*, 17(2), 153–158, https://doi.org/10.1111/j.1467-8721.2008.00566.x
 
-<!-- #### Papers -->
+### Key terms and concepts
 
-<!-- - Etkin, A., Pittenger, C., Polan, H.J., Kandel, E.R. (2005). Toward a neurobiology of psychotherapy: Basic science in clinical applications. Journal of Neuropsychiatry and Clinical Neurosciences, 17(2). doi: 10.1176 -->
-<!-- - Cuijpers, P. & Gentili, C. (2017). Psychological treatments are as effective as pharmacotherapies in the treatment of adult depression: A summary from Randomized Clinical Trials and neuroscience evidence. Research in Psychotherapy: Psychopathology, Process and Outcome, 20,147-152. -->
+- The general neurobiology of emotion. 
+- The distinct neurobiological correlates of emotional valence and discrete emotions (e.g., the neurobiological differences of positive v. negative emotions, more specifically fear v. anger, etc.)
+- The neural correlates of various cognitive emotion regulation strategies (e.g., the neurobiology of distraction or cognitive reappraisal, emotion regulation across positive and negative emotion valence, etc.)  
 
-<!-- #### Concepts -->
+## Natalia Van Doren
 
-<!-- - How does fluorodeoxyglucose–positron emission tomography (FDG-PET) work?  -->
-<!-- - What is basal metabolism? -->
-<!-- - What does "activation" mean? How should changes be interpreted? -->
-<!-- - What is [SPECT](https://en.wikipedia.org/wiki/Single-photon_emission_computed_tomography)? -->
+Barrett, L. F., & Wager, T. D. (2006). The Structure of Emotion. *Current Directions in Psychological Science*, *15*(2), 79-83. doi:10.1111/j.0963-7214.2006.00411.x
 
-<!-- ### Berenice Anaya -->
+Vytal, K., & Hamann, S. (2010). Neuroimaging Support for Discrete Neural Correlates of Basic Emotions: A Voxel-based Meta-analysis. *Journal of Cognitive Neuroscience*, *22*(12), 2864-2885. doi:10.1162/jocn.2009.21366
 
-<!-- #### Papers -->
+### Key terms and concepts
 
-<!-- - Markett, S., Reuter, M., Montag, C., Voigt, G., Lachmann, B., Rudorf, S., . . . -->
-<!-- Weber, B. (2014). Assessing the function of the fronto‐parietal attention network: -->
-<!-- Insights from resting‐state fMRI and the attentional network test. Human Brain -->
-<!-- Mapping, 35(4), 1700-1709. doi:10.1002/hbm.22285 -->
-<!-- - Harrewijn, A., Van der Molen, M. J. W., &amp; Westenberg, P. M. (2016). Putative -->
-<!-- EEG measures of social anxiety: Comparing frontal alpha asymmetry and -->
-<!-- delta–beta cross-frequency correlation. Cognitive, Affective, &amp; Behavioral -->
-<!-- Neuroscience, 16(6), 1086-1098. DOI 10.3758/s13415-016-0455-y -->
+- To what extent and how does the researcher hypotheses influence the decisions on were to draw the line in terms of what regions / voxels to analyze? Given the lack of consistency across researchers, it seems like voxel-hacking could occur, and it’s unclear to me what criteria are used to make these decisions about parsing voxels in a way that is not biased towards the research question.
+- How can we evaluate “distinct neural correlates”? What criteria are used to determine ‘distinctness’, and what is a sufficient criteria to say that a neural correlate is distinct? Part of the debate here seems to be about how this information is interpreted. For example, Barrett and Wager argue the patterns are not distinct because they are more general to approach / withdraw systems; whereas Vital and Hamann argue that patterns are distinct because they differ from other emotional activation patterns in a statistically significant manner. Given that multiple functions are performed by any given area or network of the brain, it seems odd in the Barrett paper to make the argument that because the patterns of activation of certain emotions are also associated with approach and withdrawal that it renders these emotions as indistinct in terms of activation patterns.
+- Both papers bring up the notion of consistency of activation, and draw opposite conclusions. I’m interested in learning more about how to evaluate consistency—what is considered a ’consistent’ pattern of activation? Are there specific thresholds that should be reached?
 
-<!-- #### Concepts -->
+## Lauren Vasquez
 
-<!-- - Executive attention network -->
-<!-- - Interconnectivity of the limbic system -->
-<!-- - Brain oscillations (in depth methodological function) -->
+Doom, J. R., Doyle, C. M., & Gunnar, M. R. (2017). Social stress buffering by friends in childhood and adolescence: Effects on HPA and oxytocin activity. *Social Neuroscience*, *12*(1), 8-21. doi: 10.1080/17470919.2016.1149095
 
-<!-- #### Information processing model -->
+Esposito, E. A., Jones, M. J., Doom, J. R., MacIsaac, J. L., Gunnar, M. R., & Kobor, M. S. (2016). Differential DNA methylation in peripheral blood mononuclear cells in adolescents exposed to significant early but not later childhood adversity. *Development and Psychopathology*, *28*(4pt2), 1385-1399. https://doi.org/10.1017/S0954579416000055
 
-<!-- **Emotion regulation.** -->
+### Key terms and concepts
 
-<!-- From an information processing perspective, regulation aids in attention focusing and -->
-<!-- inhibition of distractors.  -->
-<!-- This is especially valuable to children’s transition from preschool to kindergarten, where they are not only learning new concepts but also must adapt to a new environment/routine in the classroom.  -->
-<!-- I think we need to consider factors that may constrain the range of development for a regulatory network, such as temperamental reactivity and regulation, which we believe are mostly constitutional or biologically based. -->
-<!-- Additionally, we need to take into consideration how early environment, namely parenting, can shape the extent to which this network and its interconnectivity develop effectively.  -->
-<!-- Finally, the previous factors may interact and influence each other for continuity or discontinuity in behavioral expression of this regulation neural network. Furthermore, these behavioral expressions (e.g., regulated vs. unregulated behavior) can reinforce the child’s environment (e.g., gaining more friends or further isolation from peers). -->
-<!-- Based on the limited knowledge I have, I think the main computational model involved is the crosstalk between limbic system and fronto-parietal networks, which I am interested in diving into for my research work here at PSU. -->
+- Hypothalamic Pituitary Adrenal (HPA) axis activity
+- oxytocin activity
+- DNA methylation
 
-<!-- ### Jason Feldman -->
+## Shane Wise
 
-<!-- #### Papers -->
+Hipp, J. F., & Siegel, M. (2013). Dissociating neuronal gamma-band activity from cranial and ocular muscle activity in EEG. *Frontiers in Human Neuroscience*, 7, 338.  doi: 10.3389/fnhum.2013.00338
 
-<!-- - Shaw, P., Malek, M., Watson, B., Sharp, W., Evans, A., & Greenstein, D. (2012). Development of cortical surface area and gyrification in attention-deficit/hyperactivity disorder. Biological psychiatry, 72(3), 191-197. https://doi.org/10.1016/j.biopsych.2012.01.031 -->
-<!-- - Fair, D. A., Nigg, J. T., Iyer, S., Bathula, D., Mills, K. L., Dosenbach, N. U. F., … Milham, M. P. (2012). Distinct neural signatures detected for ADHD subtypes after controlling for micro-movements in resting state functional connectivity MRI data. Frontiers in Systems Neuroscience, 6, 80. http://doi.org/10.3389/fnsys.2012.00080 -->
+McClure, E. B., Adler, A., Monk, C. S., Cameron, J., Smith, S., Nelson, E. E., ... & Pine, D. S. (2007). fMRI predictors of treatment outcome in pediatric anxiety disorders. *Psychopharmacology*, *191*(1), 97-105.  doi:10.1016/j.biopsych.2005.08.012
 
-<!-- #### Concepts -->
+### Key terms and concepts
 
-<!-- - "…it should be noted that if a pathological process affects more than one dimension of cortical structure, then it would be more readily detected by polydimensional metrics that amplify the magnitude of anomalies."  -->
-<!-- - "Cortical surface area was measured at the middle cortical surface, which lies at the geometric center between the inner and outer cortical surfaces and thus provides a relatively unbiased representation of sulcal versus gyral regions"   -->
-<!-- - what is the importance of differentiating sulcal & gyral regions of the same area (and what are the differences?) -->
-<!-- - “Gyrification” -->
-<!-- - “By cross-correlating the time series of a particular brain region (seed region) with other regions or voxels, one can determine which regions are “functionally connected.” -->
-<!-- -  “correction of odd vs. even slice intensity differences attributable to interleaved acquisition without gaps” – why do odd/even differ? -->
-<!-- - Graphical representation of intraindividual functional connectivity/activation variation across cognitive tasks -->
+- Beamforming
+- Independent Components Analysis (ICA)
+- epoch rejection
+- Subject numbers. Could they get away with n=15 now? 
+- Correcting slice data for slice timing and motion
+- Smooth vs Unsmoothed data
 
-<!-- #### Information processing model -->
+## Elizabeth Youatt
 
-<!-- Nonsuicidal self-injury emerges and is maintained by a number of biological and environmental influences. Among the many associated information input sources are cultural or spiritual rituals  (one's own or those inherited from of family), (perceived) stressful situations, or social/environmental influence (e.g., having friends self-injure may induce the desire for someone to do it in order to "fit in"). When these inputs are received, a number of factors influence how it is processed. Biological risk factors (e.g., genetic predisposition, low baseline serotonin levels, trauma-induced HPA dysfunction), social implications (e.g., how concerned is the individual with how others will perceive the act of self-injury), emotional and physiological states (e.g., poor regulation of intense/negative emotions, low endogenous opioid levels, high cortisol levels), and previous experiences (e.g., "last time this helped me calm down") all come into play in determining whether the information input will translate to engaging in self-injury. In addition to the act of self-harm, other resulting outputs include scars, release of endogenous opioids (reinforcing the behavior biologically), reduction of physiological distress, and potentially effecting change in how the individual is perceived. -->
+Harrewijn, A. van der Molen, M.J.W., van Vliet, I.M., Tissier, R.L.M., Westenburg, P.M. (2018) Behavioral and EEG responses to social evaluation: A two-generation family study on social anxiety. *Neuroimage: Clinical*, *17*(2018), 549-562. Retrieved from https://doi.org/10.1016/j.nicl.2017.11.010
 
-<!-- ### Anna Salomaa -->
+Kahle, S., Utendale, W.T., Widaman, K.F., Hastings, P.D. (2018) Parasympathetic regulation and inhibitory control predict the development of externalizing problems in early childhood. *Journal of Abnormal Child Psychology*, *46*(2), 237-249. Retrieved from https://link.springer.com/article/10.1007/s10802-017-0305-6 
 
-<!-- #### Papers -->
+### Key terms and concepts
 
-<!-- - Engels, A. S., Heller, W., Spielberg, J. M., Warren, S. L., Sutton, B. P., Banich, M. T., & Miller, G. A. (2010). Co-occurring anxiety influences patterns of brain activity in depression. Cognitive, Affective, & Behavioral Neuroscience, 10(1), 141-156. doi:10.3758/CABN.10.1.141 -->
-<!-- - Northoff, G. (2012). From emotions to consciousness–a neuro-phenomenal and neuro-relational approach. Frontiers in psychology, 3. doi: 10.3389/fpsyg.2012.00303 -->
-
-<!-- #### Concepts -->
-
-<!-- - Systems involved in psychopathology -->
-<!-- - Neuroscience perspectives on explaining phenomenal states, e.g. emotion, consciousness -->
-<!-- - How to apply findings from neuroscience to clinical psychology in a useful manner—what implications do activity patterns/neuroanatomy have on treating mental illness? -->
-
-<!-- #### Information processing model -->
-
-<!-- - **Inputs**: The inputs involved in emotion include sensory information about the environment; for example, seeing a bear or hearing a growl.  -->
-<!-- - **Processing/computations**: The incoming information will be processed based on learning history, and biological factors such as a genetic-based instinct to recognize dangerous animals. The resulting physiological reactions (e.g., racing heart, sweaty palms), will also be processed to identify the emotion being experienced. These will be used as information to shape motivation. -->
-<!-- - **Outputs**: Based on the interpretation of emotional state and shifts in motivation, changes in behavior (running away), facial expressions, and verbal response (tone, diction, content of speech) may occur. -->
+- EEG/ERP
+- social anxiety
+- genetic predispositions to psychopathology
+- emotion regulation
+- Respiratory Sinus Arrhythmia (RSA) measures and implications
+- biological functioning of the parasympathetic nervous system.

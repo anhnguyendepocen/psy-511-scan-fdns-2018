@@ -14,6 +14,8 @@ navbar:
       href: evaluation.html
     - text: "Resources"
       href: resources.html
+    - text: "Student Interests"
+      href: student-interests.html
     - text: "Site info"
       href: site-info.html
 output_dir: "docs"
