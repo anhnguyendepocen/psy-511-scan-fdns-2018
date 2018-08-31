@@ -46,7 +46,7 @@ title: "Schedule"
 - Topics
     + Neuroanatomy. Read BW[^1] 2:36-51.
 - Materials
-   + Lecture notes | [HTML slides]()
+   + Lecture notes | [HTML slides](lectures/511-2018-08-29-anatomy.html#42)
 
 ---
 
