@@ -17,3 +17,7 @@ Breedlove, S. M. & Watson, N.V. (2018). *Behavioral Neuroscience (8th ed.)*. Sun
 
 - [OpenNeuro](http://openneuro.org)
 - [OpenfMRI](http://openfmri.org)
+
+## Talks
+
+- PSU Neuroscience Seminar Series [calendar](https://www.huck.psu.edu/content/events/upcoming/neuroscience-seminars)
