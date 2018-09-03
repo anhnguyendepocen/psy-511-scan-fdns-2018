@@ -46,7 +46,7 @@ title: "Schedule"
 - Topics
     + Neuroanatomy. Read BW[^1] 2:36-51.
 - Materials
-   + Lecture notes | [HTML slides](lectures/511-2018-08-29-anatomy.html#42)
+   + Lecture notes | [HTML slides](lectures/511-2018-08-29-anatomy.html#42) | [PDF](lectures/511-2018-08-29-anatomy.pdf)
 
 ---
 
@@ -56,15 +56,15 @@ title: "Schedule"
 
 - Topics
     + Wrap-up on neuroanatomy
-    + **Neuroanatomy Lab**.
 - Materials
-    + Lecture notes | [HTML slides]()
-    + [Anatomy lab handout](handout/neuroanatomy-lab-handout.pdf)
+    + Lecture notes | [HTML slides](lectures/511-2018-09-05-anatomy-II.html) | [PDF](lectures/511-2018-09-05-anatomy-II.pdf)
 
 ### Fri, Sep 7
 
 - Topics
     + **Neuroanatomy Lab**.
+- Materials
+    + Neuranatomy lab [handout](handouts/neuroanatomy-lab-handout.pdf)
 
 ---
 

@@ -33,6 +33,18 @@ Praszkier, R. (2016). Empathy, mirror neurons and SYNC. *Mind & Society*, *15*(1
 - I am curious about the role mirror neurons play (or do not play) in the interpersonal experience of empathy.
 - A relatively new concept to me is brain-to-brain coupling, which I understand as synchronization of two brains through environmental cues. However, this process of syncing still seems mystical to me.
 
+## Daryl Cooley
+
+Valdés‐Tovar, M., Estrada‐Reyes, R., Solís‐Chagoyán, H., Argueta, J., Dorantes‐Barrón, A. M., Quero‐Chávez, D., . . . Benítez‐King, G. (2018). Circadian modulation of neuroplasticity by melatonin: A target in the treatment of depression. *British Journal of Pharmacology*, *175*(16), 3200-3208. doi:10.1111/bph.14197
+
+Tchekalarova, J., Stoynova, T., Ilieva, K., Mitreva, R., & Atanasova, M. (2018). Agomelatine treatment corrects symptoms of depression and anxiety by restoring the disrupted melatonin circadian rhythms of rats exposed to chronic constant light. *Pharmacology, Biochemistry, and Behavior*, *171*, 1-9. doi:10.1016/j.pbb.2018.05.016
+
+### Key terms and concepts
+
+- Biological bases of circadian rhythms
+- Biological/neurological processes connecting sleep and depression
+- How the brain processes melatonin and how this impacts sleep 
+
 ## Samantha English
 
 Langner, R., Leiberg, S., Hoffstaedter, F., & Eickhoff, S. B. (2018). Towards a human self-regulation system: Common and distinct neural signatures of emotional and behavioural control. *Neuroscience & Biobehavioral Reviews*, *90*, 400-410. doi: 10.1016/j.neubiorev.2018.04.022
@@ -75,6 +87,12 @@ Friston, K. (2010). The free-energy principle: A unified brain theory? *Nature R
 Cecil, C. A., Lysenko, L. J., Jaffee, S. R., Pingault, J. B., Smith, R. G., Relton, C. L., ... & Barker, E. D. (2014). Environmental risk, Oxytocin Receptor Gene (OXTR) methylation and youth callous-unemotional traits: a 13-year longitudinal study. *Molecular Psychiatry*, *19*(10), 1071.  https://doi.org/10.1038/mp.2014.95  
 
 Van Loey, N. E., Hofland, H. W. C., Vlig, M., Vandermeulen, E., Rose, T., Beelen, R. H. J., & Ulrich, M. M. W. (2018). Associations between traumatic stress symptoms, pain and bio-active components in burn wounds. *Psychoneuroendocrinology*.  https://doi.org/10.1016/j.psyneuen.2018.05.037
+
+### Key terms and concepts
+
+- neuropeptide/oxytocin
+- cytokines (pro-inflammatory)  
+- telomere Shortening
 
 ## Kaitlin Riegler 
 
@@ -179,7 +197,7 @@ Esposito, E. A., Jones, M. J., Doom, J. R., MacIsaac, J. L., Gunnar, M. R., & Ko
 
 ## Shane Wise
 
-Hipp, J. F., & Siegel, M. (2013). Dissociating neuronal gamma-band activity from cranial and ocular muscle activity in EEG. *Frontiers in Human Neuroscience*, 7, 338.  doi: 10.3389/fnhum.2013.00338
+Hipp, J. F., & Siegel, M. (2013). Dissociating neuronal gamma-band activity from cranial and ocular muscle activity in EEG. *Frontiers in Human Neuroscience*, *7*, 338.  doi: 10.3389/fnhum.2013.00338
 
 McClure, E. B., Adler, A., Monk, C. S., Cameron, J., Smith, S., Nelson, E. E., ... & Pine, D. S. (2007). fMRI predictors of treatment outcome in pediatric anxiety disorders. *Psychopharmacology*, *191*(1), 97-105.  doi:10.1016/j.biopsych.2005.08.012
 
@@ -206,3 +224,17 @@ Kahle, S., Utendale, W.T., Widaman, K.F., Hastings, P.D. (2018) Parasympathetic 
 - emotion regulation
 - Respiratory Sinus Arrhythmia (RSA) measures and implications
 - biological functioning of the parasympathetic nervous system.
+
+## Anna Zhou
+
+Foulkes, L., & Blakemore, S.J. (2018). Studying individual differences in human adolescent brain 
+development. *Nature Neuroscience*, *21*(3), 315–323. 
+https://doi.org/10.1038/s41593-018-0078-4
+
+Cavanagh, J. F., Cohen, M. X., & Allen, J. J. B. (2009). Prelude to and Resolution of an Error: EEG Phase Synchrony Reveals Cognitive Control Dynamics during Action Monitoring. *Journal of Neuroscience*, *29*(1), 98–105. https://doi.org/10.1523/JNEUROSCI.4137-08.2009 
+
+### Key terms and concepts
+
+-	“disentangling genuine age-related changes from test-retest reliability error” in fMRI
+-	Oscillatory phase synchrony
+-	Inter-trial phase coherence and inter-channel phase synchrony
