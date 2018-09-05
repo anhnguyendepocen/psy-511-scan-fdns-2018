@@ -433,6 +433,13 @@ vagus (X), etc.
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Corpus_callosum.png" height=450px/>
 </div>
 
+---
+
+<div class="centered">
+<img src="https://i.redd.it/7qobxge7gp611.jpg" height=450px/>
+</div>
+<!-- Corpus Callosum -->
+
 ## Anterior, Posterior Commissures {.smaller}
 
 <div class="centered">
