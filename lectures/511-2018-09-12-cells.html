@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>511-2018-09-12-cells</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: '511-2018-09-12-cells',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Rick Gilmore' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <link href="libs/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="libs/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="libs/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="css/ioslides.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+            <p style="margin-top: 6px; margin-left: -2px;">2018-09-11 15:22:27</p>
+          </hgroup>
+  </slide>
+
+<slide class=""><hgroup><h2>Announcements</h2></hgroup><article  id="announcements">
+
+<ul>
+<li><strong>Quiz 1</strong> Friday
+
+<ul>
+<li>13 questions/15 points</li>
+<li>Take-home, take 30 min</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Today&#39;s Topics</h2></hgroup><article  id="todays-topics">
+
+<ul>
+<li>Wrap-up on <a href='https://psu-psychology.github.io/psy-511-scan-fdns-2018/lectures/511-2018-09-05-anatomy-II.html#46' title=''>neuroanatomy</a></li>
+<li>Cells of the nervous system
+
+<ul>
+<li>Glia</li>
+<li>Neurons</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Visualizing the microanatomy of the brain</h2></hgroup><article  id="visualizing-the-microanatomy-of-the-brain">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nvXuq9jRWKE" frameborder="0" allowfullscreen>
+
+</iframe>
+
+<!-- ## Crowd-sourcing anatomy research with [EyeWire](http://eyewire.org) -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zMmjGExpDP8" frameborder="0" allowfullscreen></iframe> -->
+
+</article></slide><slide class=""><hgroup><h2>How many neurons and glia?</h2></hgroup><article  id="how-many-neurons-and-glia">
+
+<ul>
+<li>Old &quot;lore&quot;: ~100 billion neurons</li>
+<li>New estimate <span class="cite">(Azevedo et al., 2009)</span>:
+
+<ul>
+<li>~86 +/- 8 billion neurons</li>
+<li>85 +/- 9 billion glia</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>How many neurons and glia?</h2></hgroup><article  id="how-many-neurons-and-glia-1" class="bigger">
+
+<p><em>&quot;These findings challenge the common view that humans stand out from other primates in their brain composition and indicate that, with regard to numbers of neuronal and nonneuronal cells, the human brain is an isometrically scaled-up primate brain.&quot;</em></p>
+
+<p><a href='http://doi.org/10.1002/cne.21974' title=''><span class="cite">(Azevedo et al., 2009)</span></a></p>
+
+</article></slide><slide class=""><hgroup><h2>Mass, Neurons, Non-Neurons</h2></hgroup><article  id="mass-neurons-non-neurons">
+
+<div class="centered">
+<p><img src="img/azevedo-et-al-fig-1.jpg" height=450px></p>
+
+<p><a href='http://doi.org/10.1002/cne.21974' title=''><span class="cite">(Azevedo et al., 2009)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Neurons by brain mass</h2></hgroup><article  id="neurons-by-brain-mass">
+
+<p><img src="511-2018-09-12-cells_files/figure-html/unnamed-chunk-2-1.png" width="720" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>Non-neuronal cells by brain mass</h2></hgroup><article  id="non-neuronal-cells-by-brain-mass">
+
+<p><img src="511-2018-09-12-cells_files/figure-html/unnamed-chunk-3-1.png" width="720" style="display: block; margin: auto;" /></p>
+
+</article></slide><slide class=""><hgroup><h2>The Human Advantage</h2></hgroup><article  id="the-human-advantage">
+
+<div class="centered">
+<p><img src="https://mitpress.mit.edu/sites/default/files/styles/large_book_cover/http/mitp-content-server.mit.edu%3A18180/books/covers/cover/%3Fcollid%3Dbooks_covers_0%26isbn%3D9780262034258%26type%3D.jpg?itok=cF8pgUnB" height=500px></p></div>
+
+<!-- ## Could you count to 170 billion? {.bigger} -->
+
+<!-- - How many years to count to 170 billion? -->
+
+<!-- - 60 s/min * 60 min/hr * 24 hrs/day * 365 days/ yr = 31,536,000 s/yr -->
+
+<!-- - 1e11/31,536,000 = 5,390 years -->
+
+</article></slide><slide class=""><hgroup><h2>Glia (neuroglia)</h2></hgroup><article  id="glia-neuroglia" class="bigger">
+
+<ul>
+<li>Functions
+
+<ul>
+<li>Structural support</li>
+<li>Metabolic support</li>
+<li>Brain development</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Astrocytes</h2></hgroup><article  id="astrocytes" class="bigger">
+
+<ul>
+<li>&quot;Star-shaped&quot;</li>
+<li>Most numerous cell type in CNS</li>
+<li>Physical and metabolic support
+
+<ul>
+<li>Blood/brain barrier</li>
+<li>Ion (Ca++/K+) buffering</li>
+<li>Neurotransmitter (e.g., glutamate) buffering</li>
+<li>Regulate local blood flow</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Astrocytes</h2></hgroup><article  id="astrocytes-1">
+
+<ul>
+<li>Shape brain development, <a href='https://en.wikipedia.org/wiki/Synaptic_plasticity' title=''>synaptic plasticity</a></li>
+<li>Disruption linked to cognitive impairment, disease <a href='http://doi.org/10.1038/nn.4142' title=''><span class="cite">(Chung, Welsh, Barres, &amp; Stevens, 2015)</span></a></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Astrocytes</h2></hgroup><article  id="astrocytes-2">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Human_astrocyte.png" height=450px></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/5/56/Human_astrocyte.png' title=''>https://upload.wikimedia.org/wikipedia/commons/5/56/Human_astrocyte.png</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Myelinating cells</h2></hgroup><article  id="myelinating-cells" class="bigger">
+
+<ul>
+<li><em>Oligodendrocytes</em>
+
+<ul>
+<li>In brain and spinal cord (CNS)</li>
+<li>1:many neurons</li>
+</ul></li>
+<li><em>Schwann cells</em>
+
+<ul>
+<li>In PNS</li>
+<li>1:1 neuron</li>
+<li>Facilitate neuro-regeneration</li>
+</ul></li>
+<li>Mnemonics: COPS/SPOC</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Oligodendrocytes</h2></hgroup><article  id="oligodendrocytes">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oligodendendrocytes_in_rat_brain.tif/lossy-page1-800px-Oligodendendrocytes_in_rat_brain.tif.jpg" height=450px></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oligodendendrocytes_in_rat_brain.tif/lossy-page1-800px-Oligodendendrocytes_in_rat_brain.tif.jpg' title=''>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oligodendendrocytes_in_rat_brain.tif/lossy-page1-800px-Oligodendendrocytes_in_rat_brain.tif.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Schwann Cells</h2></hgroup><article  id="schwann-cells" class="smaller">
+
+<div class="centered">
+<p><img src="http://www.sciencellonline.com/media/catalog/product/cache/1/image/a6f8fb4f61eb724cff40f184d1fbcab0/m/1/m1700_3.jpg" height=450px></p>
+
+<p><a href='http://www.sciencellonline.com/media/catalog/product/cache/1/image/a6f8fb4f61eb724cff40f184d1fbcab0/m/1/m1700_3.jpg' title=''>http://www.sciencellonline.com/media/catalog/product/cache/1/image/a6f8fb4f61eb724cff40f184d1fbcab0/m/1/m1700_3.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Microglia</h2></hgroup><article  id="microglia" class="bigger">
+
+<ul>
+<li>Phagocytosis</li>
+<li>Clean-up damaged, dead tissue</li>
+<li>Role in &#39;pruning&#39; of synapses in normal development</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Microglia</h2></hgroup><article  id="microglia-1" class="smaller">
+
+<div class="centered">
+<p>
+
+<a href="https://commons.wikimedia.org/wiki/File:Microglia_and_neurons.jpg#/media/File:Microglia_and_neurons.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Microglia_and_neurons.jpg/1200px-Microglia_and_neurons.jpg" alt="Microglia and neurons.jpg" height=450px></a><br>By <a href="//commons.wikimedia.org/w/index.php?title=User:GerryShaw&amp;action=edit&amp;redlink=1" class="new" title="User:GerryShaw (page does not exist)">GerryShaw</a> - <span class="int-own-work" lang="en">
+Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=17504964">Link</a>
+
+</p></div>
+
+</article></slide><slide class=""><hgroup><h2>What makes neurons &quot;special&quot;?</h2></hgroup><article  id="what-makes-neurons-special">
+
+<ul>
+<li>Long-lived (most generated b/w 3-25 weeks gestational age)</li>
+<li>Extended branching (dendrites and axons)</li>
+<li>Electrically excitable</li>
+<li>Connect to small #s of other cells via synapses</li>
+<li>Release neurotransmitters</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Macrostructure of neurons</h2></hgroup><article  id="macrostructure-of-neurons" class="bigger">
+
+<ul>
+<li>Dendrites</li>
+<li>Soma</li>
+<li>Axons</li>
+<li>Terminal buttons (boutons)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Structure of neurons</h2></hgroup><article  id="structure-of-neurons" class="smaller">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png" height=450px></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png' title=''>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Dendrites</h2></hgroup><article  id="dendrites" class="bigger">
+
+<ul>
+<li>Majority of input to neuron</li>
+<li>Passive vs. active</li>
+<li>Spines</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Dendrites</h2></hgroup><article  id="dendrites-1" class="smaller">
+
+<div class="centered">
+<p><img src="http://i.livescience.com/images/i/000/058/588/original/brain-cell.jpg?1383065356" height=450px></p>
+
+<p><a href='http://i.livescience.com/images/i/000/058/588/original/brain-cell.jpg?1383065356' title=''>http://i.livescience.com/images/i/000/058/588/original/brain-cell.jpg?1383065356</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Dendritic Spines</h2></hgroup><article  id="dendritic-spines" class="smaller">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Dendritic_spines.jpg" height=450px></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/b/b1/Dendritic_spines.jpg' title=''>https://upload.wikimedia.org/wikipedia/commons/b/b1/Dendritic_spines.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Soma (cell body)</h2></hgroup><article  id="soma-cell-body" class="bigger">
+
+<ul>
+<li>Varied shapes</li>
+<li>Nucleus
+
+<ul>
+<li>Chromosomes</li>
+</ul></li>
+<li>Organelles
+
+<ul>
+<li>Mitochonrdria</li>
+<li>Smooth and Rough Endoplasmic reticulum (ER)</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Soma</h2></hgroup><article  id="soma" class="smaller">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png" height=450px></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png' title=''>https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Axons</h2></hgroup><article  id="axons" class="bigger">
+
+<ul>
+<li><em>Axon hillock</em></li>
+<li><em>Initial segment</em></li>
+<li><em>Nodes of Ranvier</em></li>
+<li><em>Axon Terminals</em></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Axons</h2></hgroup><article  id="axons-1" class="smaller">
+
+<div class="centered">
+<p><img src="http://droualb.faculty.mjc.edu/Course%20Materials/Physiology%20101/Chapter%20Notes/Fall%202007/figure_07_02_labeled.jpg" height=450px></p>
+
+<p><a href='http://droualb.faculty.mjc.edu/Course%20Materials/Physiology%20101/Chapter%20Notes/Fall%202007/figure_07_02_labeled.jpg' title=''>http://droualb.faculty.mjc.edu/Course%20Materials/Physiology%20101/Chapter%20Notes/Fall%202007/figure_07_02_labeled.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Synaptic bouton (terminal button)</h2></hgroup><article  id="synaptic-bouton-terminal-button" class="bigger">
+
+<ul>
+<li><em>Synapse</em> (~5-10K per neuron)</li>
+<li>Pre and postsynaptic membranes</li>
+<li><em>Synaptic cleft</em></li>
+<li><em>Synaptic vesicles</em>
+
+<ul>
+<li>Store/release neurotransmitters</li>
+</ul></li>
+<li><em>Autoreceptors</em> &amp; <em>transporters</em></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Synaptic bouton (terminal button)</h2></hgroup><article  id="synaptic-bouton-terminal-button-1" class="smaller">
+
+<div class="centered">
+<p><img src="http://antranik.org/wp-content/uploads/2012/04/synapse.jpg" height=450pix></p>
+
+<p><a href='http://antranik.org/wp-content/uploads/2012/04/synapse.jpg' title=''>http://antranik.org/wp-content/uploads/2012/04/synapse.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Classifying neurons</h2></hgroup><article  id="classifying-neurons" class="bigger">
+
+<ul>
+<li>Functional role
+
+<ul>
+<li>Input (sensory), output (motor/secretory), interneurons</li>
+</ul></li>
+<li>Anatomy
+
+<ul>
+<li><em>Unipolar</em></li>
+<li><em>Bipolar</em></li>
+<li><em>Multipolar</em></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Branching types</h2></hgroup><article  id="branching-types" class="smaller">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Neurons_uni_bi_multi_pseudouni.svg/2000px-Neurons_uni_bi_multi_pseudouni.svg.png" height=450px></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Neurons_uni_bi_multi_pseudouni.svg/2000px-Neurons_uni_bi_multi_pseudouni.svg.pngg' title=''>https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Neurons_uni_bi_multi_pseudouni.svg/2000px-Neurons_uni_bi_multi_pseudouni.svg.pngg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Classifying neurons</h2></hgroup><article  id="classifying-neurons-1" class="bigger">
+
+<ul>
+<li>By specific anatomy
+
+<ul>
+<li>Pyramidal cells</li>
+<li>Stellate cells</li>
+<li>Purkinje cells</li>
+<li>Granule cells</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Neurons by type</h2></hgroup><article  id="neurons-by-type" class="smaller">
+
+<div class="centered">
+<p><img src="http://blogs.scientificamerican.com/brainwaves/files/2012/05/selection-glamor-FINAL-300x225.jpg" height=450px></p>
+
+<p><a href='http://blogs.scientificamerican.com/brainwaves/files/2012/05/selection-glamor-FINAL-300x225.jpg' title=''>http://blogs.scientificamerican.com/brainwaves/files/2012/05/selection-glamor-FINAL-300x225.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Morphology, physiology, gene transcription</h2></hgroup><article  id="morphology-physiology-gene-transcription">
+
+<div class="centered">
+<p><a href="http://doi.org/0.1038/nrn.2017.85"> <img src="https://images.nature.com/full/nature-assets/nrn/journal/v18/n9/images_article/nrn.2017.85-f1.jpg" height=500px> </a></p>
+
+<p><a href='http://doi.org/0.1038/nrn.2017.85' title=''>Zeng &amp; Sanes, 2017</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><a href="http://doi.org/0.1038/nrn.2017.85"> <img src="https://images.nature.com/full/nature-assets/nrn/journal/v18/n9/images/nrn.2017.85-f6.jpg" height=500px> </a></p>
+
+<p><a href='http://doi.org/0.1038/nrn.2017.85' title=''>Zeng &amp; Sanes, 2017</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://www.sciencemag.org/sites/default/files/styles/inline__699w__no_aspect/public/neuron_16x9.jpg?itok=OZZTQWgA" height=450/></p>
+
+<p><a href='http://doi.org/10.1038/s41593-018-0205-2' title=''><span class="cite">(Boldog et al., 2018)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Next time</h2></hgroup><article  id="next-time">
+
+<ul>
+<li><strong>Quiz 1</strong> (available after class)</li>
+<li>Neurophysiology</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  id="references" class="unnumbered smaller">
+
+<div id="refs" class="references">
+<div id="ref-azevedo2009equal">
+<p>Azevedo, F. A., Carvalho, L. R., Grinberg, L. T., Farfel, J. M., Ferretti, R. E., Leite, R. E., … others. (2009). Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. <em>Journal of Comparative Neurology</em>, <em>513</em>(5), 532–541. <a href='https://doi.org/10.1002/cne.21974' title=''>https://doi.org/10.1002/cne.21974</a></p></div>
+
+<div id="ref-Boldog2018-dj">
+<p>Boldog, E., Bakken, T. E., Hodge, R. D., Novotny, M., Aevermann, B. D., Baka, J., … Tamás, G. (2018). Transcriptomic and morphophysiological evidence for a specialized human cortical GABAergic cell type. <em>Nature Neuroscience</em>, <em>21</em>(9), 1185–1195. <a href='https://doi.org/10.1038/s41593-018-0205-2' title=''>https://doi.org/10.1038/s41593-018-0205-2</a></p></div>
+
+<div id="ref-chung_glia_2015">
+<p>Chung, W.-S., Welsh, C. A., Barres, B. A., &amp; Stevens, B. (2015). Do glia drive synaptic and cognitive impairment in disease? <em>Nature Neuroscience</em>, <em>18</em>(11), 1539–1545. <a href='https://doi.org/10.1038/nn.4142' title=''>https://doi.org/10.1038/nn.4142</a></p></div></div></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
