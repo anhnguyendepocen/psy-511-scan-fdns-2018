@@ -83,10 +83,10 @@ title: "Schedule"
 ### Fri, Sep 14
 
 - Topics
-    + **Quiz 1**. | [Download](quiz/quiz-01/511-quiz-1.pdf) |. Due at start of class on Friday, September 20, 2018.
+    + **Quiz 1**. | [Download](quiz/quiz-01/511-18-quiz-01.pdf) |. Due at start of class on Friday, September 20, 2018.
     + Neurophysiology. Read BW 3:61-78.
 - Materials
-    + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides](lectures/511-2018-09-14-neurophys.html) | [PDF](lectures/511-2018-09-14-neurophys.pdf)
 
 ---
 

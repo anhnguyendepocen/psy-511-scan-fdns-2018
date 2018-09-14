@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>511-2018-09-14-neurophysiology</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: '511-2018-09-14-neurophysiology',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Rick Gilmore' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <link href="libs/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="libs/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="libs/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="css/ioslides.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class=""><hgroup><h2>Today&#39;s Topics</h2></hgroup><article  id="todays-topics">
+
+<ul>
+<li><strong>Quiz 1</strong></li>
+<li>Why brains?</li>
+<li>The resting potential</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Why brains?</h2></hgroup><article  id="why-brains">
+
+<ul>
+<li><a href='https://en.wikipedia.org/wiki/Escherichia_coli' title=''><em>Escherichia Coli (E. Coli)</em></a></li>
+<li><a href='https://en.wikipedia.org/wiki/Paramecium' title=''><em>Paramecium</em></a></li>
+<li><a href='https://en.wikipedia.org/wiki/Caenorhabditis_elegans' title=''><em>Caenorhabditis Elegans (C. Elegans)</em></a></li>
+</ul>
+
+<p><a href='https://mitpress.mit.edu/neuraldesign%20' title=''>Sterling &amp; Laughlin, 2015</a></p>
+
+</article></slide><slide class=""><hgroup><h2><a href='https://en.wikipedia.org/wiki/Escherichia_coli' title=''><em>Escherichia Coli (E. Coli)</em></a></h2></hgroup><article  id="escherichia-coli-e.-coli">
+
+<ul>
+<li>Tiny, single-celled bacterium</li>
+<li>Feeds on glucose</li>
+<li>Chemo (&quot;taste&quot;) receptors on surface membrane</li>
+<li>Flagellum for movement</li>
+<li>Food concentration regulates duration of &quot;move&quot; phase</li>
+<li>~4 ms for chemical signal to diffuse from anterior/posterior</li>
+</ul>
+
+<!-- --- -->
+
+<!-- <div class="centered"> -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/_BgDdkTKjM0?rel=0&amp;start=60" frameborder="0" allowfullscreen></iframe> -->
+
+<!-- </div> -->
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QGAm6hMysTA?rel=0" frameborder="0" allowfullscreen>
+
+</iframe></div>
+
+</article></slide><slide class=""><hgroup><h2><a href='https://en.wikipedia.org/wiki/Paramecium' title=''><em>Paramecium</em></a></h2></hgroup><article  id="paramecium">
+
+<ul>
+<li>300K larger than E. Coli</li>
+<li>Propulsion through coordinated beating of cilia</li>
+<li>Diffusion from head to tail ~40 s!</li>
+<li>Use electrical signaling instead
+
+<ul>
+<li>\(Na^+\) channel opens (e.g., when stretched)</li>
+<li>Voltage-gated \(Ca^{++}\) channels open, \(Ca^{++}\) enters, triggers cilia</li>
+<li>Signal across cell within ms</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='https://en.wikipedia.org/wiki/Caenorhabditis_elegans' title=''><em>Caenorhabditis Elegans (C. Elegans)</em></a></h2></hgroup><article  id="caenorhabditis-elegans-c.-elegans">
+
+<ul>
+<li>~10x larger than paramecium</li>
+<li>302 neurons + 56 glial cells (out of 959)</li>
+<li>Swim, forage, mate</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GgZHziFWR7M?rel=0" frameborder="0" allowfullscreen>
+
+</iframe></div>
+
+<aside class='note'><section><p>C Elegans swimming.</p></section></aside>
+
+</article></slide><slide class=""><hgroup><h2>Neural communication</h2></hgroup><article  id="neural-communication">
+
+<ul>
+<li>Electrical
+
+<ul>
+<li>Fast(er)</li>
+<li>Within neurons</li>
+</ul></li>
+<li>Chemical
+
+<ul>
+<li>Diffusion slow(er)</li>
+<li>Within &amp; between neurons</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>How are messages generated?</h2></hgroup><article  id="how-are-messages-generated">
+
+<ul>
+<li>Electrical potential (== voltage)
+
+<ul>
+<li>Think of potential energy</li>
+<li>Voltage ~ pressure</li>
+<li>Energy that will be released if something changes</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Neurons as electrical devices</h2></hgroup><article  id="neurons-as-electrical-devices">
+
+<p>\[E = IR\]</p>
+
+<ul>
+<li>Current flow (\(I\)) across membrane</li>
+<li>Membrane varies in permeability (\(R\)) to ion flow</li>
+</ul>
+
+<div class="centered">
+<p><img src="https://ka-perseus-images.s3.amazonaws.com/16b4aecbaae9e2a5e0b50fc70ace724f471ad0c0.svg" height=300/></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<ul>
+<li>Membrane stores (&amp; releases) charge like <em>capacitor</em></li>
+</ul>
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/electric/imgele/capchg.png"/></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Potential energy</h2></hgroup><article  id="potential-energy" class="smaller">
+
+<div class="centered">
+<p><img src="http://physics20project.weebly.com/uploads/1/6/4/8/16484122/1358825569.png"></p>
+
+<p><a href='http://physics20project.weebly.com/uploads/1/6/4/8/16484122/1358825569.png' title=''>http://physics20project.weebly.com/uploads/1/6/4/8/16484122/1358825569.png</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Types of neural electrical potentials</h2></hgroup><article  id="types-of-neural-electrical-potentials">
+
+<ul>
+<li>Resting potential</li>
+<li>Action potential</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Resting potential</h2></hgroup><article  id="resting-potential">
+
+<ul>
+<li>Measurement
+
+<ul>
+<li>Electrode on inside</li>
+<li>Electrode on outside (reference)</li>
+<li>Inside - Outside = potential</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Resting potential</h2></hgroup><article  id="resting-potential-1" class="smaller">
+
+<div class="centered">
+<p><img src="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/measuring_the_membrane_potential_w.jpg"></p>
+
+<p><a href='http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/measuring_the_membrane_potential_w.jpg' title=''>http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/measuring_the_membrane_potential_w.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Resting potential</h2></hgroup><article  id="resting-potential-2">
+
+<ul>
+<li>Neuron (and other cells) have <em>potential energy</em>
+
+<ul>
+<li>Inside is -60-70 mV, with respect to outside</li>
+<li>About 1/20th typical AAA battery</li>
+</ul></li>
+<li>Like charges repel, opposites attract, so
+
+<ul>
+<li>Positively charged particles pulled in</li>
+<li>Negatively charged particles pushed out</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Where does the resting potential come from?</h2></hgroup><article  id="where-does-the-resting-potential-come-from">
+
+<ul>
+<li>Ions</li>
+<li>Ion channels</li>
+<li>Separation between charges</li>
+<li>A balance of forces</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>We are the champIONs, my friend</h2></hgroup><article  id="we-are-the-champions-my-friend">
+
+<ul>
+<li>Potassium, \(K^+\)</li>
+<li>Sodium, \(Na^+\)</li>
+<li>Chloride, \(Cl^-\)</li>
+<li>Calcium, \(Ca^{++}\)</li>
+<li>Organic anions, \(A^-\)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Party On</h2></hgroup><article  id="party-on">
+
+<ul>
+<li>Annie (\(A^-\)) was having a party.
+
+<ul>
+<li>Used to date Nate (\(Na^+\)), but now sees Karl (\(K^+\))</li>
+</ul></li>
+<li>Hired bouncers called
+
+<ul>
+<li>&quot;The Channels&quot;</li>
+<li>Let Karl and friends in or out, keep Nate out</li>
+</ul></li>
+<li>Annie&#39;s friends (\(A^-\)) and Karl&#39;s (\(K^+\)) mostly inside</li>
+<li>Nate and friends (\(Na^+\)) mostly outside</li>
+<li>Claude (\(Cl^-\)) tagging along</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Party On</h2></hgroup><article  id="party-on-1">
+
+<div class="centered">
+<p><img src="http://3.bp.blogspot.com/_HtLvymcBlKo/TJJ9YcQNAtI/AAAAAAAAAB8/E2bzWvAzBew/s1600/10.png" height=450px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Ion channels</h2></hgroup><article  id="ion-channels">
+
+<ul>
+<li>Macromolecules that form openings in membrane</li>
+<li>Different types of subunits</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://www.nature.com/nrn/journal/v2/n4/images/nrn0401_240a_f1.gif"></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Ion channels</h2></hgroup><article  id="ion-channels-1">
+
+<ul>
+<li>Selective</li>
+<li>Vary in permeability</li>
+<li>Types
+
+<ul>
+<li>Passive/leak</li>
+<li>Voltage-gated</li>
+<li>Ligand-gated (chemically-gated)</li>
+<li>Transporters</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Ion channels</h2></hgroup><article  id="ion-channels-2" class="smaller">
+
+<div class="centered">
+<p><img src="http://www.zoology.ubc.ca/~gardner/F21-08.GIF" width=900px></p>
+
+<p><a href='http://www.zoology.ubc.ca/~gardner/F21-08.GIF' title=''>http://www.zoology.ubc.ca/~gardner/F21-08.GIF</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Neuron at rest permeable to \(K^+\)</h2></hgroup><article  id="neuron-at-rest-permeable-to-k">
+
+<ul>
+<li>Passive \(K^+\) channels open</li>
+<li>\(K^+\) flows out</li>
+<li>\(K^+\) outflow creates charge separation from A-</li>
+<li>Charge separation creates voltage</li>
+<li>Voltage prevents \(K^+\) concentration from equalizing b/w inside and out</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Force of diffusion</h2></hgroup><article  id="force-of-diffusion" class="smaller">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Diffusion.en.svg/1000px-Diffusion.en.svg.png" height=450px></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Diffusion.en.svg/1000px-Diffusion.en.svg.png' title=''>https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Diffusion.en.svg/1000px-Diffusion.en.svg.png</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Bubble_bath.jpg" width=700px></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/1/12/Bubble_bath.jpg' title=''>https://upload.wikimedia.org/wikipedia/commons/1/12/Bubble_bath.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<iframe width="844px" height="596px" frameborder="no" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" src="https://lab.concord.org/embeddable.html#interactives/sam/diffusion/4-semipermeable.json">
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Neuron at rest</h2></hgroup><article  id="neuron-at-rest">
+
+<ul>
+<li>Force of diffusion
+
+<ul>
+<li>\(K^+\) moves from high concentration (~140 mM inside) to low (~4 mM outside)</li>
+<li>Movement of charged particles == current</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Neuron at rest</h2></hgroup><article  id="neuron-at-rest-1">
+
+<ul>
+<li>Electrostatic pressure
+
+<ul>
+<li>Voltage build-up stops \(K^+\) outflow</li>
+<li>Voltage called &quot;reversal potential&quot;</li>
+<li>\(K^+\) positive, so reversal potential negative (w/ respect to outside)</li>
+<li>Reversal potential close to resting potential</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Equilibrium potential and Nernst equation</h2></hgroup><article  id="equilibrium-potential-and-nernst-equation" class="smaller">
+
+<div class="centered">
+<p><img src="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif" width=650px></p>
+
+<p><a href='http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif' title=''>http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Building on intuition</h2></hgroup><article  id="building-on-intuition">
+
+<div class="centered">
+<p><img src="http://www.daily-player.com/images/articles/finger-in-the-dyke.jpg"></p>
+
+<p><a href='http://www.daily-player.com/images/articles/finger-in-the-dyke.jpg' title=''>http://www.daily-player.com/images/articles/finger-in-the-dyke.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Back to neurons</h2></hgroup><article  id="back-to-neurons">
+
+<ul>
+<li>\(Na^+\) also has reversal potential</li>
+<li>Membrane at rest has low \(Na^+\) permeability</li>
+<li>Concentrated outside neuron (~145 mM) vs. inside (~12 mM)</li>
+<li>Some \(Na^+\) flows <em>in</em></li>
+<li>Equilibrium potential is positive (with respect to outside)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Resting potential</h2></hgroup><article  id="resting-potential-3" class="smaller">
+
+<ul>
+<li>Net effects of ion flow across membrane</li>
+<li>Goldman-Hodgkin-Katz equation</li>
+</ul>
+
+<div class="centered">
+<p><img src="http://www.physiologyweb.com/calculators/figs/ghk_equation.gif" width=800px></p>
+
+<p><a href='http://www.physiologyweb.com/calculators/figs/ghk_equation.gif' title=''>http://www.physiologyweb.com/calculators/figs/ghk_equation.gif</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Electrical circuit model</h2></hgroup><article  id="electrical-circuit-model" class="smaller">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/MembraneCircuit.jpg/500px-MembraneCircuit.jpg"></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/MembraneCircuit.jpg/500px-MembraneCircuit.jpg' title=''>https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/MembraneCircuit.jpg/500px-MembraneCircuit.jpg</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Resting potential</h2></hgroup><article  id="resting-potential-4">
+
+<div class="centered">
+<p><img src="http://3.bp.blogspot.com/_HtLvymcBlKo/TJJ9YcQNAtI/AAAAAAAAAB8/E2bzWvAzBew/s1600/10.png" height=450px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Summary of forces</h2></hgroup><article  id="summary-of-forces">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Ion</th>
+<th align="left">Concentration gradient</th>
+<th align="left">Electrostatic force</th>
+</tr>
+<tr class="odd">
+<td align="left">\(K^+\)</td>
+<td align="left">Inside &gt;&gt; Outside, outward</td>
+<td align="left">- (pulls \(K^+\) in)</td>
+</tr>
+<tr class="even">
+<td align="left">\(Na^+\)</td>
+<td align="left">Outside &gt;&gt; Inside, inward</td>
+<td align="left">- (pulls \(Na^+\) in)</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2>Driving force and equilibrium potential</h2></hgroup><article  id="driving-force-and-equilibrium-potential">
+
+<ul>
+<li>&quot;Driving Force&quot; on a given ion depends on its equilibrium potential.</li>
+<li>Driving force larger if membrane potential far from equilibrium potential for ion.</li>
+<li><em>Equilibrium potential</em>
+
+<ul>
+<li>Voltage that keeps current (inside/outside) concentrations the same</li>
+<li>Voltage membrane potential will approach if <strong>only</strong> that ion flows</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='http://www.physiologyweb.com/calculators/nernst_potential_calculator.html' title=''>Equilibrium potentials calculated</a> under typical conditions</h2></hgroup><article  id="equilibrium-potentials-calculated-under-typical-conditions">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Ion</th>
+<th align="left">[inside]</th>
+<th align="left">[outside]</th>
+<th align="left">Voltage</th>
+</tr>
+<tr class="odd">
+<td align="left">\(K^+\)</td>
+<td align="left">~150 mM</td>
+<td align="left">~4 mM</td>
+<td align="left">~ -90 mV</td>
+</tr>
+<tr class="even">
+<td align="left">\(Na^+\)</td>
+<td align="left">~10 mM</td>
+<td align="left">~140 mM</td>
+<td align="left">~ +55-60 mV</td>
+</tr>
+<tr class="odd">
+<td align="left">\(Cl-\)</td>
+<td align="left">~10 mM</td>
+<td align="left">~110 mM</td>
+<td align="left">- 65-80 mV</td>
+</tr>
+</table>
+
+<div class="centered">
+<p><a href="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif"> <img src="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif" width=400px> </a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Video summary of resting potential</h2></hgroup><article  id="video-summary-of-resting-potential">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PtKAeihnbv0" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Next time&#8230;</h2></hgroup><article  id="next-time...">
+
+<ul>
+<li>See also <a href='https://en.wikipedia.org/wiki/Membrane_potential' title=''>https://en.wikipedia.org/wiki/Membrane_potential</a></li>
+<li>Or, what could make Annie&#39;s party go haywire?</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  id="references"></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>

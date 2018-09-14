@@ -18,6 +18,13 @@ output:
 library(tidyverse)
 ```
 
+## Prelude
+
+<iframe src="https://player.vimeo.com/video/210206930" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+<http://www.gregadunn.com/>
+</div>
+
 ## Announcements
 
 - **Quiz 1** Friday
