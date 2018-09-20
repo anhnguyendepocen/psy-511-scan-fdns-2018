@@ -83,7 +83,7 @@ title: "Schedule"
 ### Fri, Sep 14
 
 - Topics
-    + **Quiz 1**. | [Download](quiz/quiz-01/511-18-quiz-01.pdf) |. Due at start of class on Friday, September 20, 2018.
+    + **Quiz 1**. | [Download](quiz/quiz-01/511-18-quiz-01.pdf) |. Due at start of class on Friday, September 21, 2018.
     + Neurophysiology. Read BW 3:61-78.
 - Materials
     + Lecture notes | [HTML slides](lectures/511-2018-09-14-neurophys.html) | [PDF](lectures/511-2018-09-14-neurophys.pdf)
@@ -96,8 +96,9 @@ title: "Schedule"
 
 **NO CLASS**
 
-### Fri, Sep 20
+### Fri, Sep 21
 
+- Quiz-01 due. [Submit here](https://psu.instructure.com/courses/1942232/assignments/10392150).
 - Topics
     + Neural communication. Read BW 3:78-92.
     + Neurochemistry. Read BW: 4:95-100.
