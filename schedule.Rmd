@@ -103,7 +103,7 @@ title: "Schedule"
     + Neural communication. Read BW 3:78-92.
     + Neurochemistry. Read BW: 4:95-100.
 - Materials
-    + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides](lectures/511-2018-09-21-neurophys-II.html) | [PDF](lectures/511-2018-09-21-neurophys-II.pdf)
 
 ---
 

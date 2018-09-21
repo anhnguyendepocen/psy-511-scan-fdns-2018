@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>511-2018-09-21-neurophys-II</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: '511-2018-09-21-neurophys-II',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Rick Gilmore' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <link href="libs/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="libs/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="libs/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="css/ioslides.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class=""><hgroup><h2>Ease on down, ease on down</h2></hgroup><article  id="ease-on-down-ease-on-down">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w15F4r09Pro" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2><strong>Propagation</strong> is the way&#8230;</h2></hgroup><article  id="propagation-is-the-way...">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ul7X5js1vE" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Today&#39;s Topics</h2></hgroup><article  id="todays-topics">
+
+<ul>
+<li>Equilibrium potential and driving forces</li>
+<li>The action potential</li>
+<li>Synaptic communication</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Party On</h2></hgroup><article  id="party-on">
+
+<ul>
+<li>Annie (A-) was having a party.
+
+<ul>
+<li>Used to date Nate (\(Na^+\)), but now sees Karl (\(K^+\))</li>
+</ul></li>
+<li>Hired bouncers called
+
+<ul>
+<li>&quot;The Channels&quot;</li>
+<li>Let Karl and friends in or out, keep Nate out</li>
+</ul></li>
+<li>Annie&#39;s friends (A-) and Karl&#39;s (\(K^+\)) mostly inside</li>
+<li>Nate and friends (\(Na^+\)) mostly outside</li>
+<li>Claudia (Cl-) tagging along</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Party On</h2></hgroup><article  id="party-on-1">
+
+<div class="centered">
+<p><img src="http://3.bp.blogspot.com/_HtLvymcBlKo/TJJ9YcQNAtI/AAAAAAAAAB8/E2bzWvAzBew/s1600/10.png" height=450px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>The \(K^+\) story</h2></hgroup><article  id="the-k-story">
+
+<ul>
+<li>\(Na^+\)/\(K^+\) pump pulls \(K^+\) <strong>in</strong></li>
+<li>\([K^+]_{in}\) (~150 mM) &gt;&gt; \([K^+]_{out}\) (~4 mM)</li>
+<li>Outward flow of \(K^+\) through passive/leak channels</li>
+<li>Outflow stops when <em>membrane potential</em>, \(V_m\) = <em>equilibrium potential</em> for \(K^+\)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Equilibrium potential</h2></hgroup><article  id="equilibrium-potential">
+
+<ul>
+<li>Voltage (\(V_{K}\)) that keeps system in equilibrium
+
+<ul>
+<li>\([K^+]_{in}\) &gt;&gt; \([K^+]_{out}\)</li>
+</ul></li>
+<li>Nernst equation
+
+<ul>
+<li>\(V_{K}\) = \(\frac{RT}{(+1)F}ln(\frac{[K^+]_{out}}{[K^+]_{in}})\)</li>
+<li>\(V_{K}\) = ~ -90 mV</li>
+<li>Negative in/positive out keeps in/out concentration gradient</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Equilibrium potential</h2></hgroup><article  id="equilibrium-potential-1">
+
+<ul>
+<li>\(K^+\) flows out through passive/leak channels; most remains near membrane</li>
+<li>Separation from \(A^-\) creates charge \(\frac{K+K+K+K+K+}{A-A-A-A-A-}\) along capacitor-like membrane</li>
+<li>\(V_m\) &#8211;&gt; \(V_{K}\)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='http://www.physiologyweb.com/calculators/nernst_potential_calculator.html' title=''>Equilibrium potentials calculated</a> under typical conditions</h2></hgroup><article  id="equilibrium-potentials-calculated-under-typical-conditions">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Ion</th>
+<th align="left">[inside]</th>
+<th align="left">[outside]</th>
+<th align="left">Voltage</th>
+</tr>
+<tr class="odd">
+<td align="left">\(K^+\)</td>
+<td align="left">~150 mM</td>
+<td align="left">~4 mM</td>
+<td align="left">~ -90 mV</td>
+</tr>
+<tr class="even">
+<td align="left">\(Na^+\)</td>
+<td align="left">~10 mM</td>
+<td align="left">~140 mM</td>
+<td align="left">~ +55-60 mV</td>
+</tr>
+<tr class="odd">
+<td align="left">Cl-</td>
+<td align="left">~10 mM</td>
+<td align="left">~110 mM</td>
+<td align="left">~ - 65-80 mV</td>
+</tr>
+</table>
+
+<div class="centered">
+<p><a href="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif"> <img src="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif" width=400px> </a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>The \(Na^+\) story</h2></hgroup><article  id="the-na-story">
+
+<ul>
+<li>\(Na^+\)/\(K^+\) pump pushes \(Na^+\) <strong>out</strong></li>
+<li>\([Na^+]_{in}\) (~10 mM) &lt;&lt; \([Na^+]_{out}\) (~140 mM)</li>
+<li>Equilibrium potential for \(Na^+\), \(V_{Na}\) = ~ +55 mV
+
+<ul>
+<li>Inside positive/outside negative to maintain outside &gt; inside concentration gradient</li>
+</ul></li>
+<li>If \(Na^+\) alone, \(V_m\) &#8211;&gt; \(V_{Na}\) (~ +55 mV)</li>
+</ul>
+
+<!-- --- -->
+
+<!-- <div class="centered"> -->
+
+<!-- <img src="http://d33y93cfm0wb4z.cloudfront.net/ACTIVITIES_JO/Outdoor_slideshow2/A-Outdoortugofwar346x210.jpg" height=500> -->
+
+<!-- </div> -->
+
+<!-- <div class="notes"> -->
+
+<!-- Image of tug o war to indicate relation between $K^+$ and $Na^+$. -->
+
+<!-- </div> -->
+
+</article></slide><slide class=""><hgroup><h2>&quot;Resting&quot; potential</h2></hgroup><article  id="resting-potential">
+
+<ul>
+<li>Sum of outward \(K^+\) and inward \(Na^+\)
+
+<ul>
+<li>Membrane more permeable to \(K^+\) than \(Na^+\), \(p_{\)K<sup>+}\(&gt;\)p_{Na</sup>+}$</li>
+<li>Outward flow of \(K^+\) &gt; inward flow of \(Na^+\)</li>
+<li>Resting potential (~-70 mV) closer to \(V_{K}\) (-90 mV) than \(V_{Na}\) (+55 mV)</li>
+</ul></li>
+<li>Goldman-Hodgkin-Katz equation
+
+<ul>
+<li>\(V_m = \frac{RT}{F}ln(\frac{p_{K^+}[K^+]_{out}+p_{Na^+}[Na^+]_{out}}{p_{K^+}[K^+]_{in}+p_{Na^+}[Na^+]_{in}})\)</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&quot;Driving force&quot; and equilibrium potential</h2></hgroup><article  id="driving-force-and-equilibrium-potential">
+
+<ul>
+<li>&quot;Driving Force&quot; on a given ion depends on difference between
+
+<ul>
+<li>Equilibrium potential for given ion</li>
+<li>Membrane potential = effects of all ions</li>
+</ul></li>
+<li>Anthropomorphic metaphor
+
+<ul>
+<li>\(K^+\) &quot;wants&quot; to flow out (pull neuron toward \(V_{K}\))</li>
+<li>\(Na^+\) &quot;wants&quot; to flow in (pull neuron toward \(V_{Na}\))</li>
+<li>Strength of that &quot;desire&quot; depends on distance from equilibrium potential</li>
+</ul></li>
+</ul>
+
+<!-- ## Summary of forces -->
+
+<!-- | Ion | Concentration gradient | Electrostatic force | -->
+
+<!-- |-----|------------------------|---------------------| -->
+
+<!-- | $K^+$  | Inside >> Outside, outward      | - (pulls $K^+$ in)    | -->
+
+<!-- | $Na^+$ | Outside >> Inside, inward      | - (pulls $Na^+$ in)    | -->
+
+<!-- ## What's a [$Na^+$/$K^+$ pump](https://en.wikipedia.org/wiki/Na%2B/K%2B-ATPase)? -->
+
+<!-- - Enzyme (*$Na^+$/$K^+$ ATP-ase*) embedded in neuron membrane -->
+
+<!-- - Pumps $Na^+$ and $K^+$ *against* concentration gradients -->
+
+<!-- - $Na^+$ out; $K^+$ in -->
+
+<!-- - Uses [ATP](https://en.wikipedia.org/wiki/Adenosine_triphosphate) or chemical energy -->
+
+<!-- ## $Na^+$/$K^+$ "pump" keeps $K^+$ and $Na^+$ separated -->
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/MRKgbwl8vCY" frameborder="0" allowfullscreen></iframe> -->
+
+<!-- ---- -->
+
+<!-- <div class="centered"> -->
+
+<!-- <a href="http://media-2.web.britannica.com/eb-media/75/103875-004-5F8D1D0E.jpg"> -->
+
+<!-- <img src="http://media-2.web.britannica.com/eb-media/75/103875-004-5F8D1D0E.jpg" height=500px> -->
+
+<!-- </a> -->
+
+<!-- </div> -->
+
+</article></slide><slide class=""><hgroup><h2>Action potential</h2></hgroup><article  id="action-potential" class="smaller">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png" height=450px></p>
+
+<p><a href='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png' title=''>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Action potential</h2></hgroup><article  id="action-potential-1">
+
+<ul>
+<li>Rapid rise, fall of membrane potential</li>
+<li>Threshold of excitation</li>
+<li>Increase (rising phase/depolarization)</li>
+<li>Peak
+
+<ul>
+<li>at positive voltage</li>
+</ul></li>
+<li>Decline (falling phase/repolarization)</li>
+<li>Return to resting potential (refractory period)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Action potential components</h2></hgroup><article  id="action-potential-components">
+
+<table class = 'rmdtable'>
+<col width="27.777778%" />
+<col width="20.833333%" />
+<tr class="header">
+<th align="left">Phase</th>
+<th align="left">Neuron State</th>
+</tr>
+<tr class="odd">
+<td align="left">Rise to threshold</td>
+<td align="left">+ input makes membrane potential more +</td>
+</tr>
+<tr class="even">
+<td align="left">Rising phase</td>
+<td align="left">Voltage-gated \(Na^+\) channels open, \(Na^+\) enters</td>
+</tr>
+<tr class="odd">
+<td align="left">Peak</td>
+<td align="left">Voltage-gated \(Na^+\) channels close and deactivate; voltage-gated \(K^+\) channels open</td>
+</tr>
+<tr class="even">
+<td align="left">Falling phase</td>
+<td align="left">\(K^+\) exits</td>
+</tr>
+<tr class="odd">
+<td align="left">Refractory period</td>
+<td align="left">\(Na^+\)/\(K^+\) pump restores [\(Na^+\)], [\(K^+\)]; voltage-gated \(K^+\) channels close</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2>Action potentials and driving forces</h2></hgroup><article  id="action-potentials-and-driving-forces">
+
+<div class="centered">
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png" height=450px> </a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Neuron at rest</h2></hgroup><article  id="neuron-at-rest">
+
+<ul>
+<li>Driving force on \(K^+\) weakly out
+
+<ul>
+<li>-70 mV - (-90 mV) = +20 mV</li>
+</ul></li>
+<li>Driving force on \(Na^+\) strongly in
+
+<ul>
+<li>-70 mV - (+55 mV) = -125 mV</li>
+</ul></li>
+<li>\(Na^+\)/\(K^+\) pump maintains concentrations</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Action potential rising phase</h2></hgroup><article  id="action-potential-rising-phase">
+
+<ul>
+<li>Voltage-gated \(Na^+\) channels open</li>
+<li>Membrane permeability to \(Na^+\) increases
+
+<ul>
+<li>\(Na^+\) inflow through passive + voltage-gated channels</li>
+<li>continued \(K^+\) outflow through passive channels</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Peak</h2></hgroup><article  id="peak">
+
+<ul>
+<li>Membrane permeability to \(Na^+\) reverts to resting state
+
+<ul>
+<li>Voltage-gated \(Na^+\) channels close &amp; inactivate</li>
+<li>Slow inflow due to small driving force (+30 mV - 55mV = -25 mv)</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Peak</h2></hgroup><article  id="peak-1">
+
+<ul>
+<li>Membrane permeability to \(K^+\) increases
+
+<ul>
+<li>Voltage-gated \(K^+\) channels open</li>
+<li>Fast outflow due to strong driving force (+30 mv - (-90 mv) = +120 mV)</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Falling phase</h2></hgroup><article  id="falling-phase">
+
+<ul>
+<li>\(K^+\) outflow
+
+<ul>
+<li>Through voltage-gated \(K^+\) and passive \(K^+\) channels</li>
+</ul></li>
+<li>\(Na^+\) inflow
+
+<ul>
+<li>Through passive channels only</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Absolute refractory phase</h2></hgroup><article  id="absolute-refractory-phase">
+
+<ul>
+<li>Cannot generate action potential (AP) no matter the size of the stimulus</li>
+<li>Membrane potential more negative (-90 mV) than at rest (-70 mV)</li>
+<li>Voltage-gated \(Na^+\) channels still inactivated
+
+<ul>
+<li>Driving force on \(Na^+\) high (-90 mv - 55 mV = -145 mV), but too bad</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Absolute refractory phase</h2></hgroup><article  id="absolute-refractory-phase-1">
+
+<ul>
+<li>Voltage-gated \(K^+\) channels closing
+
+<ul>
+<li>Driving force on \(K^+\) tiny or absent</li>
+</ul></li>
+<li>\(Na^+\)/\(K^+\) pump restoring concentration balance</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Relative refractory period</h2></hgroup><article  id="relative-refractory-period">
+
+<ul>
+<li>Can generate AP with larg(er) stimulus</li>
+<li>Some voltage-gated \(Na^+\) &#39;de-inactivate&#39;, can open if
+
+<ul>
+<li>Larger input</li>
+<li>Membrane potential is more negative than resting potential</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Review AP phases and driving forces</h2></hgroup><article  id="review-ap-phases-and-driving-forces">
+
+</article></slide><slide class=""><hgroup><h2>Neuron at rest</h2></hgroup><article  id="neuron-at-rest-1">
+
+<ul>
+<li>Voltage-gated \(Na^+\) closed, but ready to open</li>
+<li>Voltage-gated \(K^+\) channels closed, but ready to open</li>
+<li>Membrane potential at rest</li>
+<li>\(Na^+\)/\(K^+\) pump still working&#8230;</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Phase</th>
+<th align="left">Ion</th>
+<th align="left">Driving force</th>
+<th align="left">Flow direction</th>
+<th align="left">Flow magnitude</th>
+</tr>
+<tr class="odd">
+<td align="left">Rest</td>
+<td align="left">\(K^+\)</td>
+<td align="left">20 mV</td>
+<td align="left">out</td>
+<td align="left">small</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">\(Na^+\)</td>
+<td align="left">125 mV</td>
+<td align="left">in</td>
+<td align="left">small</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Phase</th>
+<th align="left">Ion</th>
+<th align="left">Driving force</th>
+<th align="left">Flow direction</th>
+<th align="left">Flow magnitude</th>
+</tr>
+<tr class="odd">
+<td align="left">Rising</td>
+<td align="left">\(K^+\)</td>
+<td align="left">growing</td>
+<td align="left">out</td>
+<td align="left">growing</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">\(Na^+\)</td>
+<td align="left">shrinking</td>
+<td align="left">in</td>
+<td align="left">high</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Phase</th>
+<th align="left">Ion</th>
+<th align="left">Driving force</th>
+<th align="left">Flow direction</th>
+<th align="left">Flow magnitude</th>
+</tr>
+<tr class="odd">
+<td align="left">Peak</td>
+<td align="left">\(K^+\)</td>
+<td align="left">120 mV</td>
+<td align="left">out</td>
+<td align="left">high</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">\(Na^+\)</td>
+<td align="left">20 mV</td>
+<td align="left">in</td>
+<td align="left">small</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Phase</th>
+<th align="left">Ion</th>
+<th align="left">Driving force</th>
+<th align="left">Flow direction</th>
+<th align="left">Flow magnitude</th>
+</tr>
+<tr class="odd">
+<td align="left">Falling</td>
+<td align="left">K</td>
+<td align="left">shrinking</td>
+<td align="left">out</td>
+<td align="left">high</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">\(Na^+\)</td>
+<td align="left">growing</td>
+<td align="left">in</td>
+<td align="left">small</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Phase</th>
+<th align="left">Ion</th>
+<th align="left">Driving force</th>
+<th align="left">Flow direction</th>
+<th align="left">Flow magnitude</th>
+</tr>
+<tr class="odd">
+<td align="left">Refractory</td>
+<td align="left">K</td>
+<td align="left">~0 mV</td>
+<td align="left">out</td>
+<td align="left">small</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">\(Na^+\)</td>
+<td align="left">145 mV</td>
+<td align="left">in</td>
+<td align="left">small</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2>Animation</h2></hgroup><article  id="animation" class="smaller">
+
+<iframe width="800" height="550" src="https://phet.colorado.edu/sims/html/neuron/latest/neuron_en.html" frameborder="0" allowfullscreen>
+
+</iframe>
+
+<!-- ## Question -->
+
+<!-- - During rising phase, $Na^+$ enters because -->
+
+<!--     + Force of diffusion pushes $Na^+$ in -->
+
+<!--     + Electrostatic force pushes $Na^+$ in -->
+
+<!--     + Electrostatic force pushes $K^+$ out -->
+
+<!-- ## Question -->
+
+<!-- - During rising phase, $Na^+$ enters because -->
+
+<!--     + **Force of diffusion pushes $Na^+$ in** -->
+
+<!--     + **Electrostatic force pushes $Na^+$ in** -->
+
+<!--     + Electrostatic force pushes $K^+$ out -->
+
+<!-- ## Question -->
+
+<!-- - Why does membrane potential go from - to +? -->
+
+<!--     + $Na^+$ ions are +, inward flow makes interior more + -->
+
+<!--     + $K^+$ ions are +, outward flow makes interior more + -->
+
+<!-- ## Question -->
+
+<!-- - Why does membrane potential go from - to +? -->
+
+<!--     + **$Na^+$ ions are +, inward flow makes interior more +** -->
+
+<!--     + $K^+$ ions are +, outward flow makes interior more + -->
+
+<!-- ## Question -->
+
+<!-- - During falling phase, $K^+$ flows out of cell because -->
+
+<!--     + Force of diffusion pushes $K^+$ out. -->
+
+<!--     + Force of diffusion keeps $K^+$ in. -->
+
+<!--     + Electrostatic force pushes $K^+$ out. -->
+
+<!--     + Electrostatic force keeps $K^+$ in. -->
+
+<!-- ## Question -->
+
+<!-- - During falling phase, $K^+$ flows out of cell because -->
+
+<!--     + **Force of diffusion pushes $K^+$ out.** -->
+
+<!--     + Force of diffusion keeps $K^+$ in. -->
+
+<!--     + **Electrostatic force pushes $K^+$ out.** -->
+
+<!--     + Electrostatic force keeps $K^+$ in. -->
+
+<!-- ## Question -->
+
+<!-- - At peak of action potential, why does electrostatic force push $K^+$ out? -->
+
+<!--     + Membane potential is +, $K^+$ repelled from interior -->
+
+<!--     + Membrane potential is -, K- attracted to interior -->
+
+<!-- ## Question -->
+
+<!-- - At peak of action potential, why does electrostatic force push $K^+$ out? -->
+
+<!--     + **Membane potential is +, $K^+$ repelled from interior** -->
+
+<!--     + Membrane potential is -, K- attracted to interior -->
+
+<!-- ## Refractory periods -->
+
+<!-- - *Absolute refractory period* -->
+
+<!--     + Cannot generate action potential (AP) no matter the size of the stimulus -->
+
+<!--     + Voltage-gated $Na^+$ channels inactivated, reactivate in time. -->
+
+<!-- - *Relative refractory period* -->
+
+<!--     + Can generate AP with larg(er) stimulus -->
+
+<!--     + Some voltage-gated $K^+$ channels still open -->
+
+<!-- - Refractory periods put 'spaces' between APs -->
+
+<!-- ## Refractory periods -->
+
+<!-- <div class="centered"> -->
+
+<!-- <img src="http://www.physiologyweb.com/lecture_notes/neuronal_action_potential/figs/neuronal_action_potential_absolute_and_relative_refractory_periods_w.jpg" height=450px> -->
+
+<!-- </div> -->
+
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>APs and Information Processing</h2></hgroup><article  id="aps-and-information-processing">
+
+</article></slide><slide class=""><hgroup><h2>Information processing</h2></hgroup><article  id="information-processing">
+
+<ul>
+<li>AP amplitudes don&#39;t vary (much)
+
+<ul>
+<li>All or none</li>
+<li>\(V_{K}\) and \(V_{Na}\) don&#39;t vary much b/c \(Na^+\)/\(K^+\) pump always working</li>
+</ul></li>
+<li>AP frequency and timing vary
+
+<ul>
+<li>Rate vs. timing codes</li>
+<li>Same rates, but different timing</li>
+<li>&quot;Grandmother&quot; cells and single spikes</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Information processing</h2></hgroup><article  id="information-processing-1">
+
+<div class="centered">
+<p><img src="http://www.frontiersin.org/files/Articles/490/fnins-03-002/image_n/fnins-03-002-g001.gif" height=450px></p>
+
+<p><a href='http://dx.doi.org/10.3389/neuro.01.002.2009' title=''><span class="cite">(Eyherabide et al., 2009)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Generating APs</h2></hgroup><article  id="generating-aps">
+
+<ul>
+<li><em>Axon hillock</em>
+
+<ul>
+<li>Portion of soma adjacent to axon</li>
+<li>Integrates/sums input to soma</li>
+</ul></li>
+<li><em>Axon initial segment</em>
+
+<ul>
+<li>Umyelinated portion of axon adjacent to soma</li>
+<li>Voltage-gated \(Na^+\) and \(K^+\) channels exposed</li>
+<li>If sum of input to soma &gt; threshold, voltage-gated \(Na^+\) channels open</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Axon hillock, axon initial segment</h2></hgroup><article  id="axon-hillock-axon-initial-segment" class="smaller">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Axon_Hillock.png" height=450px></p>
+
+<p><a href="https://commons.wikimedia.org/wiki/File:Axon_Hillock.png#/media/File:Axon_Hillock.png">Axon Hillock</a>&quot; by <a href="//commons.wikimedia.org/w/index.php?title=User:M.aljar3i&amp;action=edit&amp;redlink=1" class="new" title="User:M.aljar3i (page does not exist)">M.aljar3i</a> - <span class="int-own-work" lang="en">
+Own work</span>. Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a> via <a href="https://commons.wikimedia.org/wiki/">Commons</a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>AP propagation</h2></hgroup><article  id="ap-propagation">
+
+<ul>
+<li>Propagation
+
+<ul>
+<li>move down axon, away from soma, toward axon terminals.</li>
+</ul></li>
+<li>Unmyelinated axon
+
+<ul>
+<li>Each segment &quot;excites&quot; the next</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>AP propagation is like</h2></hgroup><article  id="ap-propagation-is-like">
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/H0K2dvB-7WY" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>AP propagation</h2></hgroup><article  id="ap-propagation-1">
+
+<ul>
+<li>Myelinated axon
+
+<ul>
+<li>AP &quot;jumps&quot; between <em>Nodes of Ranvier</em> &#8211;&gt; <em>saltatory conduction</em></li>
+<li>Nodes of Ranvier == unmyelinated sections of axon</li>
+<li>voltage-gated \(Na^+\), \(K^+\) channels exposed</li>
+<li>Current flows through myelinated segments</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Question</h2></hgroup><article  id="question">
+
+<ul>
+<li>Why does AP flow in one direction, away from soma?
+
+<ul>
+<li>Soma does not have (many) voltage-gated \(Na^+\) channels.</li>
+<li>Soma is not myelinated.</li>
+<li>Refractory periods mean polarization only in one direction.</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Question</h2></hgroup><article  id="question-1">
+
+<ul>
+<li>Why does AP flow in one direction, away from soma?
+
+<ul>
+<li><strong>Soma does not have (many) voltage-gated \(Na^+\) channels.</strong></li>
+<li>Soma is not myelinated.</li>
+<li><strong>Refractory periods mean polarization only in one direction.</strong></li>
+</ul></li>
+</ul>
+
+<!-- Scrolling final reference page -->
+
+<!-- http://stackoverflow.com/q/38260799 -->
+
+<style>
+slides > slide { overflow: scroll; }
+slides > slide:not(.nobackground):before {
+  background: none;
+  }
+slides > slide:not(.nobackground):after {
+  content: '';
+  background: none;
+  }
+}
+</style>
+
+</article></slide><slide class=""><hgroup><h2>Conduction velocities</h2></hgroup><article  id="conduction-velocities">
+
+<iframe width="600" height="450" src="https://en.wikipedia.org/wiki/Nerve_conduction_velocity" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Hodgkin-Huxley Equations</h2></hgroup><article  id="hodgkin-huxley-equations">
+
+<iframe width="700" height="450" src="https://en.wikipedia.org/wiki/Hodgkin–Huxley_model" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>More on HH</h2></hgroup><article  id="more-on-hh">
+
+<ul>
+<li>Measuring APs in actual neurons. <a href='https://www.youtube.com/embed/k48jXzFGMc8' title=''>https://www.youtube.com/embed/k48jXzFGMc8</a></li>
+<li>Interview with Sir Alan Hodgkin, <a href='https://www.youtube.com/embed/vSIXbfunHYg' title=''>https://www.youtube.com/embed/vSIXbfunHYg</a></li>
+<li>Simulations
+
+<ul>
+<li><a href='http://alexhwilliams.info/code/pyneuron_morph.html' title=''>http://alexhwilliams.info/code/pyneuron_morph.html</a></li>
+<li><a href='http://briansimulator.org/demo/' title=''>http://briansimulator.org/demo/</a></li>
+<li><a href='http://www.gribblelab.org/compneuro/3_Modelling_Action_Potentials.html' title=''>http://www.gribblelab.org/compneuro/3_Modelling_Action_Potentials.html</a></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class="segue dark nobackground level1"><hgroup class = 'auto-fadein'><h2>Synaptic transmission</h2></hgroup><article  id="synaptic-transmission">
+
+</article></slide><slide class=""><hgroup><h2>What happens when AP runs out of axon?</h2></hgroup><article  id="what-happens-when-ap-runs-out-of-axon">
+
+<ul>
+<li>Rapid change in voltage triggers neurotransmitter (NT) release</li>
+<li>Voltage-gated calcium Ca++ channels open</li>
+<li>Ca++ causes <em>synaptic vesicles</em> to bind with presynaptic membrane, merge</li>
+<li>NTs diffuse across <em>synaptic cleft</em></li>
+<li>NTs bind with <em>receptors</em> on <em>postsynaptic membrane</em></li>
+<li>NTs unbind, are inactivated</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Receptor/channel types</h2></hgroup><article  id="receptorchannel-types">
+
+<ul>
+<li>Leak/passive
+
+<ul>
+<li>Vary in selectivity, permeability</li>
+</ul></li>
+<li>Transporters/exchangers
+
+<ul>
+<li>Ionic
+
+<ul>
+<li>\(Na^+\)/\(K^+\)</li>
+</ul></li>
+<li>Chemical
+
+<ul>
+<li>e.g., Dopamine transporter (DAT)</li>
+</ul></li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Receptor/channel types</h2></hgroup><article  id="receptorchannel-types-1">
+
+<ul>
+<li>Ionotropic receptors (receptor + ion channel)
+
+<ul>
+<li>Ligand-gated</li>
+<li>Open/close channel</li>
+</ul></li>
+<li>Metabotropic receptors (receptor only)
+
+<ul>
+<li>Triggers 2nd messengers</li>
+<li>G-proteins</li>
+<li>Open/close adjacent channels, change metabolism</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Gap junctions</h2></hgroup><article  id="gap-junctions">
+
+<ul>
+<li><em>Cytosol</em> flows through adjacent neurons</li>
+</ul>
+
+<div class="centered">
+<p><img src="http://www.nature.com/nrn/journal/v6/n3/images/nrn1627-f1.jpg" height=450px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Chemical synapse</h2></hgroup><article  id="chemical-synapse">
+
+<div class="centered">
+<p><img src="https://classconnection.s3.amazonaws.com/94/flashcards/1500094/jpg/chemical_synapse1355159626230.jpg" height=450px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Receptor types</h2></hgroup><article  id="receptor-types">
+
+<div class="centered">
+<p><img src="http://webvision.med.utah.edu/imageswv/GLU5.jpeg"></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Receptors generate <em>postsynaptic potentials (PSPs)</em></h2></hgroup><article  id="receptors-generate-postsynaptic-potentials-psps">
+
+<ul>
+<li>Small voltage changes</li>
+<li>Amplitude scales with # of receptors activated</li>
+<li><em>Excitatory PSPs (EPSPs)</em>
+
+<ul>
+<li>Depolarize neuron (make more +)</li>
+</ul></li>
+<li><em>Inhibitory (IPSPs)</em>
+
+<ul>
+<li>Hyperpolarize neuron (make more -)</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>NTs inactivated</h2></hgroup><article  id="nts-inactivated">
+
+<ul>
+<li>Buffering
+
+<ul>
+<li>e.g., glutamate into astrocytes</li>
+</ul></li>
+<li>Reuptake via transporters
+
+<ul>
+<li>e.g., serotonin via serotonin transporter (SERT)</li>
+</ul></li>
+<li>Enzymatic degradation
+
+<ul>
+<li>e.g., AChE degrades ACh</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Questions to ponder</h2></hgroup><article  id="questions-to-ponder">
+
+<ul>
+<li>Why must NTs be inactivated?</li>
+<li>What sort of PSP would the following induce:
+
+<ul>
+<li>Open \(Na^+\) channel</li>
+<li>Open \(K^+\) channel</li>
+<li>Open Cl- channel, \([Cl^-]_{out}\)&gt;&gt;\([Cl^-]_{in}\)</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Types of synapses</h2></hgroup><article  id="types-of-synapses">
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Blausen_0843_SynapseTypes.png" height=450px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  id="references" class="unnumbered smaller">
+
+<div id="refs" class="references">
+<div id="ref-eyherabide_bursts_2009">
+<p>Eyherabide, H. G., Rokem, A., Herz, A. V. M., Samengo, I., Eyherabide, H. G., Rokem, A., … Samengo, I. (2009). Bursts generate a non-reducible spike-pattern code. <em>Frontiers in Neuroscience</em>, <em>3</em>, 1. <a href='https://doi.org/10.3389/neuro.01.002.2009' title=''>https://doi.org/10.3389/neuro.01.002.2009</a></p></div></div></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
