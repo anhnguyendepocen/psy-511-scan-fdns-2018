@@ -114,7 +114,7 @@ title: "Schedule"
 - Topics
     + Neurochemistry II. Read BW 4:101-130.
 - Materials
-    + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides](lectures/511-2018-09-26-neurochemistry-II.html) | [PDF](lectures/511-2018-09-26-neurochemistry-II.pdf)
 
 ### Fri, Sep 28
 
