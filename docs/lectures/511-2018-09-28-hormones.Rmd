@@ -1,0 +1,321 @@
+---
+title: "511-2018-09-28-hormones"
+author: "Rick Gilmore"
+bibliography: bib/bibliography.bib
+csl: bib/apa.csl
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+## Today's Topics
+
+- Wrap-up on [monoamines](511-2018-09-26-neurochemistry-II.html#39)
+- Hormones
+
+## Hormones
+
+- Chemicals secreted into blood
+- Act on specific target tissues via receptors
+- Produce specific effects
+
+## Examples of substances that are both hormones and NTs
+    
+- Melatonin
+- Epinephrine/adrenaline
+- Oxytocin
+- Vasopressin
+    
+## Behaviors under hormonal influence
+
+<div class="centered">
+<a href="http://www.thesingularkitchen.com/blog/wp-content/uploads/2013/06/apple2.jpg">
+<img src="http://www.thesingularkitchen.com/blog/wp-content/uploads/2013/06/apple2.jpg" height=450px>
+</a>
+</div>
+
+## Behaviors under hormonal influence
+
+- Ingestive (eating/ drinking)
+    + ￼Fluid levels
+    + Na, K, Ca levels 
+    + Digestion
+    + Blood glucose levels
+    
+## Behaviors under hormonal influence
+
+<div class="centered">
+<a href="https://bioweb.uwlax.edu/bio210/s2012/helming_step/SnailReproduction2.jpg">
+<img src="https://bioweb.uwlax.edu/bio210/s2012/helming_step/SnailReproduction2.jpg" height=450px>
+</a>
+</div>
+
+## Behaviors under hormonal influence
+
+- Reproduction
+    + Sexual Maturation
+    + Mating
+    + Birth
+    + Care giving
+    
+## Behaviors under hormonal influence
+
+<div class="centered">
+<a href="http://www.howitworksdaily.com/wp-content/uploads/2012/07/dreamstime_s_14557293.jpg">
+<img src="http://www.howitworksdaily.com/wp-content/uploads/2012/07/dreamstime_s_14557293.jpg" height=450px>
+</a>
+</div>
+
+## Behaviors under hormonal influence
+
+- ￼Responses to threat/ challenge
+    + Metabolism
+    + Heart rate, blood pressure 
+    + Digestion
+    + Arousal
+
+## What do these behaviors have in common?
+
+- Biological imperatives
+- Proscribed in space and time
+- Foraging/hunting
+    + Find targets distributed in space, evaluate, act upon
+- Often involve others
+
+## Principles of hormonal action
+
+- Gradual action
+- Change intensity or probability of behavior 
+- Behavior influences/influenced by hormones
+    + +/- Feedback
+- Multiple effects on different tissues
+
+## Principles of hormonal action
+
+- Produced in small amounts; released in bursts 
+- Levels vary daily, seasonally
+    + or are triggered by specific external/internal events
+- Effect cellular metabolism 
+- Influence only cells with receptors
+
+## Differences between neural and hormonal communication
+
+- Point to point vs.“broadcast”
+    + Wider broadcast than neuromodulators
+- Fast vs. slow-acting
+- Short-acting vs. long-acting
+- Digital (yes-no) vs. analog (graded) 
+- Voluntary control vs. involuntary
+
+## Similarities between neural and hormonal communication
+
+- Chemical messengers stored for later release 
+- Release follows stimulation
+- Action depends on specific receptors
+- 2nd messenger systems common
+
+## Where are hormones released
+
+<div class="centered">
+<img src="img/glands.jpg" height=450px>
+</div>
+
+## Where are hormones released?
+
+- CNS
+    + Hypothalamus
+    + *Pituitary*
+        * *Anterior*
+        * *Posterior*
+    + Pineal gland
+
+## Where are hormones released
+
+<div class="centered">
+<img src="img/glands.jpg" height=450px>
+</div>
+
+## Where are hormones released?
+
+- Rest of body
+    + *Thyroid*
+    +  *Adrenal (ad=adjacent, renal=kidney) gland*
+        * *Adrenal cortex*
+        * *Adrenal medulla*
+    + *Gonads* (testes/ovaries)
+
+## Two release systems 
+
+- Direct
+- Indirect
+
+## Direct hormone release into bloodstream
+
+- Hypothalamus (paraventricular, supraoptic nucleus) to
+- Posterior pituitary
+    + *Oxytocin*
+    + *Arginine Vasopressin (AVP, vasopressin)*
+        
+## Direct release {.smaller}
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/1807_The_Posterior_Pituitary_Complex.jpg/594px-1807_The_Posterior_Pituitary_Complex.jpg" height=450px>
+
+<https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/1807_The_Posterior_Pituitary_Complex.jpg/594px-1807_The_Posterior_Pituitary_Complex.jpg>
+</div>
+
+## Indirect release
+
+- Hypothalamus -> *releasing hormones* 
+- Anterior pituitary -> *tropic hormones*
+- End organs
+    
+## Indirect release
+
+<div class="centered">
+<img src="img/indirect-release.jpg" height=450px>
+</div>
+
+## Case studies
+
+## Case 1: Responses to threat or challenge
+
+- Neural response
+    + *Sympathetic Adrenal Medulla (SAM) response*
+    + Sympathetic NS activation of adrenal medulla, other organs
+    + Releases NE and Epi
+    
+[[@ulrich-lai_neural_2009]](http://doi.org/10.1038/nrn2647)
+
+----
+
+<div class="centered">
+<img src="http://www.nature.com/nrn/journal/v10/n6/images/nrn2647-i1.jpg" height=450px>
+</div>
+
+## Case 1: Responses to threat or challenge
+
+- Endocrine response
+    + *Hypothalamic Pituitary Adrenal (HPA) axis*
+    + Adrenal hormones released
+- Hypothalamus
+    + *Corticotropin Releasing Hormone (CRH)*
+- Anterior pituitary
+    + *Adrenocorticotropic hormone (ACTH)*
+    
+## Case 1: Responses to threat or challenge
+
+- Adrenal cortex
+    + *Glucocorticoids (e.g., cortisol)*
+    + *Mineralocorticoids (e.g. aldosterone)*
+    
+----
+
+<div class="centered">
+<img src="http://www.nature.com/nrn/journal/v10/n6/images/nrn2647-i1.jpg" height=450px>
+</div>
+
+## ￼Adrenal hormones
+
+- *Steroids*
+    + Derived from cholesterol
+- *Cortisol*
+    + increases blood glucose, anti-inflammatory effects
+    + negative consequences of prolonged exposure 
+- *Aldosterone*
+    + Regulates Na (and water)
+    
+## Case 2: Reproductive behavior -- the milk letdown reflex
+
+- Supraoptic & Paraventricular nucleus (PVN) of hypothalamus releases oxytocin 
+    - Into bloodstream via posterior pituitary (endocrine)
+    - Onto neurons in nucleus accumbens (neurocrine), amygdala, brainstem
+
+## Milk letdown reflex
+
+<div class="centered">
+<a href="https://my.bpcc.edu/content/blgy225/Endocrine/Prolactin.jpg">
+<img src="https://my.bpcc.edu/content/blgy225/Endocrine/Prolactin.jpg" height=450px>
+</a>
+</div>
+
+## Oxytocin's role
+
+- Sexual arousal
+- Released in bursts during orgasm
+- Stimulates uterine, vaginal contraction
+- Links to social interaction, bonding  [[@Weisman2013158]](http://dx.doi.org/10.1016/j.biopsych.2013.05.026)
+- Alters face processing in autism  [[@Domes2013164]](http://dx.doi.org/10.1016/j.biopsych.2013.02.007)
+- May inhibit fear/anxiety-related behaviors by gating amygdala [[@viviani2011oxytocin]](http://doi.org/10.1126/science.1201043)
+
+## Oxytocin
+
+<div class="centered">
+<a href="http://columbusfreepress.com/sites/default/files/keep-calm-and-release-oxytocin-2(1).png">
+<img src="http://columbusfreepress.com/sites/default/files/keep-calm-and-release-oxytocin-2(1).png" height=500px>
+</a>
+</div>
+
+## Melatonin
+
+- Diurnal rhythm
+- Night time peak, early morning low
+- Secretion suppressed by "blue" light (< 460-480 nm)
+- Rhythm irregular until ~3 mos post-natal [[@Ardura2003-tw]](http://dx.doi.org/68571)
+- Peak weakens, broadens with age
+
+---
+
+<div class="centered">
+<img src="https://www.researchgate.net/profile/Lorena_Fuentes-Broto/publication/44682252/figure/fig3/AS:289380242608141@1446005034271/Figure-2-The-neural-pathway-between-the-retina-and-the-pineal-gland-by-which-light.png" height=500px>
+</div>
+
+<div class="notes">
+SCN/pineal gland pathway.
+</div>
+
+## Melatonin circuitry
+
+- Suprachiasmatic nucleus of the hypothalamus
+- Paraventricular nucleus of the hypothalamus
+- Spinal cord
+- Superior cervical ganglion
+- Pineal gland
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fgJPnQCJ9eE" frameborder="0" allowfullscreen></iframe>
+
+## How to think about neurochemical influences
+
+- Measure hormones in blood, saliva; can't effectively measure NTs
+- Multivariate, nonlinear, mutually interacting
+- Varied time scales
+    - Phasic (e.g., cortisol in response to challenge)
+    - Periodic (e.g., melatonin; diurnal cortisol)
+    
+## How to think about neurochemical influences
+
+- Peripheral effects + neural feedback
+- State variables and behavior
+    - Are your participants sleepy, hungry, horny, distressed...
+    - Endogenous & exogenous influences
+    
+---
+
+<div class="centered">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0166223616301138-gr1.jpg" height=500px/>
+
+Sarkar, A., et al. (2016). *Trends in Neurosciences*, *39*(11), 763–781.
+</div>
+
+## Next time...
+
+- How the human brain got this way...
+
+## References {.smaller}

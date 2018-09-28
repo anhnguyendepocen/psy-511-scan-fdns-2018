@@ -57,7 +57,7 @@ output:
 <img height="450" alt="SynapseSchematic en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SynapseSchematic_en.svg/512px-SynapseSchematic_en.svg.png"/></a>
 </div>
 
-## Excocytosis {.smaller}
+## Exocytosis {.smaller}
 
 <div class="centered">
 <img src="http://www.nature.com/nrn/journal/v12/n3/images/nrn2948-f1.jpg" height=450px>
@@ -408,10 +408,11 @@ Remember [Cl-out]>>[Cl-in]
 </div>
 
 ## Histamine
-- Released by hypothalamus, project to whole brain
-- Metabotropic receptors
+
+- Released by hypothalamus, projects to whole brain
+- $H_1$-$H_4$ Metabotropic receptors, one ionotropic type in thal/hypothal
 - Role in arousal/sleep regulation
-- In body, part of immune response
+- In body, part of immune/inflammatory response
 
 ## Targets of psychotropic drugs
 
