@@ -33,27 +33,11 @@ output:
     
 ## Behaviors under hormonal influence
 
-<div class="centered">
-<a href="http://www.thesingularkitchen.com/blog/wp-content/uploads/2013/06/apple2.jpg">
-<img src="http://www.thesingularkitchen.com/blog/wp-content/uploads/2013/06/apple2.jpg" height=450px>
-</a>
-</div>
-
-## Behaviors under hormonal influence
-
 - Ingestive (eating/ drinking)
     + ￼Fluid levels
     + Na, K, Ca levels 
     + Digestion
     + Blood glucose levels
-    
-## Behaviors under hormonal influence
-
-<div class="centered">
-<a href="https://bioweb.uwlax.edu/bio210/s2012/helming_step/SnailReproduction2.jpg">
-<img src="https://bioweb.uwlax.edu/bio210/s2012/helming_step/SnailReproduction2.jpg" height=450px>
-</a>
-</div>
 
 ## Behaviors under hormonal influence
 
@@ -62,14 +46,6 @@ output:
     + Mating
     + Birth
     + Care giving
-    
-## Behaviors under hormonal influence
-
-<div class="centered">
-<a href="http://www.howitworksdaily.com/wp-content/uploads/2012/07/dreamstime_s_14557293.jpg">
-<img src="http://www.howitworksdaily.com/wp-content/uploads/2012/07/dreamstime_s_14557293.jpg" height=450px>
-</a>
-</div>
 
 ## Behaviors under hormonal influence
 
@@ -239,8 +215,8 @@ output:
 ## Milk letdown reflex
 
 <div class="centered">
-<a href="https://my.bpcc.edu/content/blgy225/Endocrine/Prolactin.jpg">
-<img src="https://my.bpcc.edu/content/blgy225/Endocrine/Prolactin.jpg" height=450px>
+<a href="http://physiologyplus.com/wp-content/uploads/2017/05/milk-ejection-reflex.png">
+<img src="http://physiologyplus.com/wp-content/uploads/2017/05/milk-ejection-reflex.png" height=450px>
 </a>
 </div>
 
@@ -272,7 +248,7 @@ output:
 ---
 
 <div class="centered">
-<img src="https://www.researchgate.net/profile/Lorena_Fuentes-Broto/publication/44682252/figure/fig3/AS:289380242608141@1446005034271/Figure-2-The-neural-pathway-between-the-retina-and-the-pineal-gland-by-which-light.png" height=500px>
+<img src="http://thebrain.mcgill.ca/flash/a/a_11/a_11_cr/a_11_cr_hor/a_11_cr_hor_1a.jpg" height=500px>
 </div>
 
 <div class="notes">

@@ -139,7 +139,7 @@ title: "Schedule"
     + Rakic, P. (2009). Evolution of the neocortex: a perspective from developmental biology. Nature Reviews Neuroscience, 10(10), 724–735. Retrieved October 5, 2015, from <http://www.nature.com/nrn/journal/v10/n10/abs/nrn2719.html>.
     + Cao, M., Huang, H., & He, Y. (2017). Developmental connectomics from infancy through early childhood. *Trends in Neurosciences*, *40*(8), 494–506. Retrieved from <http://dx.doi.org/10.1016/j.tins.2017.06.003>
 - Materials
-    + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides](lectures/511-2018-10-03-evo-devo.html)
 
 ### Fri, Oct 5
 
@@ -152,14 +152,14 @@ title: "Schedule"
 ### Wed, Oct 10
 
 - Topics
-    + Perception. Read BW 8:229-264.
+    + Brain development.
 - Materials
     + Lecture notes | [HTML slides]()
 
 ### Fri, Oct 12
 
 - Topics
-    + Perception. Read BW 8:223-247.
+    + Perception. Read BW 8:223-264.
 - Reading
     + Murray, M. M., Lewkowicz, D. J., Amedi, A., & Wallace, M. T. (2016). Multisensory Processes: A Balancing Act across the Lifespan. *Trends in Neurosciences*, *39*(8), 567–579. Retrieved July 28, 2016, from http://www.sciencedirect.com/science/article/pii/S0166223616300480
 - Materials

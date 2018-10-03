@@ -383,6 +383,14 @@ Remember [Cl-out]>>[Cl-in]
 <https://www.dartmouth.edu/~rswenson/NeuroSci/figures/Figure_9_files/image002.jpg>
 </div>
 
+## Separate cortical, subcortical 5-HT projection pathways?
+
+<div class="centered">
+<img src="https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2018/anewmapofthe.jpg" height=450px/>
+
+[[@Ren2018-zl]](http://dx.doi.org/10.1016/j.cell.2018.07.043)
+</div>
+
 ## 5-HT receptors
 
 - Seven families (5-HT 1-7) with 14 types

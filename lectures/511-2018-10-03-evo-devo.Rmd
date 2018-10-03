@@ -1,0 +1,355 @@
+---
+title: "511-2018-10-03-evo-devo"
+author: "Rick Gilmore"
+bibliography: bib/bibliography.bib
+csl: bib/apa.csl
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+## Prelude
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6y1o6woVaY" frameborder="0" allowfullscreen></iframe>
+
+<div class="notes">
+Gentle Arms of Eden.
+</div>
+
+## Prelude
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/QMshTTIp7SA" frameborder="0" allowfullscreen></iframe>
+
+## Today's Topics
+
+- **No class** on Friday.
+- Wrap-up on [hormonal communication](511-2018-09-28-hormones.html#29)
+- The evolution and development of the nervous system
+
+## Which of these hormones is released directly into the bloodstream by the brain?
+
+- Oxytocin
+- Vasopressin
+- Cortisol
+- Adrenocorticotropic hormone
+
+## Which of these hormones is released directly into the bloodstream by the brain?
+
+- **Oxytocin**
+- **Vasopressin**
+- Cortisol
+- **Adrenocorticotropic hormone**
+
+## *Where* are they released?
+
+- Oxytocin (anterior pituitary/posterior pituitary)
+- Vasopressin (anterior pituitary/posterior pituitary)
+- Adrenocorticotropic hormone (anterior pituitary/posterior pituitary)
+
+## *Where* are they released?
+
+- Oxytocin (anterior pituitary/**posterior pituitary**)
+- Vasopressin (anterior pituitary/**posterior pituitary**)
+- Adrenocorticotropic hormone (**anterior pituitary**/posterior pituitary)
+
+## Public acceptance of evolution
+
+<div class="centered">
+<img src="https://www.sciencemag.org/content/313/5788/765/F1.medium.gif" height=450px>
+
+[[@miller2006public]](http://dx.doi.org/10.1126/science.1126746)
+</div>
+
+## Types of evidence
+
+- Fossil
+    + Fossil dating
+- Geological
+    + Where fossils are found relative to one another
+    + How long it takes to form layers
+- Genetic
+    + Rates of mutation
+- Anatomical
+
+## Dobzhansky
+
+**Nothing in Biology Makes Sense Except in the Light of Evolution**
+
+> *"Seen in the light of evolution, biology is, perhaps, intellectually the most satisfying and inspiring science. Without that light, it becomes a pile of sundry facts some of them interesting or curious, but making no meaningful picture as a whole."*
+    
+[[@Dobzhansky1973]](http://dx.doi.org/10.2307/4444260)
+
+## Why is the theory so controversial (in the U.S.)?
+
+## Why Gilmore thinks it's controversial (in the U.S.)
+
+- Contradicts verbatim/non-metaphorical reading of some religious texts
+- Makes humans seem less special
+- Time scales involved beyond human experience
+- Scientific method vs. other ways of knowing
+- Found in nature ≠ good for human society
+
+## Why Gilmore thinks it's controversial (in the U.S.)
+
+- Few negative consequences of 'disbelief'
+- U.S. culture individualistic, skeptical, anti-elitist/anti-intellectual
+- Lower levels of religious belief among [U.S. scientists](http://news.rice.edu/2015/12/03/first-worldwide-survey-of-religion-and-science-no-not-all-scientists-are-atheists/)
+- [Politics](http://www.people-press.org/2009/07/09/section-4-scientists-politics-and-religion/)
+- A minority of citizens support teaching [evolution-only](http://www.pbs.org/wgbh/nova/blogs/education/2015/12/evolutionschools/) 
+- Majority of classroom teachers aren't [strong advocates](https://www.sciencedaily.com/releases/2011/01/110127141657.htm)
+
+## Ontogenesis and phylogenesis
+
+- *Ontogenesis*
+    + Development within lifetimes, history of individuals
+- *Phylogenesis*
+    + Change across lifestimes, history of species
+
+## Ontogeny does not recapitulate phylogeny ([Haeckel](https://en.wikipedia.org/wiki/Ernst_Haeckel)), but...
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Haeckel_drawings.jpg/350px-Haeckel_drawings.jpg" height=450px>
+
+<https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Haeckel_drawings.jpg/350px-Haeckel_drawings.jpg>
+</div>
+
+## Complex multicellular life emerged "recently"
+
+<div class="centered">
+<img src="http://www.zo.utexas.edu/faculty/sjasper/images/26.2.gif" height=450px>
+
+<http://www.zo.utexas.edu/faculty/sjasper/images/26.2.gif>
+</div>
+
+## Time scales {.smaller}
+
+<div class="centered">
+<img src="http://www.indiana.edu/~geol105b/images/gaia_chapter_6/time_scale.gif" height=450px>
+
+<http://www.indiana.edu/~geol105b/images/gaia_chapter_6/time_scale.gif>
+</div>
+
+## Nervous system architectures
+
+<div class="centered">
+<img src="https://media.nature.com/lw926/nature-assets/nrn/journal/v17/n1/images/nrn.2015.15-f1.jpg" height=500px>
+</div>
+
+## An animal with a nerve "net"
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/-UI531GMRTM" frameborder="0" allowfullscreen></iframe>
+
+## How nervous systems differ
+
+- Body symmetry
+    + radial
+    + bilateral
+- Segmentation
+- Cephalization (concentration of sensory & neural structures in anterior portion of body)
+- Encasement in bone (vertebrates)
+- Centralized vs. distributed function
+
+## Cephalopods have "intelligent arms"
+
+<iframe width="700" height="400" src="http://www.sciencedirect.com/science/article/pii/S0022098113000683" frameborder="0" allowfullscreen></iframe>
+
+## Biological imperatives
+
+- Ingestion
+- Defense
+- Reproduction
+
+## Information processing schematic
+
+<div class="centered">
+<img src="img/swanson-fig-7.5.jpg" height=450px>
+</div>
+
+## Information processing universals
+
+- Sense/detect
+    + Sensors
+- Analyze, evaluate, decide
+- Act
+    + Effectors
+    + e.g., approach/avoid, manipulate, ingest, signal
+
+## Sensors
+
+- Specialize by information source/type
+- Specialize by target location
+    + Interoceptive
+    + Exteroceptive
+    
+## Analysis, evaluation, decision
+
+- Current state
+    + World
+    + Organism
+- Current goals
+- Past state(s)
+
+## Effectors
+
+- Move body
+- Send signals
+- Change physiological state
+
+## From nerve net to nerve ring, nerve cord and brain — evolution of the nervous system 
+[[@arendt_nerve_2016]](http://doi.org/10.1038/nrn.2015.15)
+
+## [[@arendt_nerve_2016]](http://doi.org/10.1038/nrn.2015.15)
+
+<div class="centered">
+<img src="img/nrn.2015.15-f1.jpg" height=500px>
+</div>
+
+## [[@arendt_nerve_2016]](http://doi.org/10.1038/nrn.2015.15)
+
+<div class="centered">
+<img src="img/nrn.2015.15-f2.jpg" height=500px>
+</div>
+
+## Take homes
+
+- Neurons and nervous systems 520-570 M years old
+- Similarities at molecular level in how diverse nervous systems develop
+
+## Similarities in overall vertebrate CNS organization
+
+<div class="centered">
+<img src="http://www.bio.miami.edu/dana/pix/vertebrate_brains.jpg" height=450px>
+</div>
+
+---
+
+<div class="centered">
+<img src="img/northcutt-2002-f1.gif"/>
+
+[[@Northcutt2002-jg]](http://doi.org/10.1093/icb/42.4.743)
+</div>
+
+## Variation in overall brain mass/body mass
+
+<div class="centered">
+<a href="http://neurosciencelibrary.org/evolution/paleo/images/BrnBodwt6.jpg">
+<img src="http://neurosciencelibrary.org/evolution/paleo/images/BrnBodwt6.jpg" height=500px>
+</a>
+</div>
+
+---
+
+<div class="centered">
+<img src="img/northcutt-2002-f2.gif"/>
+
+[[@Northcutt2002-jg]](http://doi.org/10.1093/icb/42.4.743)
+</div>
+
+## Evolutionary trends in cortical size
+
+<div class="centered">
+<img src="http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g001.jpg" height=450px>
+
+[@hofman_evolution_2014]
+</div>
+
+## Evolutionary trends in cortical size
+
+| Structural measure | Non-human comparison | Human |
+|--------------------|----------------------|-------|
+| Cortical gray matter %/tot brain vol | insectivores 25% | 50% |
+| Cortical gray + white | mice 40% | 80% |
+| Cerebellar mass | primates, mammals 10-15% | 10-15% |
+
+## Evolutionary trends in cortical size
+
+<div class="centered">
+<img src="http://www.nature.com/nrn/journal/v10/n10/images/nrn2719-f1.jpg" width=450px>
+
+[[@rakic2009evolution]](http://dx.doi.org/10.1038/nrn2719)
+</div>
+
+## Evolutionary trends in primate brain size
+
+<div class="centered">
+<img src="http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g002.jpg" width=900px>
+
+[[@hofman_evolution_2014]](http://journal.frontiersin.org/article/10.3389/fnana.2014.00015/full)
+</div>
+
+## Take homes
+
+- Brain sizes scale with body size
+- Brain sizes scale with animal class (more or less)
+
+## Old story
+
+- Within mammals, human brains bigger than expected
+    - Higher encephalization quotient
+- Humans have larger cerebral cortical gray + white matter than comparable mammals
+
+## New story
+
+- Does brain size/mass matter (that much)?
+- "Size matters" (brain mass) presumes similarity among brains at micro-level
+- Big (large mass) brains arise in multiple animal lineages
+
+---
+
+<div class="centered">
+<a href="http://www.pnas.org/content/109/Supplement_1/10661/F1.expansion.html">
+<img src="http://www.pnas.org/content/109/Supplement_1/10661/F1.large.jpg" height=500px>
+</a>
+</div>
+
+## New story
+
+- *# of cortical neurons* more important difference than brain mass
+- The primate advantage -> more cortical neurons, but not larger neurons
+- Human brain just scaled up (non-ape) primate brain
+
+---
+
+<div class="centered">
+<a href="http://www.pnas.org/content/109/Supplement_1/10661/F3.expansion.html">
+<img src="http://www.pnas.org/content/109/Supplement_1/10661/F3.large.jpg" height=550px>
+</a>
+</div>
+
+## # of cortical (or in birds, pallidum) neurons predicts "cognition"? {.smaller}
+
+<div class="centered">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S2352154616302637-gr3_lrg.jpg" width=900px>
+
+[[@Herculano-Houzel2017-gf]](http://doi.org/10.1016/j.cobeha.2017.02.004)
+</div>
+
+## The Human Advantage [@Herculano-Houzel2016-oy]
+
+- More neurons in cerebral cortex than other animals, but not disproportionately so
+- Less time spent foraging
+    + Higher quality/more energetically dense food
+    + Higher food availability
+    + Cultural factors (agriculture + cooking)
+    + See also [@Wrangham2009-vq]
+    
+## A further human advantage
+
+<div class="centered">
+<img src="http://www.melvinkonner.com/wp-content/uploads/2009/02/eofccover-195x293.jpg" height=450px>
+</div>
+
+<div class="notes">
+And finally, humans have an extended childhood during which those neurons are filled with vital cultural knowledge.
+</div>
+
+## Next time...
+
+- Wrap-up on brain development
+
+## References {.smaller}
