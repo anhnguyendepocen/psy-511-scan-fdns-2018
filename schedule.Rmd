@@ -154,7 +154,7 @@ title: "Schedule"
 - Topics
     + Brain development.
 - Materials
-    + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides](lectures/511-2018-10-10-evo-devo-II.html) | [PDF](lectures/511-2018-10-10-evo-devo-II.pdf)
 
 ### Fri, Oct 12
 

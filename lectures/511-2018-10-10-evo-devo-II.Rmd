@@ -15,6 +15,7 @@ output:
 
 ## Today's Topics
 
+- Wrap-up on [evolution](https://psu-psychology.github.io/psy-511-scan-fdns-2018/lectures/511-2018-10-03-evo-devo.html#42)
 - The development of the nervous system
 
 # Prenatal brain development
