@@ -3,9 +3,12 @@ title: "511-2018-10-12-perception"
 author: "Rick Gilmore"
 date: "`r Sys.time()`"
 bibliography: bib/bibliography.bib
+csl: bib/apa.csl
+css: css/ioslides.css
 output:
   ioslides_presentation:
-    css: css/ioslides.css
+    self_contained: false
+    lib_dir: libs
     widescreen: true
     incremental: false
     transition: default
