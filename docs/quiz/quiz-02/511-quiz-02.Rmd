@@ -1,0 +1,60 @@
+---
+title: "Quiz-02"
+author: "PSY 511•2018•Gilmore"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Instructions
+
+Take up to 45 minutes to answer the questions in the spaces provided on the question sheets. You *may* use your textbook or other online sources to answer these questions. If you run out of room for an answer, continue on the back of the page. 
+Circle the correct answer or answers to multiple choice/fill-in questions. 
+The quiz is due **Friday, October 256, 2018**, by the start of class.
+
+## Main
+
+**1. Describe the concentration and electrostatic gradients that act on K+ in the neuron at rest.**
+
+**2. Describe the concentration and electrostatic gradients that act on Na+ in the neuron at rest.**
+
+**3. What event(s) triggers the \emph{rising phase} of the action potential?**
+
+**4. The movement of which ion causes the *falling phase* of the action potential?  Which direction does this ion move during the falling phase?**
+
+**5. Briefly describe the roles of glutamate and GABA in the CNS.**
+
+**6. All of the following monoamine neurotransmitters are released from nuclei located in the midbrain and brainstem, except ????.**
+a. Dopamine
+b. Norepinephrine
+c. Histamine
+d. Serotonin
+
+**7. With the exception of a single serotonin receptor type, all of the monoamines bind to a/an ???? receptor.**
+
+a. metabotropic
+b. ionotropic
+c. voltage-gated
+d. presynaptic
+
+**8. What part of the human brain is relatively large in comparison to other mammals? Which part of the brain (hint: it's adjacent to the 4th ventricle) is largely constant in relative size across mammals? What feature of the human brain is now thought to be distinctive, relative to other animals?**
+
+**9. Describe one of the phases of human brain development that ends before birth and a second that continues well after birth.**
+
+**10. Why does Gilmore say that acetylcholine is the neurotransmitter of CNS output?**
+
+**11. Why does Gilmore say the retina is physiologically backwards and anatomically inside-out?**
+
+**12. Why can't we see a reddish-green?**
+
+## Bonus
+
+**13. Which sensory systems use information derived from comparing signals from two spatially separate sensors?**
+
+**14. Benzodiazepines like Valium bind to a site on which neurotransmitter receptor? Do they serve as agonists, facilitating normal transmission, or antagonists, impeding it?**
+
+**15. The cells lining the cerebral ventricles and central canal of the spinal cord may be critical to the development of treatments for neurodegenerative diseases. Why?**
+
+
