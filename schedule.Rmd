@@ -195,11 +195,11 @@ title: "Schedule"
 ### Wed, Oct 24
 
 - Topics
-    + Language. Read BW 17, 18, 19.
+    + Cognition & language. Read BW 17, 18, 19.
 - Reading
     + Hagoort, P., & Indefrey, P. (2014). The neurobiology of language beyond single words. *Annual Review of Neuroscience*, *37*, 347–362. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-071013-013847>.
 - Materials
-    + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides](lectures/511-2018-10-24-cognition-language.html) | [PDF slides](lectures/511-2018-10-24-cognition-language.pdf)
 
 ### Fri, Oct 26
 
@@ -208,7 +208,7 @@ title: "Schedule"
 - Reading
     + Squire, L. R., & Wixted, J. T. (2011). The cognitive neuroscience of human memory since H.M. *Annual Review of Neuroscience*, *34*, 259–288. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-061010-113720>.
 - Materials
-    + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides]() | [PDF slides]()
 
 ---
 

@@ -1,0 +1,402 @@
+---
+title: "511-2018-10-24-cognition-language"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+bibliography: bib/bibliography.bib
+csl: bib/apa.csl
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+## Today's Topics
+
+- Cognition
+
+## The emergence of behavior
+
+## Cambrian Explosion
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qNtQwUO9ff8" frameborder="0" allowfullscreen></iframe>
+
+## What sparked the explosion? [[@fox_what_2016]](http://doi.org/10.1038/530268a)
+
+- Behavior requires energy
+- Behavior requires perception at a distance
+- Behavior requires action
+- Actions require
+    - Problem solving, (sequence) planning
+    - Current + stored information (memory)
+
+## What behaviors are essential for animals to perform?
+
+- Ingestion
+- Defense
+- Reproduction
+
+## What behaviors are essential for animals to perform
+
+- Perception at a distance
+- Locomotion
+- Object manipulation/consumption
+- Signaling/communication
+
+## How is the nervous system organized to contribute to these behaviors?
+
+<div class="centered">
+<a href="http://larrywswanson.com/wp-content/uploads/2015/06/Willis-on-Steno-circuit.jpg"><img src="http://larrywswanson.com/wp-content/uploads/2015/06/Willis-on-Steno-circuit.jpg" height=450px>
+</a>
+</div>
+
+## Cajal
+
+<div class="centered">
+<a href="http://larrywswanson.com/wp-content/uploads/2015/06/Cajal-1893-Reflex.jpg"><img src="http://larrywswanson.com/wp-content/uploads/2015/06/Cajal-1893-Reflex.jpg" height=550px>
+</a>
+</div>
+
+## Swanson/Cajal four systems
+
+<div class="centered">
+<a href="http://larrywswanson.com/wp-content/uploads/2015/06/4-systems-network.jpg"><img src="http://larrywswanson.com/wp-content/uploads/2015/06/4-systems-network.jpg" width=850px>
+</a>
+</div>
+
+## Hierarchy of control {.smaller}
+
+<div class="centered">
+<img src="img/swanson-2005-fig-1.jpg" height=450px>
+
+[[@swanson2005anatomy]](http://dx.doi.org10.1002/cne.20733)
+</div>
+
+## Functional segregation {.smaller}
+
+<div class="centered">
+<img src="img/swanson-2005-fig-8.jpg" height=450px>
+
+[[@swanson2005anatomy]](http://dx.doi.org10.1002/cne.20733)
+</div>
+
+## Do what, where, how? {.smaller}
+
+<div class="centered">
+<img src="img/swanson-book-eye-limb.jpg" height=450px>
+
+[[@swanson2012brain]](https://books.google.com/books?hl=en&lr=&id=tAk8Rr00kykC&oi=fnd&pg=PP2&dq=larry+swanson+book&ots=5F7nEnts45&sig=DJLKh5BF_8aVqpOdK28Qmh1wr5Q#v=onepage&q=larry%20swanson%20book&f=false)
+</div>
+
+## Facets of cognition
+
+- Perception
+- Attention
+- Imagery
+
+## Facets of cognition
+
+- Learning and conditioning
+- Memory
+    + Episodic (events)
+    + Semantic (facts, things, entities)
+    + Procedural (actions)
+- Language
+- Problem-solving
+
+## Cognition and the cerebral cortex {.smaller}
+
+<div class="centered">
+<img src="img/swanson-book-rat-human-cortex.jpg" height=500px>
+
+[[@swanson2012brain]](https://books.google.com/books?hl=en&lr=&id=tAk8Rr00kykC&oi=fnd&pg=PP2&dq=larry+swanson+book&ots=5F7nEnts45&sig=DJLKh5BF_8aVqpOdK28Qmh1wr5Q#v=onepage&q=larry%20swanson%20book&f=false)
+</div>
+
+## Cortical schema
+
+- Areas
+    + Unimodal sensory
+    + Polymodal association
+    + Motor
+- Connections
+    + Association
+    + Commissural
+
+## Cortical areas [[@swanson2012brain]](https://books.google.com/books?hl=en&lr=&id=tAk8Rr00kykC&oi=fnd&pg=PP2&dq=larry+swanson+book&ots=5F7nEnts45&sig=DJLKh5BF_8aVqpOdK28Qmh1wr5Q#v=onepage&q=larry%20swanson%20book&f=false) {.smaller}
+    
+<div class="centered">
+<img src="img/swanson-book-fig-10.5.jpg" height=550px>
+</div>
+
+## Cortical schema
+
+- Columnar structure
+- Cytoarchitectonic differerences (e.g. Brodmann)
+
+## Cortical columns {.smaller}
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Cajal_cortex_drawings.png/518px-Cajal_cortex_drawings.png" height=450px>
+
+<https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Cajal_cortex_drawings.png/518px-Cajal_cortex_drawings.png>
+</div>
+
+## Cortical layers {.smaller}
+
+<div class="centered">
+<img src="img/layerscortex.jpg" height=450px>
+
+<http://s27.photobucket.com/user/caiomaximino/media/layerscortex.jpg.html>
+</div>
+
+## Cortical connections by layer
+
+| Layer | Connection type | Comments |
+|-------|-----------------|----------|
+| I     |                 | Few cell bodies         |
+| II    | Efferent  | Ipsilateral association via large pyramidal cells |
+| III   | Efferent        | Contralateral commissural |
+| IV    | Afferent        | from thalamus; small stellate & granual cells; V1 has sublayers |
+| V     | Efferent        | Superficial -> Basal ganglia; Deep -> brainstem, spinal cord; pyramidal cells |
+| VI    | Efferent        | Thalamus |
+    
+## Cortical circuit schematic {.smaller}
+
+<div class="centered">
+<img src="img/swanson-book-fig-10.12.jpg" height=500px>
+
+[[@swanson2012brain]](https://books.google.com/books?hl=en&lr=&id=tAk8Rr00kykC&oi=fnd&pg=PP2&dq=larry+swanson+book&ots=5F7nEnts45&sig=DJLKh5BF_8aVqpOdK28Qmh1wr5Q#v=onepage&q=larry%20swanson%20book&f=false)
+</div>
+
+## Behavioral control column {.smaller}
+
+<div class="centered">
+<img src="img/swanson-2005-fig-3.jpg" height=500px>
+
+[[@swanson2005anatomy]](http://dx.doi.org10.1002/cne.20733)
+</div>
+
+## Behavioral control column {.smaller}
+
+<div class="centered">
+<img src="img/swanson-2005-fig-x.jpg" height=500px>
+
+[[@swanson2005anatomy]](http://dx.doi.org10.1002/cne.20733)
+</div>
+
+## Behavioral control column {.smaller}
+
+<div class="centered">
+<img src="img/swanson-2005-fig-y.jpg" height=500px>
+
+[[@swanson2005anatomy]](http://dx.doi.org10.1002/cne.20733)
+</div>
+
+## Behavioral control column {.smaller}
+
+<div class="centered">
+<img src="img/swanson-2005-fig-z.jpg" height=500px>
+
+[[@swanson2005anatomy]](http://dx.doi.org10.1002/cne.20733)
+</div>
+
+## Behavioral control column {.smaller}
+
+<div class="centered">
+<img src="img/swanson-2005-fig-a.jpg" height=500px>
+
+[[@swanson2005anatomy]](http://dx.doi.org10.1002/cne.20733)
+</div>
+
+## Processing networks
+
+<div class="centered">
+
+>"*Although it has long been assumed that cognitive functions are attributable to the isolated operations of single brain areas, we demonstrate that the weight of evidence has now shifted in support of the view that <span class="blue">cognition results from the dynamic interactions of distributed brain areas operating in large-scale networks</span>....*"
+
+[[@bressler2010large]](http://dx.doi.org/10.1016/j.tics.2010.04.004)
+</div>
+
+## [[@bressler2010large]](http://dx.doi.org/10.1016/j.tics.2010.04.004) 
+
+<div class="centered">
+<img src="img/bressler-2010-fig-a.jpg" height=550px>
+</div>
+
+## [[@bressler2010large]](http://dx.doi.org/10.1016/j.tics.2010.04.004) 
+
+<div class="centered">
+<img src="img/bressler-2010-fig-2.jpg" width=900px>
+</div>
+
+## [[@bressler2010large]](http://dx.doi.org/10.1016/j.tics.2010.04.004) 
+
+<div class="centered">
+<img src="img/bressler-2010-fig-5.jpg" height=500px>
+</div>
+
+## [[@bressler2010large]](http://dx.doi.org/10.1016/j.tics.2010.04.004) 
+
+<div class="centered">
+<img src="img/bressler-2010-fig-6.jpg" width=950px>
+</div>
+
+## Summary
+
+- Cognition
+    + Do what, where, when, and how
+- The "cognitive" cortex
+- Processing networks
+    + Functional specialization
+    + Dynamic interaction
+
+# Language and the brain
+
+## Language behavior
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4X4Fy8YqysY?rel=0&amp;start=160" frameborder="0" allowfullscreen></iframe>
+
+## Language behavior
+
+- Productive
+    - Speaking (2-5 words/s), modulate prosody, often combined with gesture
+    - Writing, typing (.5-1.5 words/s)
+- Receptive
+    - Listening, responding (facial expressions, gestures, laughter, etc.)
+    - Reading (3-5 words/s)
+- How so fast? Time for feedback?
+
+## Hierarchical structure of language information
+
+- Phonetic
+    - |Ber| |wiTH| |mē|
+- Syntactic
+- Semantic
+
+---
+
+<div class="centered">
+<img src="https://cdn.someecards.com/someecards/usercards/MjAxMi03YjFmMjM5OTA1MmVhMzI2.png" height=250px>
+
+<img src="https://s3.amazonaws.com/contenthub-static/blog/wp-content/uploads/2017/02/BEAR-WITH-ME-.jpg" height=250px>
+</div>
+
+## Hierarchical structure of language information
+
+- Pragmatic
+    - "I beg your pardon?!"
+    - "Sure thing."
+    - "Aaaaaa!!!"
+
+## Wernicke-Geschwind (WG) model
+
+- Perception ≠ production
+
+---
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Wernickeges2.gif" height=550px>
+</div>
+
+## Wernicke-Geschwind model
+
+- Wernicke's area (Brodmann Area or BA 42)
+    - Adjacent to primary auditory cortex (A1; Heschl's gyrus; BA 41)
+    - Perception
+    - Receptive or 'fluent' aphasia
+
+---
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Brodmann_area_41_inside_lateral_sulcus.png" height=400px>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Human_temporal_lobe_areas.png/1024px-Human_temporal_lobe_areas.png" height=500px>
+</div>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dKTdMV6cOZw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+## Wernicke-Geschwind model
+
+- Broca's area
+    - Inferior frontal gyrus, pars opercularis (BA 44) & pars angularis (BA 45)     
+    - Production
+    - Expressive aphasia
+
+---
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Broca%E2%80%99s_area_-_BA44_and_BA45.png/1024px-Broca%E2%80%99s_area_-_BA44_and_BA45.png" height=500px>
+</div>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f2IiMEbMnPM" frameborder="0" allowfullscreen></iframe>
+
+## [[@Hickok2007-rc]](http://doi.org/10.1038/nrn2113)
+
+- Dual streams
+    - Ventral (speech signals -> semantics)
+    - Dorsal (speech signal acoustics -> articulatory networks in frontal lobe)
+
+---
+
+<div class="centered">
+<img src="img/hickock-poeppel-2007.jpg" height=500px>
+
+[[@Hickok2007-rc]](http://doi.org/10.1038/nrn2113)
+</div>
+
+## [[@Hagoort2014-au]](http://doi.org10.1146/annurev-neuro-071013-013847)
+
+<div class="centered">
+<img src="img/hagoort-indefrey-fig1a.jpg" width=900px>
+</div>
+
+---
+
+<div class="centered">
+<img src="img/hagoort-indefrey-fig1b.jpg" width=900px>
+
+[[@Hagoort2014-au]](http://doi.org10.1146/annurev-neuro-071013-013847)
+</div>
+
+---
+
+<div class="centered">
+<img src="img/hagoort-indefrey-fig1c.jpg" width=900px>
+
+[[@Hagoort2014-au]](http://doi.org10.1146/annurev-neuro-071013-013847)
+</div>
+
+## Summing up
+
+- WG model incomplete, simplistic
+- Rapid, fluent comprehension and production of language relies on
+    - Distributed temporal/frontal networks
+    - Efficient bottom-up and top-down processing
+    - Syntactic vs. semantic/articulatory processing
+
+---
+
+<div class="centered">
+<img src="img/hagoort-indefrey-fig2a.jpg" height=550px>
+
+<smaller>[[@Hagoort2014-au]](http://doi.org10.1146/annurev-neuro-071013-013847)</smaller>
+</div>
+
+## Next time...
+
+- Learning and memory
+    + Distributed systems
+    + Associative learning, NMDA receptors, and the hippocampus
+
+## References {.smaller}
