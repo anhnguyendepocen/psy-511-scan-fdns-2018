@@ -159,7 +159,7 @@ title: "Schedule"
 ### Fri, Oct 12
 
 - Topics
-    + Perception. Read BW 8:223-264.
+    + Perception. Read BW 8:230-241.
 - Reading
     + Murray, M. M., Lewkowicz, D. J., Amedi, A., & Wallace, M. T. (2016). Multisensory Processes: A Balancing Act across the Lifespan. *Trends in Neurosciences*, *39*(8), 567–579. Retrieved July 28, 2016, from http://www.sciencedirect.com/science/article/pii/S0166223616300480
 - Materials
@@ -172,7 +172,7 @@ title: "Schedule"
 ### Wed, Oct 17
 
 - Topics
-    + Perception and Action
+    + Perception and Action. Read BW 10: 301:335, 11: 341:368.
 - Reading
     + Nielsen, J. B. (2016). Human Spinal Motor Control. *Annual Review of Neuroscience*, *39*, 81–101. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-070815-013913>
 - Materials
@@ -195,7 +195,7 @@ title: "Schedule"
 ### Wed, Oct 24
 
 - Topics
-    + Cognition & language. Read BW 17, 18, 19.
+    + Cognition & language. Read BW 19.
 - Reading
     + Hagoort, P., & Indefrey, P. (2014). The neurobiology of language beyond single words. *Annual Review of Neuroscience*, *37*, 347–362. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-071013-013847>.
 - Materials
@@ -204,7 +204,7 @@ title: "Schedule"
 ### Fri, Oct 26
 
 - Topics
-    + Learning & memory
+    + Learning & memory. Read BW 17.
 - Reading
     + Squire, L. R., & Wixted, J. T. (2011). The cognitive neuroscience of human memory since H.M. *Annual Review of Neuroscience*, *34*, 259–288. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-061010-113720>.
 - Materials
@@ -227,7 +227,7 @@ title: "Schedule"
 ### Wed, Nov 2
 
 - Topics
-    + Fear, stress, & reward
+    + Fear, stress, & reward. Read BW 15.
 - Materials
     + Lecture notes | [HTML slides]()
 - Readings
