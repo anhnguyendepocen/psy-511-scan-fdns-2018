@@ -208,7 +208,7 @@ title: "Schedule"
 - Reading
     + Squire, L. R., & Wixted, J. T. (2011). The cognitive neuroscience of human memory since H.M. *Annual Review of Neuroscience*, *34*, 259–288. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-061010-113720>.
 - Materials
-    + Lecture notes | [HTML slides](511-2018-10-26-memory.html) | [PDF slides](511-2018-10-26-memory.pdf)
+    + Lecture notes | [HTML slides](lectures/511-2018-10-26-memory.html) | [PDF slides](lectures/511-2018-10-26-memory.pdf)
 
 ---
 
