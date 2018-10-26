@@ -377,6 +377,12 @@ output:
 [[@Hagoort2014-au]](http://doi.org10.1146/annurev-neuro-071013-013847)
 </div>
 
+---
+
+>"*A meta-analysis of numerous neuroimaging studies reveals a clear dorsal/ventral gradient in both left inferior frontal cortex and left posterior temporal cortex, with dorsal foci for syntactic processing and ventral foci for semantic processing. In addition...further networks need to be recruited to realize language-driven communication to its full extent.*"
+
+[[@Hagoort2014-au]](http://doi.org10.1146/annurev-neuro-071013-013847)
+
 ## Summing up
 
 - WG model incomplete, simplistic
