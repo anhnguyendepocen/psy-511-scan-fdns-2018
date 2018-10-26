@@ -386,6 +386,8 @@ output:
 ## Summing up
 
 - WG model incomplete, simplistic
+    - Broca's not just production; Wernicke's not just perception
+    - Beyond single words...
 - Rapid, fluent comprehension and production of language relies on
     - Distributed temporal/frontal networks
     - Efficient bottom-up and top-down processing
