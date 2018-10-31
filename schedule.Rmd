@@ -219,7 +219,7 @@ title: "Schedule"
 - Topic
     + Emotion. Read BW 15.
 - Materials
-    + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides](lectures/511-2018-10-31-emotion.html) | [PDF slides](lectures/511-2018-10-31-emotion.pdf)
 - Readings
         + Pellman, B. A., & Kim, J. J. (2016). What Can Ethobehavioral Studies Tell Us about the Brain’s Fear System? *Trends in Neurosciences*, *39*(6), 420–431. Retrieved from <http://dx.doi.org/10.1016/j.tins.2016.04.001>
         + Hu, H. (2016). Reward and Aversion. *Annual Review of Neuroscience*, *39*, 297–324. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-070815-014106>
@@ -246,7 +246,7 @@ title: "Schedule"
     + Hunt, M. J., Kopell, N. J., Traub, R. D., & Whittington, M. A. (2017). Aberrant Network Activity in Schizophrenia. *Trends in Neurosciences*, *40*(6), 371–382. Retrieved from <http://dx.doi.org/10.1016/j.tins.2017.04.003>
 - Materials
     + Lecture notes | [HTML slides]()
-    + Student presentation planning matrix. | [HTML slides](lectures/student-presentation-prep.html) |
+    + Student presentation planning matrix. | [HTML slides]() |
 
 ### Fri, Nov 9
 

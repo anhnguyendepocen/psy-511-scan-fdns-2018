@@ -1,0 +1,344 @@
+---
+title: "511-2018-10-31-emotion"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+bibliography: bib/bibliography.bib
+csl: bib/apa.csl
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+## Prelude
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WIDYqBMFzfg" frameborder="0" allowfullscreen></iframe>
+
+## Today's Topics
+
+- Wrap-up on [memory](https://psu-psychology.github.io/psy-511-scan-fdns-2018/lectures/511-2018-10-26-memory.html#44)
+- Biology of emotion
+
+## Biology of emotion
+
+- Components 
+- Functional purposes
+    - Distal causes
+    - Proximal causes
+- Dimensions and types
+- Measurement
+- Emotion == Cognition?
+    
+## Components of emotion
+
+- Physiological responses
+    - Autonomic
+    - Endocrine
+- Subjective feelings
+- Verbal responses
+- Facial expressions
+- Body movements
+
+## Distal causes
+    
+- Biological goals
+    + Ingestion, defense, reproduction, affiliation
+- Emotions serve biological goals
+    - Approach/avoid or appetitive/aversive [@Schneirla1959-hv]
+    - Preservative vs. protective functions [@Knorkski1967-fv]
+
+## Distal causes
+
+<div class="centered">
+<img src="https://images.gr-assets.com/books/1429139700l/24515.jpg" height=550px>
+</div>
+
+<!-- Darwin The Expression of Emotions in Man and Animals -->
+    
+## Proximal causes and effects
+
+<div class="centered">
+> "*Do we run from a bear because we are afraid or are we afraid because we run? William James posed this question more than a century ago, yet the notion that afferent visceral signals are essential for the unique experiences of distinct emotions remains a key unresolved question at the heart of emotional neuroscience.*"
+
+[[@Harrison2010-nx]](http://doi.org/10.1523/JNEUROSCI.1725-10.2010)
+</div>
+
+## Proximal causes and effects
+
+- [(William) James-(Carl) Lange](https://en.wikipedia.org/wiki/James%E2%80%93Lange_theory)
+    - Physiological response -> subjective feelings
+- [(Walter) Cannon-(Philip) Bard](https://en.wikipedia.org/wiki/Cannon%E2%80%93Bard_theory)
+    - Severing CNS (spinal cord & vagus, esp SNS) from rest of body leaves emotional expression unchanged
+    - Physiological states slow, don't *differentiate among emotions*
+    
+## Proximal causes and effects
+
+- (Stanley) Schacter-(Jerome) Singer's [Two-factor Theory](https://en.wikipedia.org/wiki/Two-factor_theory_of_emotion)
+    - Physiological arousal + cognitive appraisal -> emotional states
+
+## Dimensions
+
+- Valence
+    + Positive/negative
+- Intensity (arousal)
+- Action tendency
+    + Approach/avoid
+
+## Types [[@plutchik1980emotion]](img/plutchik-wheel-emotion.png) {.smaller}
+
+<div class="centered">
+<img src="http://puix.org/wp-content/uploads/plutchik-wheel-emotion.png" height=500px>
+</div>
+
+## Measurement
+
+- Autonomic Nervous System (ANS)
+- Endocrine
+- Brain activity
+- Facial expression
+- Subjective state
+
+## ANS measures of emotion
+
+- Heart rate or heart rate variability (HRV)
+- Galvanic skin response (GSR)
+- Skin temperature
+- Pupil dilation
+- Electro-gastrogram (EGG)
+
+## Measuring heart rate variability (HRV)
+
+- *Variability* in heart period (inter-beat interval, *IBI*)
+- *Respiratory sinus arrhythmia (RSA)*: variation in IBI due to respiratory inhalation/exhalation
+- Sympathetic (SNS) and parasympathetic (PSNS) inputs converge on sinoatrial (SA) node of the heart
+- *Vagal (Xth cranial) nerve* provides PSNS input
+- *Vagal tone*: inferred effects of vagal/parasympathetic modulation of RSA (more vagal tone = more RSA)
+
+## Illustration of HRV {.smaller}
+
+<div class="centered">
+<p><a href="https://commons.wikimedia.org/wiki/File:VivoSenseHR_vs_Vt.jpg#/media/File:VivoSenseHR_vs_Vt.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/VivoSenseHR_vs_Vt.jpg/1200px-VivoSenseHR_vs_Vt.jpg" alt="VivoSenseHR vs Vt.jpg" height=450px></a><br>By <a href="//commons.wikimedia.org/w/index.php?title=User:Vivonoetics&amp;action=edit&amp;redlink=1" class="new" title="User:Vivonoetics (page does not exist)">Vivonoetics</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=14732947">Link</a></p>
+</div>
+
+## HRV as a *psychological* measure
+
+- IBI controlled by SNS and PSNS
+- PSNS/vagal influences dominate @ rest, but are transient
+- RSA (normally) declines with age
+- Can measure SNS influence via [impedance cardiography](https://en.wikipedia.org/wiki/Impedance_cardiography)
+- HRV and impedance cardiography are *indirect* measures of PSNS & SNS
+
+## ANS modulation of the heart {.smaller}
+
+<div class="centered">
+<p><a href="https://commons.wikimedia.org/wiki/File:Neurovisceral_integration_model.png#/media/File:Neurovisceral_integration_model.png"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Neurovisceral_integration_model.png" alt="Neurovisceral integration model.png" height=450px></a><br>By Stevan Nikolin, Tjeerd W. Boonstra, Colleen K. Loo, Donel Martin - Nikolin S, Boonstra TW, Loo CK, Martin D (2017) Combined effect of prefrontal transcranial direct current stimulation and a working memory task on heart rate variability. PLoS ONE 12(8): e0181833. <a rel="nofollow" class="external free" href="https://doi.org/10.1371/journal.pone.0181833">https://doi.org/10.1371/journal.pone.0181833</a>, <a href="http://creativecommons.org/licenses/by/2.5" title="Creative Commons Attribution 2.5">CC BY 2.5</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=61549870">Link</a></p>
+</div>
+
+## Covariance among ANS measures {.smaller}
+
+<div class="centered">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0165183896001087-gr5.jpg" height=450px>
+
+[[@Collet1997-ln]](https://www.ncbi.nlm.nih.gov/pubmed/9021649)
+</div>
+
+---
+
+<div class="centered">
+>"*From the six ANS parameters studied, different autonomic patterns were identified, each characterizing one of the six basic emotion used as inducing signals. <span class="blue">No index alone, nor group of parameters (EDR and thermovascular for instance) were capable of distinguishing each emotion from another</span>. However, electrodermal, thermo-vascular and respiratory responses taken as a whole, redundantly separated each emotion thus demonstrating the specificity of autonomic patterns.*"
+
+[[@Collet1997-ln]](https://www.ncbi.nlm.nih.gov/pubmed/9021649)
+</div>
+
+## Biochemical measures
+
+- Catecholamines (norepinephrine, epinephrine)
+    - Released by adrenal medulla following sympathetic nervous system (SNS) stimulation
+    - **S**ympathetic **A**drenal **M**edullary axis
+    - Metabolites in urine or blood
+
+## Biochemical measures
+
+- Corticosteroids (e.g., hydrocortisone or cortisol)
+    - Released from adrenal cortex into bloodstream
+    - **H**ypothalamic **P**ituitary **A**drenal (HPA) axis
+    - Measured in blood, saliva, or hair
+    
+## Diurnal corisol patterns {.smaller}
+
+<div class="centered">
+
+<img src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3475279/bin/10.1177_2042018810380214-fig1.jpg" height=400>
+
+[[@Chan2010-xr]](http://dx.doi.org/10.1177/2042018810380214)
+</div>
+
+## Cortisol as *psychological* measure
+
+- Circadian periodicity
+- Peaks around meal times
+- Primary *physiological* role is modulating glucose & fat metabolism, anti-inflammatory
+
+## Do the measures cohere? {.smaller}
+
+<div class="centered">
+<img src="img/lang-93-fig01.jpg" height=480px>
+
+[[@Lang1993-mw]](https://www.ncbi.nlm.nih.gov/pubmed/8497555)
+</div>
+
+---
+
+<div class="centered">
+<img src="img/lang-93-fig02.jpg" height=480px>
+
+<small>[[@Lang1993-mw]](https://www.ncbi.nlm.nih.gov/pubmed/8497555)
+</div></small>
+
+
+<!-- ## Alternative self-report measures: Bodily maps of emotions -->
+
+<!-- <div class="centered"> -->
+<!-- <img src="http://www.pnas.org/content/111/2/646/F1.medium.gif" height=450px> -->
+
+<!-- [[@nummenmaa2014bodily]](http://dx.doi.org/10.1073/pnas.1321664111) -->
+<!-- </div> -->
+
+<!-- ## [[@nummenmaa2014bodily]](http://dx.doi.org/10.1073/pnas.1321664111) -->
+
+<!-- <div class="centered"> -->
+<!-- <img src="http://www.pnas.org/content/111/2/646/F2.medium.gif" height=450px> -->
+
+<!-- [[@nummenmaa2014bodily]](http://dx.doi.org/10.1073/pnas.1321664111) -->
+<!-- </div> -->
+
+<!-- ## [[@nummenmaa2014bodily]](http://dx.doi.org/10.1073/pnas.1321664111) -->
+
+<!-- >> *We propose that emotions are represented in the somatosensory system as culturally universal categorical somatotopic maps. Perception of these emotion-triggered bodily changes may play a key role in generating consciously felt emotions.* -->
+    
+## Are emotions 'natural kinds' distinguished by the brain?
+
+- Or are emotions "*...psychological events that emerge out of more basic psychological operations that are not specific to emotion.*" [[@Lindquist2012-jr]](http://doi.org/10.1017/S0140525X11000446)
+
+## 'Locationist' view {.smaller}
+
+<div class="centered">
+<img src="https://static.cambridge.org/resource/id/urn:cambridge.org:id:binary-alt:20170929032249-38505-optimisedImage-S0140525X11000446_fig1g.jpg" height=450px>
+    
+Fear: amygdala (yellow); Disgust: insula (green); Anger: OFC (rust); Sadness: ACC (blue). [[@Lindquist2012-jr]](http://doi.org/10.1017/S0140525X11000446)
+</div>
+
+## 'Constructionist' view {.smaller}
+
+<div class="centered">
+<img src="https://static.cambridge.org/resource/id/urn:cambridge.org:id:binary-alt:20170929032249-71362-optimisedImage-S0140525X11000446_fig2g.jpg" height=400px>
+
+Core Affect (pink): amygdala, insula, mOFC (Bas 10m, 11m, 13a, b, 14r, c), lOFC (BAs 47, 12, 13l, m, 11l), ACC (Bas, 32, 24, 25), thalamus, hypothalamus, bed nucleus of the stria terminalis, basal forebrain, PAG. Conceptualization (purple): VMPFC (Bas 11, 25, 32, 34), DMPFC (BAs 9, 10p), medial temporal lobe* (hippocampus, entorhinal cortex, parahippocampal cortex), posterior cingulate cortex/retrosplenial area (BA 23, 31). Language (green): VLPFC (Bas 44, 45, 46), anterior temporal lobe (BA 38); for additional regions, see Vigneau et al. (2006). Executive Attention (orange): DLPFC (BAs 9, 10, 46), VLPFC (BAs 44, 45, 46). [[@Lindquist2012-jr]](http://doi.org/10.1017/S0140525X11000446)
+</div>
+
+## Meta-analytic results {.smaller}
+
+<div class="centered">
+<img src="https://static.cambridge.org/resource/id/urn:cambridge.org:id:binary-alt:20170929032249-50643-optimisedImage-S0140525X11000446_fig6g.jpg" height=450px>
+
+[[@Lindquist2012-jr]](http://doi.org/10.1017/S0140525X11000446)
+</div>
+
+---
+
+<div class="centered">
+>"*James believed that emotions, thoughts, and memories are categories derived from commonsense with instances that do not require special brain centers. With respect to emotion, he wrote, “sensational, associational, and motor elements are all that [the brain] need contain” to produce the variety of mental states that correspond to our commonsense categories for emotion (cf. James 1890/1998, p. 473)...*"
+
+[[@Lindquist2012-jr]](http://doi.org/10.1017/S0140525X11000446)
+</div>
+
+---
+
+<div class="centered">
+"*James' view foreshadowed modern psychological constructionist models of the mind and the findings of our meta-analytic review, which are largely in agreement with this approach. Our findings are consistent with the idea that emotion categories are not natural kinds that are respected by the brain.*"
+
+[[@Lindquist2012-jr]](http://doi.org/10.1017/S0140525X11000446)
+</div>
+
+## Emotions as distributed activation states {.smaller}
+
+<div class="centered">
+<img src="http://journals.plos.org/plosbiology/article/figure/image?size=large&download=&id=10.1371/journal.pbio.2000106.g001" height=450px>
+
+[[@Kragel2016-pe]](http://doi.org/10.1371/journal.pbio.2000106)
+</div>
+
+## Emotions as distributed activation states {.smaller}
+
+<div class="centered">
+<img src="http://journals.plos.org/plosbiology/article/figure/image?size=large&download=&id=10.1371/journal.pbio.2000106.g002" height=450px>
+
+[[@Kragel2016-pe]](http://doi.org/10.1371/journal.pbio.2000106)
+</div>
+
+## Questions
+
+- Is emotional experience discrete/unidimensional?
+- Are physiological responses (ANS, endocrine, brain activity)?
+
+## Is emotion different from cognition? {.smaller}
+
+<div class="centered">
+<img src="img/swanson-fig-7.5.jpg" height=450px>
+
+[@swanson2012brain]
+</div>
+
+## Is emotion different from cognition? {.smaller}
+
+<div class="centered">
+<img src="img/pessoa-nrn.jpg" height=450px>
+
+[[@pessoa_relationship_2008]](http://dx.doi.org/10.1038/nrn2317)
+</div>
+
+## [[@pessoa_relationship_2008]](http://dx.doi.org/10.1038/nrn2317)
+
+<div class="centered">
+"*Here, I will argue that complex cognitive–emotional behaviours have their basis in dynamic coalitions of networks of brain areas, none of which should be conceptualized as specifically affective or cognitive. Central to cognitive–emotional interactions are brain areas with a high "degree of connectivity, called hubs, which are critical for regulating the flow and integration of information between regions.*"
+</div>
+
+## [[@Nummenmaa2018-yk]](http://dx.doi.org/10.1073/pnas.1807390115)
+
+<div class="centered">
+<a href="http://www.pnas.org/content/pnas/115/37/9198/F2.large.jpg"><img src="http://www.pnas.org/content/pnas/115/37/9198/F2.large.jpg" height=400px/></a>
+</div>
+
+---
+
+<div class="centered">
+<a href="http://www.pnas.org/content/pnas/115/37/9198/F3.large.jpg"><img src="http://www.pnas.org/content/pnas/115/37/9198/F3.large.jpg" height=600px/></a>
+
+[[@Nummenmaa2018-yk]](http://dx.doi.org/10.1073/pnas.1807390115)
+</div>
+
+---
+
+<div class="centered">
+>"*Our data provide a detailed map of the human feeling space, where subjective feelings were strongly coupled with bodily sensations, and nearly all subjective experiences were qualified by emotional tone. Subjective states were best described on a 2D map with five distinct feeling clusters. Representational similarity analysis revealed strong correspondence between the mental feeling space and the corresponding bodily sensations, basic dimensions of subjective experience, as well as similarity between neural and bodily sensation maps across different subjective feelings. Altogether these findings show that feeling states are categorical, emotional, and embodied.*"
+
+[[@Nummenmaa2018-yk]](http://dx.doi.org/10.1073/pnas.1807390115)</div>
+
+<!-- Scrolling final reference page -->
+<!-- http://stackoverflow.com/q/38260799 -->
+<style>
+slides > slide { overflow: scroll; }
+slides > slide:not(.nobackground):before {
+  background: none;
+  }
+slides > slide:not(.nobackground):after {
+  content: '';
+  background: none;
+  }
+}
+</style>
+## References {.smaller}
