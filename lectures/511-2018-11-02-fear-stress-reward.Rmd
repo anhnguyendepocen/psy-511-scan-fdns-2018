@@ -1,0 +1,321 @@
+---
+title: "511-2018-11-02-fear-stress-reward"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+bibliography: bib/bibliography.bib
+csl: bib/apa.csl
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+## Don't You Worry 'Bout a Thing
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/vJTxzsHsako" frameborder="0" allowfullscreen></iframe>
+
+## Today's topics
+
+- Fear
+- Stress
+- Reward
+
+## Animal model of learned 'fear' {.smaller}
+
+<div class="centered">
+<img src="img/ledoux-lab-fear_conditioning.jpg" height=450px>
+
+<http://www.cns.nyu.edu/labs/ledouxlab/images/image_research/fear_conditioning.jpg>
+</div>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZlZekx1P1g4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Rat vs. Human {.smaller}
+
+<div class="centered">
+<img src="img/davis-anxiety-rat-vs-human.jpg" height=450px>
+
+Adapted from [[@davis1992role]](http://dx.doi.org/10.1016/0165-6147(92)90014-W)
+</div>
+
+## Amygdala circuits {.smaller}
+
+<div class="centered">
+<img src="img/fear-conditioning-amygdala-nrn728-f2.gif" height=450px>
+
+[[@medina2002parallels]](http://dx.doi.org/10.1038/nrn728)
+</div>
+
+## Specificity of learning
+
+<div class="centered">
+<a href="https://doi.org/10.1016/j.tins.2016.04.001">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0166223616300017-gr1.jpg" height=450px>
+</a>
+</div>
+
+---
+
+- <span class="green">Light/sound + footshock OR X-ray + saccharin</span> vs
+- <span class="red">Light/sound + X-ray or footshock + saccharin</span>
+
+## Circuitry
+
+---
+
+<div class="centered">
+<a href="http://dx.doi.org/10.1016/j.bbr.2007.10.018">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0166432807005633-gr1.jpg" height=450px>
+</a>
+
+[[@Brandao2008-hw]](http://dx.doi.org/10.1016/j.bbr.2007.10.018)
+</div>
+
+---
+
+<div class="centered">
+<a href="https://doi.org/10.1016/j.tins.2016.04.001">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0166223616300017-gr2.jpg"/>
+</a>
+
+[[@Pellman2016-xu]](https://doi.org/10.1016/j.tins.2016.04.001)
+</div>
+
+---
+
+- BLA, basolateral complex of the amygdala
+- CEA, central nucleus of the amygdala
+- ITC, intercalated cells of the amygdala
+- PL, prelimbic cortex
+- IL, infralimbic cortex
+- HPC, hippocampus
+- Thal, thalamus
+- PAG, periaqueductal gray
+- PBN, parabrachial nucleus
+
+## Brain under stress 
+
+- **Acute** stress
+    + Short duration
+    + Fast action required
+    + HPA (Cortisol), SAM (NE/Epi) axes
+- Brain detects threat
+- Mobilizes physiological, behavioral responses
+
+## Brain under stress
+
+- vs. **Chronic** or stress
+    + Long duration, persistent
+    
+## Glucocorticoids
+
+- Adrenal cortex releases hormones
+    + Cortisol (hydrocortisone)
+        * Increases blood glucose levels
+        * Suppresses immune system
+        * Reduces inflammation
+        * Aids in metabolism
+    + Receptors in brain and body
+    
+---
+
+<div class="centered">
+<img src="https://www.cell.com/cms/attachment/2007960795/2030644348/gr4.jpg" height=550px/>
+
+<span class="smaller">[[@Kadmiel2013-zz]](10.1016/j.tips.2013.07.003)</smaller>
+</div>
+
+Glucorticoid receptors in body
+    
+## Cortisol and the brain {.smaller}
+
+<div class="centered">
+<img src="img/cortisol-molecular-brain.jpg" height=450px>
+
+<http://www.molecularbrain.com/content/figures/1756-6606-3-2-1-l.jpg>
+</div>
+
+## Impacts of acute stress {.smaller}
+
+<div class="centered">
+<a href="https://doi.org/10.1016/j.tins.2017.07.002">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617301364-gr1.jpg" height=450px>
+</a>
+
+[[@Musazzi2017-lr]](https://doi.org/10.1016/j.tins.2017.07.002)
+</div>
+
+## From cortisol to enhanced glutamate
+
+<div class="centered">
+<a href="https://doi.org/10.1016/j.tins.2017.07.002">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S0166223617301364-gr3.jpg" height=450px>
+</a>
+</div>
+
+---
+
+<div class="centered">
+<img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/8050/9780
+805073690.jpg" height=500px/>
+</div>
+
+# Pleasure/reward
+
+## Neuroanatomy of 'happiness' {.smaller}
+
+<div class="centered">
+<img src="img/kringelbach-2009-fig-2.jpg" width=700px>
+</div>
+
+[[@kringelbach2009towards]](http://dx.doi.org/10.1016/j.tics.2009.08.006)
+
+## Rewards
+
+- A *reward* reinforces (makes more prevalent/probable) some behavior
+- Milner and Olds [[@milner_discovery_1989]](http://doi.org/10.1016/S0149-7634(89)80013-2) discovered 'rewarding' power of electrical self-stimulation
+- [[@heath1963electrical]](http://doi.org/10.1176/ajp.120.6.571) studied effects in human patients.
+
+## Electrical self-stimulation
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/de_b7k9kQp0" frameborder="0" allowfullscreen></iframe>
+
+## "Reward" circuitry in the brain {.smaller}
+
+<div class="centered">
+<img src="img/nestler-fig-1.jpg" height=450px>
+
+[[@nestler2006mesolimbic]](http://dx.doi.org/10.1016/j.biopsych.2005.09.018)
+</div>
+
+## Components of the "reward" circuit
+
+- Lateral Hypothalamus (Hyp)
+- Medial forebrain bundle (MFB)
+- Ventral tegmental area (VTA) in midbrain
+- Nucleus accumbens (nAcc)
+- Dorsal Raphe Nucleus/Locus Coeruleus (DR/LC)
+
+## Components of the "reward" circuit
+
+- Amygdala (Amy)
+- Hippocampus (HP)
+- Prefrontal cortex (PFC)
+
+## Nucleus accumbens and dorsal striatum {.smaller}
+
+<div class="centered">
+<img src="img/kohls-fig-2.jpg" height=450px>
+
+[[@kohls2012social]](http://dx.doi.org/10.1186/1866-1955-4-10)
+</div>
+
+## What does DA signal?
+
+- Hedonia and anhedonia
+- Incentive salience
+- Reward prediction error (RPE)
+
+## RPE
+
+<div class="centered">
+<a href="https://doi.org/10.1146/annurev-neuro-070815-014106">
+<img src="http://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2016/neuro.2016.39.issue-1/annurev-neuro-070815-014106/20160711/images/large/ne390297.f1.jpeg" height=450px>
+</a>
+</div>
+
+## DA & GABA signaling in RPE
+
+<div class="centered">
+<a href="https://doi.org/10.1146/annurev-neuro-072116-031109">
+<img src="http://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2017/neuro.2017.40.issue-1/annurev-neuro-072116-031109/20170719/images/large/ne400373.f1.jpeg" height=450px>
+</a>
+</div>
+
+## Expectation modulates DA signaling
+
+<div class="centered">
+<a href="https://doi.org/10.1146/annurev-neuro-072116-031109">
+<img src="http://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2017/neuro.2017.40.issue-1/annurev-neuro-072116-031109/20170719/images/large/ne400373.f2.jpeg" height=450px>
+</a>
+</div>
+
+## DA network
+
+<div class="centered">
+<a href="https://doi.org/10.1146/annurev-neuro-072116-031109">
+<img src="http://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2017/neuro.2017.40.issue-1/annurev-neuro-072116-031109/20170719/images/large/ne400373.f4.jpeg" height=450px>
+</a>
+</div>
+
+## Reward & Aversion Networks
+
+<div class="centered">
+<a href="https://doi.org/10.1146/annurev-neuro-070815-014106">
+<img src="http://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2016/neuro.2016.39.issue-1/annurev-neuro-070815-014106/20160711/images/large/ne390297.f3.jpeg" height=450px>
+</a>
+</div>
+
+## Psychopharmacology of pleasure
+
+- Dopamine
+- Opioids
+- Cannabinoids
+- Serotonin, Norepinephrine
+- ACh
+
+## Endogenous morphine-like NTs (endorphins) from hyp, NST
+
+<div class="centered">
+<img src="img/endorphins-niaa.gif" height=450px>
+
+[[@clapp-niaa]](http://pubs.niaaa.nih.gov/publications/arh314/310-339.htm)
+</div>
+
+## Endogenous cannabinoid system
+
+- Cannabinoids, psychoactive compounds found in cannibis
+- Cannabinoid CB1 receptors in CNS; CB2 in body, immune system
+
+---
+
+<div class="centered">
+<img src="img/fnins-07-00256-g001.jpg" height=400px>
+
+[[@flores_cannabinoid-hypocretin_2013]](http://dx.doi.org/10.3389/fnins.2013.00256)
+</div>
+
+## Brain contains its own systems for binding drugs associated with 'pleasure'
+
+- Endogenous opioids (endorphins)
+- Endogenous cannabinoids
+
+## ACh projections in the CNS
+
+<div class="centered">
+<img src="img/ncpneuro0775-f4.jpg" height=450px>
+
+[[@cock_sleep_2008]](http://dx.doi.org/10.1038/ncpneuro0775)
+</div>
+
+<!-- Scrolling final reference page -->
+<!-- http://stackoverflow.com/q/38260799 -->
+<style>
+slides > slide { overflow: scroll; }
+slides > slide:not(.nobackground):before {
+  background: none;
+  }
+slides > slide:not(.nobackground):after {
+  content: '';
+  background: none;
+  }
+}
+</style>
+
+## References {.smaller}
