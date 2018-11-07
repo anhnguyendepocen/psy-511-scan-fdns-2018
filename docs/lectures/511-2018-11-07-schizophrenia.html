@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>511-2018-11-07-schizophrenia</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: '511-2018-11-07-schizophrenia',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Rick Gilmore' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <link href="libs/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="libs/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="libs/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="css/ioslides.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+            <p style="margin-top: 6px; margin-left: -2px;">2018-11-07 11:07:34</p>
+          </hgroup>
+  </slide>
+
+<!-- What's going on? -->
+
+<slide class=""><hgroup><h2>Today&#39;s Topics</h2></hgroup><article  id="todays-topics">
+
+<ul>
+<li>Schizophrenia</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Schizophrenia</h2></hgroup><article  id="schizophrenia">
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/gGnl8dqEoPQ" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Simulating the Experience</h2></hgroup><article  id="simulating-the-experience">
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/YXimT5CHCDE" frameborder="0" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Overview</h2></hgroup><article  id="overview">
+
+<ul>
+<li>Lifetime prevalence ~ 0.3-0.7%
+
+<ul>
+<li>Broader definitions suggest 2-3 or 3-5%</li>
+</ul></li>
+<li>~1/3 chronic &amp; severe</li>
+<li>Onset post-puberty, early adulthood</li>
+<li>Males earlier onset &amp; greater severity</li>
+<li>Pervasive disturbance in mood, thinking, movement, action, memory, perception</li>
+<li>Increased (early) mortality</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&quot;Positive&quot; symptoms</h2></hgroup><article  id="positive-symptoms">
+
+<ul>
+<li>“Additions” to behavior</li>
+<li>Disordered thought</li>
+<li>Delusions of grandeur, persecution</li>
+<li>Hallucinations (usually auditory)</li>
+<li>Bizarre behavior</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>&quot;Negative&quot; symptoms</h2></hgroup><article  id="negative-symptoms">
+
+<ul>
+<li>“Reductions” in behavior</li>
+<li>Poverty of speech</li>
+<li>Flat affect</li>
+<li>Social withdrawal</li>
+<li>Impaired executive function</li>
+<li>Anhedonia (loss of pleasure)</li>
+<li>Catatonia (reduced movement)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Cognitive symptoms</h2></hgroup><article  id="cognitive-symptoms">
+
+<ul>
+<li>Memory</li>
+<li>Attention</li>
+<li>Planning, decision-making</li>
+<li>Social cognition</li>
+<li>Movement</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Affective dysregulation</h2></hgroup><article  id="affective-dysregulation">
+
+<ul>
+<li>Depressive, manic states</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0140673609609958-gr1_lrg.jpg" height=500px/></p>
+
+<p><a href='http://dx.doi.org/10.1016/S0140-6736(09)60995-8' title=''><span class="cite">(Os &amp; Kapur, 2009)</span></a></p></div>
+
+<!-- Relationships among the 4+ symptom categories -->
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0140673609609958-gr2_lrg.jpg" height=500px/></p>
+
+<p><a href='http://dx.doi.org/10.1016/S0140-6736(09)60995-8' title=''><span class="cite">(Os &amp; Kapur, 2009)</span></a></p></div>
+
+<!-- Symptom profiles of different types of psychosis -->
+
+</article></slide><slide class=""><hgroup><h2>Biological bases</h2></hgroup><article  id="biological-bases">
+
+<ul>
+<li>Genetic predisposition</li>
+<li>Brain abnormalities</li>
+<li>Developmental origins</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Genetic disposition</h2></hgroup><article  id="genetic-disposition">
+
+<div class="centered">
+<p><img src="img/schizophrenia-risk.jpg" height=450px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Heritability</h2></hgroup><article  id="heritability">
+
+<ul>
+<li>80%</li>
+<li>vs. 60% for osteoarthritis</li>
+<li>30-50% for hypertension <a href='http://dx.doi.org/10.1016/S0140-6736(09)60995-8' title=''><span class="cite">(Os &amp; Kapur, 2009)</span></a></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>But, no single gene&#8230;</h2></hgroup><article  id="but-no-single-gene..." class="smaller">
+
+<div class="centered">
+<p><img src="img/johnson-etal-2017-schiz.jpg" width=800px></p>
+
+<p><a href='http://doi.org/10.1016/j.biopsych.2017.06.033' title=''><span class="cite">(Johnson et al., 2017)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Genes associated with schizophrenia at higher than chance levels</h2></hgroup><article  id="genes-associated-with-schizophrenia-at-higher-than-chance-levels" class="smaller">
+
+<ul>
+<li><em>NOTCH4</em>, <em>TNF</em>:
+
+<ul>
+<li>Part of major histocompatibility complex (MHC), cell membrane specializations involved in the immune system</li>
+</ul></li>
+<li><em>DRD2</em> (dopamine D2 receptor), <em>KCNN3</em> (Ca+ activated K+ channel), <em>GRM3</em> (metabotropic glutamate receptor)</li>
+</ul>
+
+<p><a href='http://doi.org/10.1016/j.biopsych.2017.06.033' title=''><span class="cite">(Johnson et al., 2017)</span></a></p>
+
+</article></slide><slide class=""><hgroup><h2>Ventricles larger, esp in males</h2></hgroup><article  id="ventricles-larger-esp-in-males">
+
+<div class="centered">
+<p><img src="img/schizophrenia-ventricles.jpg" height=500px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Ventricular enlargement increases across time</h2></hgroup><article  id="ventricular-enlargement-increases-across-time" class="smaller">
+
+<div class="centered">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0920996410012077-gr2_lrg.jpg" height=400px></p>
+
+<p><a href='http://doi.org/10.1016/j.schres.2010.03.036' title=''><span class="cite">(Kempton, Stahl, Williams, &amp; DeLisi, 2010)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Enlargement precedes diagnosis?</h2></hgroup><article  id="enlargement-precedes-diagnosis" class="smaller">
+
+<div class="centered">
+<p>As in trajectories B or F</p>
+
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0920996410012077-gr3_lrg.jpg" height=400px></p>
+
+<p><a href='http://doi.org/10.1016/j.schres.2010.03.036' title=''><span class="cite">(Kempton et al., 2010)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Hip, amyg, thal, NA smaller</h2></hgroup><article  id="hip-amyg-thal-na-smaller">
+
+<ul>
+<li>Related to ventricular enlargement</li>
+<li>Early disturbance in brain development?</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="https://images.nature.com/full/nature-assets/mp/journal/v21/n4/images/mp201563f1.jpg" height=450px></p>
+
+<p><a href='http://doi.org/10.1038/mp.2015.63' title=''><span class="cite">(Erp et al., 2015)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2><a href='10.1073/pnas.1618213114' title=''><span class="cite">(Jiao et al., 2017)</span></a></h2></hgroup><article  id="jiao_transmembrane_2017">
+
+<ul>
+<li>Dentate gyrus (DG) in hippocampus
+
+<ul>
+<li>spatial coding, learning &amp; memory, emotion processing</li>
+</ul></li>
+<li>DG dysfunction implicated in schizophrenia</li>
+<li>Gene linked to schizophrenia, Transmembrane protein 108 (Tmem108) enriched in DG granule neurons</li>
+<li>Tmem108 expression increased during postnatal period critical for DG development.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='10.1073/pnas.1618213114' title=''><span class="cite">(Jiao et al., 2017)</span></a></h2></hgroup><article  id="jiao_transmembrane_2017-1">
+
+<ul>
+<li>Tmem108-deficient neurons form fewer and smaller spines.</li>
+<li>Tmem108-deficient mice display schizophrenia-relevant behavioral deficits.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Rapid gray matter loss in adolescents?</h2></hgroup><article  id="rapid-gray-matter-loss-in-adolescents" class="smaller">
+
+<div class="centered">
+<p><img src="img/thompson-2001-F2.large.jpg" height=450px></p>
+
+<p><a href='http://dx.doi.org/10.1073/pnas.201243998' title=''><span class="cite">(P. M. Thompson et al., 2001)</span></a></p></div>
+
+<!-- Scrolling final reference page -->
+
+<!-- http://stackoverflow.com/q/38260799 -->
+
+<style>
+slides > slide { overflow: scroll; }
+slides > slide:not(.nobackground):before {
+  background: none;
+  }
+slides > slide:not(.nobackground):after {
+  content: '';
+  background: none;
+  }
+}
+</style>
+
+</article></slide><slide class=""><hgroup><h2>Widespread white matter disruption</h2></hgroup><article  id="widespread-white-matter-disruption" class="smaller">
+
+<div class="centered">
+<p><a href="http://doi.org/10.1038/mp.2017.170"> <img src="https://media.nature.com/lw926/nature-assets/mp/journal/v23/n5/images/mp2017170f1.jpg" height=500px/> </a></p>
+
+<p><a href='http://doi.org/10.1038/mp.2017.170' title=''><span class="cite">(Kelly et al., 2017)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>White matter loss over age</h2></hgroup><article  id="white-matter-loss-over-age" class="smaller">
+
+<div class="centered">
+<p><a href="http://doi.org/10.1002/hbm.23336"> <img src="https://wol-prod-cdn.literatumonline.com/cms/attachment/66a4c18c-f522-4bb1-a0b0-ed949ac9afd1/hbm23336-fig-0002-m.png" height=500px> </a></p>
+
+<p><a href='http://doi.org/10.1002/hbm.23336' title=''><span class="cite">(P. Kochunov et al., 2016)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Dysconnectivity in cortical networks</h2></hgroup><article  id="dysconnectivity-in-cortical-networks" class="smaller">
+
+<div class="centered">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0959438812001663-gr1.jpg" height=500px></p>
+
+<p><a href='http://doi.org/10.1016/j.conb.2012.11.004' title=''><span class="cite">(Uhlhaas, 2013)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Inconsistent connectivity findings <a href='http://dx.doi.org/10.1016/j.conb.2014.08.006' title=''><span class="cite">(Fornito &amp; Bullmore, 2015)</span></a></h2></hgroup><article  id="inconsistent-connectivity-findings-fornito2015-go">
+
+<ul>
+<li><span class="blue">
+Structural connectivity</span> vs.
+
+<ul>
+<li>Synaptic, dendritic, axonal connections b/w regions</li>
+<li>Usually measured via DTI or related diffusion-based MRI technique</li>
+</ul></li>
+<li><span class="blue">
+Functional connectivity</span>
+
+<ul>
+<li>BOLD, EEG, or MEG covariance</li>
+<li>Task-free &#39;resting&#39; state or task-based</li>
+</ul></li>
+<li>Global signal variations?</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='http://dx.doi.org/10.1016/j.conb.2014.08.006' title=''><span class="cite">(Fornito &amp; Bullmore, 2015)</span></a></h2></hgroup><article  id="fornito2015-go">
+
+<div class="centered">
+<p><a href="https://doi.org/10.1016/j.conb.2014.08.006"> <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0959438814001688-gr1.jpg" height=500px> </a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Global signal alterations</h2></hgroup><article  id="global-signal-alterations" class="smaller">
+
+<div class="centered">
+<p><img src="http://www.pnas.org/content/111/20/7438/F1.medium.gif" height=500px></p>
+
+<p><a href='http://dx.doi.org/10.1073/pnas.1405289111' title=''><span class="cite">(G. J. Yang et al., 2014)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Dysconnectivity b/w &#39;hubs&#39; -&gt; higher functional connectivity</h2></hgroup><article  id="dysconnectivity-bw-hubs---higher-functional-connectivity" class="smaller">
+
+<div class="centered">
+<p><a href="https://doi.org/10.1016/j.conb.2014.08.006"> <img src="https://ars.els-cdn.com/content/image/1-s2.0-S0959438814001688-gr2.jpg" height=400px></p>
+
+<p><a href='http://dx.doi.org/10.1016/j.conb.2014.08.006' title=''><span class="cite">(Fornito &amp; Bullmore, 2015)</span></a> </a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Dopamine hypothesis</h2></hgroup><article  id="dopamine-hypothesis">
+
+<div class="centered">
+<p><img src="img/mesolimbocortical-da.jpg" height=450px></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Evidence for DA hypothesis</h2></hgroup><article  id="evidence-for-da-hypothesis">
+
+<ul>
+<li>DA (\(D_2\) receptor) antagonists (e.g. chlorpromazine)
+
+<ul>
+<li>improve positive symptoms</li>
+</ul></li>
+<li><em>Typical antipsychotics</em> are DA \(D_2\) antagonists</li>
+<li>DA agonists
+
+<ul>
+<li>amphetamine, cocaine, L-DOPA</li>
+<li>mimic or exacerbate symptoms</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Evidence against&#8230;</h2></hgroup><article  id="evidence-against...">
+
+<ul>
+<li>New, <em>atypical antipsychotics</em>
+
+<ul>
+<li>(e.g. Clozapine) INCREASE DA in frontal cortex, affect 5-HT</li>
+</ul></li>
+<li>Mixed evidence for high DA metabolite levels in CSF</li>
+<li>Some DA neurons may release 5-HT, cannabinoids, glutamate <a href='http://doi.org/http://dx.doi.org/10.1038/sj.bjp.0706328' title=''><span class="cite">(Seutin, 2005)</span></a></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Glutamate/ketamine hypothesis</h2></hgroup><article  id="glutamateketamine-hypothesis">
+
+<ul>
+<li><em>Psychomimetic</em> drugs induce schizophrenia-like states
+
+<ul>
+<li>Phencyclidine (PCP), ketamine</li>
+<li>NMDA receptor antagonists</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Ketamine</h2></hgroup><article  id="ketamine">
+
+<ul>
+<li>dissociative (secondary) anesthetic</li>
+<li>side effects include hallucinations, blurred vision, delirium, floating sensations, vivid dreams</li>
+<li>binds to serotonin (\(5HT_{2a}\)) receptor, \(\kappa\) opioid receptor, and \(\sigma\) receptor &quot;chaperone&quot;</li>
+<li>may be dopamine \(D_2\) receptor antagonist</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Glutamate/ketamine hypothesis</h2></hgroup><article  id="glutamateketamine-hypothesis-1">
+
+<ul>
+<li>Schizophrenia == <em>underactivation</em> of NMDA receptors?
+
+<ul>
+<li>NMDA receptor role in learning, plasticity</li>
+<li>DG neurons in <a href='10.1073/pnas.1618213114' title=''><span class="cite">(Jiao et al., 2017)</span></a> were glutamate-releasing.</li>
+</ul></li>
+<li>NMDAR antagonists -&gt; neurodegeneration, excitotoxicity, &amp; apoptosis</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Schizophrenia summed up</h2></hgroup><article  id="schizophrenia-summed-up">
+
+<ul>
+<li>Wide-ranging disturbance of mood, thought, action, perception</li>
+<li>Broad changes in brain structure, function, chemistry, development</li>
+<li><del>Dopamine hypothesis</del> giving way to glutamate hypothesis</li>
+<li>Genetic (polygenic = multiple genes) risk + environmental factors</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Early life stress increases risk</h2></hgroup><article  id="early-life-stress-increases-risk">
+
+<ul>
+<li>2x greater odds for children in urban environments</li>
+<li>Higher risk among migrant populations <a href='http://dx.doi.org/10.1176/appi.ajp.162.1.12' title=''><span class="cite">(Cantor-Graae &amp; Selten, 2005)</span></a></li>
+<li>Exposure to infection <em>in utero</em>, other birth complications</li>
+<li>Exposure to cannibis</li>
+<li>Paternal age &gt; 40</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='10.1016/j.schres.2016.06.019' title=''><span class="cite">(Levine, Levav, Pugachova, Yoffe, &amp; Becher, 2016)</span></a></h2></hgroup><article  id="levine_transgenerational_2016">
+
+<ul>
+<li>Children (N=51,233) of parents who born during Nazi era (1922-1945)</li>
+<li>Emigrated before (indirect exposure) or after (direct exposure) to Nazi era</li>
+<li>Children exposed to direct stress of Nazi era <em>in utero</em> or postnatally
+
+<ul>
+<li>Did <strong>not</strong> differ in rates of schizophrenia, but</li>
+<li>Had higher rehospitalization rates</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2><a href='http://doi.org/10.1016/j.psyneuen.2015.05.013' title=''><span class="cite">(Debost et al., 2015)</span></a></h2></hgroup><article  id="debost_investigating_2015">
+
+<ul>
+<li>Danish cohort (n=1,141,447)</li>
+<li>Exposure to early life stress
+
+<ul>
+<li><em>in utero</em> did <strong>not</strong> increase risk of schizophrenia, but</li>
+<li>during 0-2 years increased risk</li>
+</ul></li>
+<li>Increased risk associated with an allele of a cortisol-related gene</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>The future: Outcomes following hospitalization</h2></hgroup><article  id="the-future-outcomes-following-hospitalization">
+
+<div class="centered">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0140673609609958-gr3_lrg.jpg" height=500px/></p>
+
+<p><a href='http://dx.doi.org/10.1016/S0140-6736(09)60995-8' title=''><span class="cite">(Os &amp; Kapur, 2009)</span></a></p></div>
+
+<!-- Less than 50% positive; less than 50% negative; Mixed and non-systematic. -->
+
+</article></slide><slide class=""><hgroup><h2>The future of psychiatric research</h2></hgroup><article  id="the-future-of-psychiatric-research">
+
+<ul>
+<li>The <a href='https://www.nimh.nih.gov/research-priorities/rdoc/index.shtml' title=''>Research Domain Criteria (RDoC) Project</a>
+
+<ul>
+<li>Negative valence, positive valence, cognitive systems, social processes, arousal/regulatory systems</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>The future of psychiatric research</h2></hgroup><article  id="the-future-of-psychiatric-research-1">
+
+<ul>
+<li><a href='https://www.ukbiobank.ac.uk/' title=''>U.K. Biobank</a></li>
+<li><a href='http://enigma.ini.usc.edu/' title=''>Enhancing Neuro Imaging Genetics through Meta Analysis (ENIGMA) Consortium</a></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Next time&#8230;</h2></hgroup><article  id="next-time...">
+
+<ul>
+<li>Affective disorders</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  id="references" class="unnumbered smaller">
+
+<div id="refs" class="references">
+<div id="ref-Cantor-Graae2005-ej">
+<p>Cantor-Graae, E., &amp; Selten, J.-P. (2005). Schizophrenia and migration: A meta-analysis and review. <em>The American Journal of Psychiatry</em>, <em>162</em>(1), 12–24. <a href='https://doi.org/10.1176/appi.ajp.162.1.12' title=''>https://doi.org/10.1176/appi.ajp.162.1.12</a></p></div>
+
+<div id="ref-debost_investigating_2015">
+<p>Debost, J.-C., Petersen, L., Grove, J., Hedemand, A., Khashan, A., Henriksen, T., … Mortensen, P. B. (2015). Investigating interactions between early life stress and two single nucleotide polymorphisms in HSD11B2 on the risk of schizophrenia. <em>Psychoneuroendocrinology</em>, <em>60</em>, 18–27. <a href='https://doi.org/10.1016/j.psyneuen.2015.05.013' title=''>https://doi.org/10.1016/j.psyneuen.2015.05.013</a></p></div>
+
+<div id="ref-Van_Erp2015-ne">
+<p>Erp, T. G. M. van, Hibar, D. P., Rasmussen, J. M., Glahn, D. C., Pearlson, G. D., Andreassen, O. A., … Turner, J. A. (2015). Subcortical brain volume abnormalities in 2028 individuals with schizophrenia and 2540 healthy controls via the ENIGMA consortium. <em>Mol. Psychiatry</em>. <a href='https://doi.org/10.1038/mp.2015.63' title=''>https://doi.org/10.1038/mp.2015.63</a></p></div>
+
+<div id="ref-Fornito2015-go">
+<p>Fornito, A., &amp; Bullmore, E. T. (2015). Reconciling abnormalities of brain network structure and function in schizophrenia. <em>Curr. Opin. Neurobiol.</em>, <em>30</em>, 44–50. <a href='https://doi.org/10.1016/j.conb.2014.08.006' title=''>https://doi.org/10.1016/j.conb.2014.08.006</a></p></div>
+
+<div id="ref-jiao_transmembrane_2017">
+<p>Jiao, H.-F., Sun, X.-D., Bates, R., Xiong, L., Zhang, L., Liu, F., … Mei, L. (2017). Transmembrane protein 108 is required for glutamatergic transmission in dentate gyrus. <em>Proceedings of the National Academy of Sciences</em>, <em>114</em>(5), 1177–1182. <a href='https://doi.org/10.1073/pnas.1618213114' title=''>https://doi.org/10.1073/pnas.1618213114</a></p></div>
+
+<div id="ref-Johnson2017-bp">
+<p>Johnson, E. C., Border, R., Melroy-Greif, W. E., Leeuw, C. A. de, Ehringer, M. A., &amp; Keller, M. C. (2017). No evidence that schizophrenia candidate genes are more associated with schizophrenia than noncandidate genes. <em>Biol. Psychiatry</em>, <em>82</em>(10), 702–708. <a href='https://doi.org/10.1016/j.biopsych.2017.06.033' title=''>https://doi.org/10.1016/j.biopsych.2017.06.033</a></p></div>
+
+<div id="ref-Kelly2017-lj">
+<p>Kelly, S., Jahanshad, N., Zalesky, A., Kochunov, P., Agartz, I., Alloza, C., … Donohoe, G. (2017). Widespread white matter microstructural differences in schizophrenia across 4322 individuals: Results from the ENIGMA schizophrenia DTI working group. <em>Mol. Psychiatry</em>. <a href='https://doi.org/10.1038/mp.2017.170' title=''>https://doi.org/10.1038/mp.2017.170</a></p></div>
+
+<div id="ref-Kempton2010-ms">
+<p>Kempton, M. J., Stahl, D., Williams, S. C. R., &amp; DeLisi, L. E. (2010). Progressive lateral ventricular enlargement in schizophrenia: A meta-analysis of longitudinal MRI studies. <em>Schizophr. Res.</em>, <em>120</em>(1-3), 54–62. <a href='https://doi.org/10.1016/j.schres.2010.03.036' title=''>https://doi.org/10.1016/j.schres.2010.03.036</a></p></div>
+
+<div id="ref-Kochunov2016-cu">
+<p>Kochunov, P., Ganjgahi, H., Winkler, A., Kelly, S., Shukla, D. K., Du, X., … Hong, L. E. (2016). Heterochronicity of white matter development and aging explains regional patient control differences in schizophrenia. <em>Hum. Brain Mapp.</em>, <em>37</em>(12), 4673–4688. <a href='https://doi.org/10.1002/hbm.23336' title=''>https://doi.org/10.1002/hbm.23336</a></p></div>
+
+<div id="ref-levine_transgenerational_2016">
+<p>Levine, S. Z., Levav, I., Pugachova, I., Yoffe, R., &amp; Becher, Y. (2016). Transgenerational effects of genocide exposure on the risk and course of schizophrenia: A population-based study. <em>Schizophrenia Research</em>, <em>176</em>(2), 540–545. <a href='https://doi.org/10.1016/j.schres.2016.06.019' title=''>https://doi.org/10.1016/j.schres.2016.06.019</a></p></div>
+
+<div id="ref-Van_Os2009-be">
+<p>Os, J. van, &amp; Kapur, S. (2009). Schizophrenia. <em>The Lancet</em>, <em>374</em>(9690), 635–645. <a href='https://doi.org/10.1016/S0140-6736(09)60995-8' title=''>https://doi.org/10.1016/S0140-6736(09)60995-8</a></p></div>
+
+<div id="ref-Seutin2005-wx">
+<p>Seutin, V. (2005). Dopaminergic neurones: Much more than dopamine? <em>Br. J. Pharmacol.</em>, <em>146</em>(2), 167–169. <a href='https://doi.org/10.1038/sj.bjp.0706328' title=''>https://doi.org/10.1038/sj.bjp.0706328</a></p></div>
+
+<div id="ref-thompson_mapping_2001">
+<p>Thompson, P. M., Vidal, C., Giedd, J. N., Gochman, P., Blumenthal, J., Nicolson, R., … Rapoport, J. L. (2001). Mapping adolescent brain change reveals dynamic wave of accelerated gray matter loss in very early-onset schizophrenia. <em>Proceedings of the National Academy of Sciences</em>, <em>98</em>(20), 11650–11655. <a href='https://doi.org/10.1073/pnas.201243998' title=''>https://doi.org/10.1073/pnas.201243998</a></p></div>
+
+<div id="ref-Uhlhaas2013-do">
+<p>Uhlhaas, P. J. (2013). Dysconnectivity, large-scale networks and neuronal dynamics in schizophrenia. <em>Curr. Opin. Neurobiol.</em>, <em>23</em>(2), 283–290. <a href='https://doi.org/10.1016/j.conb.2012.11.004' title=''>https://doi.org/10.1016/j.conb.2012.11.004</a></p></div>
+
+<div id="ref-Yang2014-oq">
+<p>Yang, G. J., Murray, J. D., Repovs, G., Cole, M. W., Savic, A., Glasser, M. F., … Anticevic, A. (2014). Altered global brain signal in schizophrenia. <em>Proc. Natl. Acad. Sci. U. S. A.</em>, <em>111</em>(20), 7438–7443. <a href='https://doi.org/10.1073/pnas.1405289111' title=''>https://doi.org/10.1073/pnas.1405289111</a></p></div></div></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
