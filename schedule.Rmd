@@ -252,11 +252,11 @@ title: "Schedule"
 - Topics
     + Disorder and Disease. Read BW 16.
 - Reading
-    + Pawluski, J. L., Lonstein, J. S., & Fleming, A. S. (2017). The Neurobiology of Postpartum Anxiety and Depression. *Trends in Neurosciences*, *40*(2), 106–120. Retrieved from <http://dx.doi.org/10.1016/j.tins.2016.11.009>
-    + Namkung, H., Kim, S.-H., & Sawa, A. (2017). The Insula: An Underestimated Brain Area in Clinical Neuroscience, Psychiatry, and Neurology. *Trends in Neurosciences*, *40*(4), 200–207. Retrieved from <http://dx.doi.org/10.1016/j.tins.2017.02.002>
+    + Pawluski, J. L., Lonstein, J. S., & Fleming, A. S. (2017). The neurobiology of postpartum anxiety and depression. *Trends in Neurosciences*, *40*(2), 106–120. Retrieved from <http://dx.doi.org/10.1016/j.tins.2016.11.009>
+    + Namkung, H., Kim, S.-H., & Sawa, A. (2017). The insula: An underestimated brain area in clinical neuroscience, psychiatry, and neurology. *Trends in Neurosciences*, *40*(4), 200–207. Retrieved from <http://dx.doi.org/10.1016/j.tins.2017.02.002>
     + Volk, L., Chiu, S.-L., Sharma, K., & Huganir, R. L. (2015). Glutamate synapses in human cognitive disorders. *Annual Review of Neuroscience*, *38*, 127–149. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-071714-033821>
 - Materials
-    + Lecture notes | [HTML slides]()
+    + Lecture notes | [HTML slides](lectures/511-2018-11-09-depression.html) | [PDF](lectures/511-2018-11-09-depression.pdf)
 
 ---
 
