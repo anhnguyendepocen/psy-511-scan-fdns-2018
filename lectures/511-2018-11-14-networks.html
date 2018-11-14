@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>511-2018-11-14-networks</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: '511-2018-11-14-networks',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Rick Gilmore' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <link href="libs/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="libs/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="libs/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="libs/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="libs/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="libs/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+  </style>
+
+  <link rel="stylesheet" href="css/ioslides.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+  <slide class="title-slide segue nobackground">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class=""><hgroup><h2>Today&#39;s Topics</h2></hgroup><article  id="todays-topics">
+
+<ul>
+<li>Networks</li>
+<li>Planning for student-led sessions</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>But first&#8230;</h2></hgroup><article  id="but-first...">
+
+<ul>
+<li>Short answers means short sentences.</li>
+<li>Be complete. Show me that you know what you&#39;re talking about.</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<p>Resting potential ~ -70 mV</p>
+
+<table class = 'rmdtable'>
+<col width="8.333333%" />
+<col width="16.666667%" />
+<col width="20.833333%" />
+<col width="19.444444%" />
+<col width="8.333333%" />
+<col width="8.333333%" />
+<col width="6.944444%" />
+<tr class="header">
+<th align="left">Ion</th>
+<th align="left">[inside]</th>
+<th align="left">[outside]</th>
+<th align="left">Conc Gradient</th>
+<th align="left">Equil potential</th>
+<th align="left">Driving force</th>
+<th align="left">Electrostatic gradient</th>
+</tr>
+<tr class="odd">
+<td align="left">\(K^+\)</td>
+<td align="left">~150 mM</td>
+<td align="left">~4 mM</td>
+<td align="left">outward</td>
+<td align="left">~-90 mV</td>
+<td align="left">+20 mV</td>
+<td align="left">outward</td>
+</tr>
+<tr class="even">
+<td align="left">\(Na^+\)</td>
+<td align="left">~10 mM</td>
+<td align="left">~140 mM</td>
+<td align="left">inward</td>
+<td align="left">~+55 mV</td>
+<td align="left">-125 mV</td>
+<td align="left">inward</td>
+</tr>
+</table>
+
+</article></slide><slide class=""><hgroup><h2>Components</h2></hgroup><article  id="components">
+
+<ul>
+<li>Nodes</li>
+<li>Edges</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Measures of</h2></hgroup><article  id="measures-of">
+
+<ul>
+<li>Size</li>
+<li>Density</li>
+<li>Degree (# of edges)</li>
+<li>Centrality</li>
+<li>Motifs</li>
+<li>Path length</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1364661318302250-gr1b1.jpg" height=500px/></p>
+
+<p><a href='http://doi.org/10.1016/j.tics.2018.09.007' title=''><span class="cite">(Stiso &amp; Bassett, 2018)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Types</h2></hgroup><article  id="types">
+
+<ul>
+<li>Directed vs. undirected</li>
+<li>Weighted vs. binarized</li>
+<li>Structural (wiring), functional (activity covariance), effective (causal)</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="img/rubinov-spoorns-2010-fig1a.jpg" height=500px/></p>
+
+<p><a href='http://dx.doi.org/10.1016/j.neuroimage.2009.10.003' title=''><span class="cite">(Rubinov &amp; Sporns, 2010)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="img/rubinov-spoorns-2010-fig1b.jpg" height=500px/></p>
+
+<p><a href='http://dx.doi.org/10.1016/j.neuroimage.2009.10.003' title=''><span class="cite">(Rubinov &amp; Sporns, 2010)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="img/rubinov-spoorns-2010-fig2a.jpg" height=450px/></p>
+
+<p><a href='http://dx.doi.org/10.1016/j.neuroimage.2009.10.003' title=''><span class="cite">(Rubinov &amp; Sporns, 2010)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="img/rubinov-spoorns-2010-fig2b.jpg" height=450px/></p>
+
+<p><a href='http://dx.doi.org/10.1016/j.neuroimage.2009.10.003' title=''><span class="cite">(Rubinov &amp; Sporns, 2010)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="img/rubinov-spoorns-2010-fig3.jpg" height=450px/></p>
+
+<p><a href='http://dx.doi.org/10.1016/j.neuroimage.2009.10.003' title=''><span class="cite">(Rubinov &amp; Sporns, 2010)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nvXuq9jRWKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="img/rubinov-spoorns-2010-fig3.jpg" width=900px/></p>
+
+<p><a href='http://dx.doi.org/10.1146/annurev-neuro-071714-033954' title=''><span class="cite">(Swanson &amp; Lichtman, 2016)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Temporal (speed) vs. spatial (wiring) constraints</h2></hgroup><article  id="temporal-speed-vs.-spatial-wiring-constraints">
+
+<div class="centered">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1364661318302250-gr1_lrg.jpg" height=450px/></p>
+
+<p><a href='http://doi.org/10.1016/j.tics.2018.09.007' title=''><span class="cite">(Stiso &amp; Bassett, 2018)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Some networks in the &quot;resting&quot; brain</h2></hgroup><article  id="some-networks-in-the-resting-brain">
+
+<div class="centered">
+<p><img src="img/raichle-2015.jpg" height=450px/></p>
+
+<p><a href='http://dx.doi.org/10.1146/annurev-neuro-071013-014030' title=''><span class="cite">(Raichle, 2015)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><a href="http://www.nature.com/neuro/journal/v17/n11/images/nn.3839-F1.jpg"> <img src="http://www.nature.com/neuro/journal/v17/n11/images/nn.3839-F1.jpg" height=500px/> </a></p>
+
+<p><a href='http://doi.org/10.1038/nn.3839' title=''><span class="cite">(Sejnowski, Churchland, &amp; Movshon, 2014)</span></a></p></div>
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="https://news.columbia.edu/sites/default/files/styles/large/public/field/image/vitkup_cluster1.jpg?itok=8Egvdw-L"/ height=400px></p></div>
+
+<!-- Gene expression networks in schizophrenia -->
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="http://cs231n.github.io/assets/cnn/convnet.jpeg" width=900px/></p></div>
+
+<!-- Convolutional neural networks in computer vision -->
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="https://www.researchgate.net/profile/Carole_Estabrooks/publication/313334183/figure/fig2/AS:458062004789249@1486221900574/nterpersonal-and-inter-organizational-networks-in-British-Columbia-The-interpersonal.png"/></p></div>
+
+<!-- Interpersonal and interorganizational -->
+
+</article></slide><slide class=""><hgroup><h2></h2></hgroup><article >
+
+<div class="centered">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Example_Structural_equation_model.svg/1200px-Example_Structural_equation_model.svg.png" height=500px/></p></div>
+
+</article></slide><slide class=""><hgroup><h2>Prepping for student presentations</h2></hgroup><article  id="prepping-for-student-presentations">
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">Group Theme</th>
+<th align="left">Members</th>
+<th align="left">Presentation Day?</th>
+</tr>
+<tr class="odd">
+<td align="left">Measuring brain &amp; behavior</td>
+<td align="left">Kelley, Anna, Alison, Lauren, Rhea</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Neurodegeneration &amp; disorder</td>
+<td align="left">Kaitlin, Sam, Daryl, <em>Emily</em></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Development, aging, &amp; plasticity</td>
+<td align="left">Liz, Michael, Lia, Chloe</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Cognition &amp; emotion</td>
+<td align="left">Austen, Brandon, Shane, <em>Emily</em></td>
+<td align="left"></td>
+</tr>
+</table>
+
+<p>Not assigned: Natalia, Nate</p>
+
+</article></slide><slide class=""><hgroup><h2>Scope of group presentations</h2></hgroup><article  id="scope-of-group-presentations">
+
+<ul>
+<li>Provide 2-3 background readings in advance</li>
+<li>25 min (max) presentation + 10 min discussion</li>
+<li>Focused themes + integrative section
+
+<ul>
+<li>What have we learned/what do we know?</li>
+<li>What don&#39;t we know?</li>
+<li>Why are these answers important to know?</li>
+<li>How does topic X relate to/inform another theme?</li>
+</ul></li>
+<li>Submit slides
+
+<ul>
+<li>Statement about who did what</li>
+</ul></li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>References</h2></hgroup><article  id="references" class="unnumbered smaller">
+
+<div id="refs" class="references">
+<div id="ref-Raichle2015-fg">
+<p>Raichle, M. E. (2015). The brain’s default mode network. <em>Annual Review of Neuroscience</em>, <em>38</em>, 433–447. <a href='https://doi.org/10.1146/annurev-neuro-071013-014030' title=''>https://doi.org/10.1146/annurev-neuro-071013-014030</a></p></div>
+
+<div id="ref-Rubinov2010-mc">
+<p>Rubinov, M., &amp; Sporns, O. (2010). Complex network measures of brain connectivity: Uses and interpretations. <em>NeuroImage</em>, <em>52</em>(3), 1059–1069. <a href='https://doi.org/10.1016/j.neuroimage.2009.10.003' title=''>https://doi.org/10.1016/j.neuroimage.2009.10.003</a></p></div>
+
+<div id="ref-Sejnowski2014-aa">
+<p>Sejnowski, T. J., Churchland, P. S., &amp; Movshon, J. A. (2014). Putting big data to good use in neuroscience. <em>Nat. Neurosci.</em>, <em>17</em>(11), 1440–1441. <a href='https://doi.org/10.1038/nn.3839' title=''>https://doi.org/10.1038/nn.3839</a></p></div>
+
+<div id="ref-Stiso2018-mf">
+<p>Stiso, J., &amp; Bassett, D. S. (2018). Spatial embedding imposes constraints on neuronal network architectures. <em>Trends in Cognitive Sciences</em>, <em>22</em>(12), 1127–1142. <a href='https://doi.org/10.1016/j.tics.2018.09.007' title=''>https://doi.org/10.1016/j.tics.2018.09.007</a></p></div>
+
+<div id="ref-Swanson2016-qr">
+<p>Swanson, L. W., &amp; Lichtman, J. W. (2016). From cajal to connectome and beyond. <em>Annual Review of Neuroscience</em>, <em>39</em>, 197–216. <a href='https://doi.org/10.1146/annurev-neuro-071714-033954' title=''>https://doi.org/10.1146/annurev-neuro-071714-033954</a></p></div></div></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>

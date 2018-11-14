@@ -1,0 +1,194 @@
+---
+title: "511-2018-11-14-networks"
+author: "Rick Gilmore"
+bibliography: bib/bibliography.bib
+csl: bib/apa.csl
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    self_contained: false
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+## Today's Topics
+
+- Networks
+- Planning for student-led sessions
+
+## But first...
+
+- Short answers means short sentences.
+- Be complete. Show me that you know what you're talking about.
+
+---
+
+Resting potential ~ -70 mV
+
+| Ion | [inside] | [outside] | Conc Gradient | Equil potential | Driving force | Electrostatic gradient |
+|-----|-----------|--------------|-------------|-----|-----|----|
+| $K^+$  | ~150 mM | ~4 mM  | outward | ~-90 mV | +20 mV | outward |
+| $Na^+$ | ~10 mM | ~140 mM | inward | ~+55 mV | -125 mV | inward |
+
+## Components
+
+- Nodes
+- Edges
+
+## Measures of
+
+- Size
+- Density
+- Degree (# of edges)
+- Centrality
+- Motifs
+- Path length
+
+---
+
+<div class="centered">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S1364661318302250-gr1b1.jpg" height=500px/>
+
+[[@Stiso2018-mf]](http://doi.org/10.1016/j.tics.2018.09.007)
+</div>
+
+## Types
+
+- Directed vs. undirected
+- Weighted vs. binarized
+- Structural (wiring), functional (activity covariance), effective (causal)
+
+---
+
+<div class="centered">
+<img src="img/rubinov-spoorns-2010-fig1a.jpg" height=500px/>
+
+[[@Rubinov2010-mc]](http://dx.doi.org/10.1016/j.neuroimage.2009.10.003)
+</div>
+
+---
+
+<div class="centered">
+<img src="img/rubinov-spoorns-2010-fig1b.jpg" height=500px/>
+
+[[@Rubinov2010-mc]](http://dx.doi.org/10.1016/j.neuroimage.2009.10.003)
+</div>
+
+---
+
+<div class="centered">
+<img src="img/rubinov-spoorns-2010-fig2a.jpg" height=450px/>
+
+[[@Rubinov2010-mc]](http://dx.doi.org/10.1016/j.neuroimage.2009.10.003)
+</div>
+
+---
+
+<div class="centered">
+<img src="img/rubinov-spoorns-2010-fig2b.jpg" height=450px/>
+
+[[@Rubinov2010-mc]](http://dx.doi.org/10.1016/j.neuroimage.2009.10.003)
+</div>
+
+---
+
+<div class="centered">
+<img src="img/rubinov-spoorns-2010-fig3.jpg" height=450px/>
+
+[[@Rubinov2010-mc]](http://dx.doi.org/10.1016/j.neuroimage.2009.10.003)
+</div>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nvXuq9jRWKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+<div class="centered">
+<img src="img/rubinov-spoorns-2010-fig3.jpg" width=900px/>
+
+[[@Swanson2016-qr]](http://dx.doi.org/10.1146/annurev-neuro-071714-033954)
+</div>
+
+## Temporal (speed) vs. spatial (wiring) constraints
+
+<div class="centered">
+<img src="https://ars.els-cdn.com/content/image/1-s2.0-S1364661318302250-gr1_lrg.jpg" height=450px/>
+
+[[@Stiso2018-mf]](http://doi.org/10.1016/j.tics.2018.09.007)
+</div>
+
+## Some networks in the "resting" brain
+
+<div class="centered">
+<img src="img/raichle-2015.jpg" height=450px/>
+
+[[@Raichle2015-fg]](http://dx.doi.org/10.1146/annurev-neuro-071013-014030)
+</div>
+
+---
+
+<div class="centered">
+<a href="http://www.nature.com/neuro/journal/v17/n11/images/nn.3839-F1.jpg">
+<img src="http://www.nature.com/neuro/journal/v17/n11/images/nn.3839-F1.jpg" height=500px/>
+</a>
+
+[[@Sejnowski2014-aa]](http://doi.org/10.1038/nn.3839)
+</div>
+
+---
+
+<div class="centered">
+<img src="https://news.columbia.edu/sites/default/files/styles/large/public/field/image/vitkup_cluster1.jpg?itok=8Egvdw-L"/ height=400px>
+</div>
+
+<!-- Gene expression networks in schizophrenia -->
+
+---
+
+<div class="centered">
+<img src="http://cs231n.github.io/assets/cnn/convnet.jpeg" width=900px/>
+</div>
+
+<!-- Convolutional neural networks in computer vision -->
+
+---
+
+<div class="centered">
+<img src="https://www.researchgate.net/profile/Carole_Estabrooks/publication/313334183/figure/fig2/AS:458062004789249@1486221900574/nterpersonal-and-inter-organizational-networks-in-British-Columbia-The-interpersonal.png"/>
+</div>
+
+<!-- Interpersonal and interorganizational -->
+
+---
+
+<div class="centered">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Example_Structural_equation_model.svg/1200px-Example_Structural_equation_model.svg.png" height=500px/>
+</div>
+
+## Prepping for student presentations
+
+| Group Theme | Members | Presentation Day? |
+|-------------|---------|-------------------|
+| Measuring brain & behavior | Kelley, Anna, Alison, Lauren, Rhea | |
+| Neurodegeneration & disorder | Kaitlin, Sam, Daryl, *Emily* | |
+| Development, aging, & plasticity | Liz, Michael, Lia, Chloe | |
+| Cognition & emotion | Austen, Brandon, Shane, *Emily* | |
+
+Not assigned: Natalia, Nate
+
+## Scope of group presentations
+
+- Provide 2-3 background readings in advance
+- 25 min (max) presentation + 10 min discussion
+- Focused themes + integrative section
+    - What have we learned/what do we know?
+    - What don't we know?
+    - Why are these answers important to know?
+    - How does topic X relate to/inform another theme?
+- Submit slides
+    - Statement about who did what
+
+## References {.smaller}

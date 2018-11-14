@@ -266,15 +266,17 @@ title: "Schedule"
 
 - Topics
     + Networks all the way down
-    + **Quiz 3**. | [Download]() |. Due at start of class on Wednesday, November 28, 2018.
 - Supplemental Materials
     + Swanson, L. W., & Lichtman, J. W. (2016). From Cajal to Connectome and Beyond. *Annual Review of Neuroscience*, *39*, 197–216. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-071714-033954>
     + Raichle, M. E. (2015). The brain’s default mode network. *Annual Review of Neuroscience*, *38*, 433–447. Retrieved from <http://dx.doi.org/10.1146/annurev-neuro-071013-014030>.
+- Materials
+    + Lecture notes | [HTML slides](lectures/511-2018-11-14-networks.html) | [PDF](lectures/511-11-14-networks.pdf)
 
 ### Fri, Nov 16
 
 - Topics
     - Reproducibility in neuroscience
+    + **Quiz 3**. | [Download]() |. Due at start of class on Friday, November 30, 2018.
 - Readings
     - Gilmore, R. O., Diaz, M. T., Wyble, B. A., & Yarkoni, T. (2017). Progress toward openness, transparency, and reproducibility in cognitive neuroscience. *Annals of the New York Academy of Sciences*. Retrieved from http://dx.doi.org/10.1111/nyas.13325
     - Gorgolewski, K. J., & Poldrack, R. A. (2016). A practical guide for improving transparency and reproducibility in neuroimaging research. *PLoS Biology*, *14*(7), e1002506. Retrieved October 2, 2016, from http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002506
