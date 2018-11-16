@@ -280,7 +280,9 @@ title: "Schedule"
 - Readings
     - Gilmore, R. O., Diaz, M. T., Wyble, B. A., & Yarkoni, T. (2017). Progress toward openness, transparency, and reproducibility in cognitive neuroscience. *Annals of the New York Academy of Sciences*. Retrieved from http://dx.doi.org/10.1111/nyas.13325
     - Gorgolewski, K. J., & Poldrack, R. A. (2016). A practical guide for improving transparency and reproducibility in neuroimaging research. *PLoS Biology*, *14*(7), e1002506. Retrieved October 2, 2016, from http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002506
-
+- Materials
+    + Lecture notes | [HTML slides](lectures/511-2018-11-16-reproducibility.html)
+    
 ---
 
 ## Thanksgiving Break, November 19 - 23, 2018
