@@ -309,13 +309,17 @@ title: "Schedule"
 
 - Topics
     - Student presentation Group A
+        - Measuring brain & behavior: Kelley, Anna, Alison, Lauren, Rhea) 
     - Student presentation Group B
+        - Development, aging, & plasticity: Liz, Michael, Lia, Chloe, & Nate
 
 ### Fri, Dec 7
 
 - Topics
-    - Student presentation Group C 
+    - Student presentation Group C
+        - Cogniton & Emotion: Austen, Brandon, Shane, & Natalia
     - Student presentation Group D
+        - Neurodegeneration & disorder: Kaitlin, Sam, Daryl, & Emily
 
 ## Week 16
 
