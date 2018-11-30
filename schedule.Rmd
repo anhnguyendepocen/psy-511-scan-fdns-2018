@@ -309,7 +309,7 @@ title: "Schedule"
 
 - Topics
     - Student presentation Group A
-        - Measuring brain & behavior: Kelley, Anna, Alison, Lauren, Rhea) 
+        - Measuring brain & behavior: Kelley, Anna, Alison, Lauren, Rhea 
     - Student presentation Group B
         - Development, aging, & plasticity: Liz, Michael, Lia, Chloe, & Nate
 
