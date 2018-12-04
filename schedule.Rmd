@@ -310,24 +310,25 @@ title: "Schedule"
 - Topics
     - Student presentation Group A
         - Measuring brain & behavior: Kelley, Anna, Alison, Lauren, Rhea
-            - Shaffer, F., McCraty, R., & Zerr, C. L. (2014). A healthy heart is not a metronome: an integrative review of the heart’s anatomy and heart rate variability. Frontiers in psychology, 5, 1040. Retrieved from http://dx.doi.org/10.3389/fpsyg.2014.01040. | [PDF](lectures/pdf/Shaffer+et+al+(2014).pdf) |.
-            - Holmes, A.J., & MacDonald, A.W. (in press). Concepts and Principles of Clinical Functional Magnetic Resonance Imaging. | [PDF](lectures/pdf/Holmes_MacDonald_fMRI_Chapter_Accepted_Jul2018.pdf) |.
+            - Shaffer, F., McCraty, R., & Zerr, C. L. (2014). A healthy heart is not a metronome: an integrative review of the heart’s anatomy and heart rate variability. *Frontiers in Psychology*, *5*, 1040. Retrieved from http://dx.doi.org/10.3389/fpsyg.2014.01040. | [PDF](lectures/pdf/Shaffer+et+al+(2014).pdf) |.
+            - Holmes, A. J., & MacDonald, A. W. III. (accepted). Concepts and principles of clinical
+functional magnetic resonance imaging. In A. G. C. Wright & M. N. Hallquist (Eds.), *Handbook of Research Methods in Clinical Psychology*. Cambridge, UK: Cambridge University Press. | [PDF](lectures/pdf/Holmes_MacDonald_fMRI_Chapter_Accepted_Jul2018.pdf) |.
     - Student presentation Group B
         - Development, aging, & plasticity: Liz, Michael, Lia, Chloe, & Nate
-            - Brody, G. H., Gray, J. C., Yu, T., Barton, A. W., Beach, S. R. H., Galván, A., MacKillop, J., et al. (2017). Protective Prevention Effects on the Association of Poverty With Brain Development. JAMA pediatrics, 171(1), 46–52. jamanetwork.com. Retrieved from http://dx.doi.org/10.1001/jamapediatrics.2016.2988. | [PDF](lectures/pdf/Brody+et+al.,+2017+-+Protective+Prevention+Effects+on+the+Association+of+Poverty+With+Brain+Development.pdf) |.
-            - Blakemore, S.-J., Burnett, S., & Dahl, R. E. (2010). The role of puberty in the developing adolescent brain. Human brain mapping, 31(6), 926–933. Wiley Online Library. Retrieved from http://dx.doi.org/10.1002/hbm.21052. | [PDF](lectures/pdf/Blakemore,+Burnett,+&+Dahl,+2010+-+Role+of+Puberty+in+Developing+Adolescent+Brain.pdf) |.
+            - Brody, G. H., Gray, J. C., Yu, T., Barton, A. W., Beach, S. R. H., Galván, A., MacKillop, J., et al. (2017). Protective prevention effects on the association of poverty With brain development. *JAMA Pediatrics*, *171*(1), 46–52. jamanetwork.com. Retrieved from http://dx.doi.org/10.1001/jamapediatrics.2016.2988. | [PDF](lectures/pdf/Brody+et+al.,+2017+-+Protective+Prevention+Effects+on+the+Association+of+Poverty+With+Brain+Development.pdf) |.
+            - Blakemore, S.-J., Burnett, S., & Dahl, R. E. (2010). The role of puberty in the developing adolescent brain. *Human Brain Mapping*, *31*(6), 926–933. Wiley Online Library. Retrieved from http://dx.doi.org/10.1002/hbm.21052. | [PDF](lectures/pdf/Blakemore,+Burnett,+&+Dahl,+2010+-+Role+of+Puberty+in+Developing+Adolescent+Brain.pdf) |.
 
 ### Fri, Dec 7
 
 - Topics
     - Student presentation Group C
         - Cognition & Emotion: Austen, Brandon, Shane, & Natalia
-            - Olff, M., Langeland, W., & Gersons, B. P. R. (2005). Effects of appraisal and coping on the neuroendocrine response to extreme stress. Neuroscience and biobehavioral reviews, 29(3), 457–467. Elsevier. Retrieved from http://dx.doi.org/10.1016/j.neubiorev.2004.12.006. | [PDF](lectures/pdf/Appraisal&NeuroendocrineResponse.pdf) |.
-            - Etkin, A., Büchel, C., & Gross, J. J. (2015). The neural bases of emotion regulation. Nature reviews. Neuroscience, 16(11), 693–700. nature.com. Retrieved from http://dx.doi.org/10.1038/nrn4044. | [PDF](lectures/pdf/The_neural_bases_of_emotion_re.pdf) |.
+            - Olff, M., Langeland, W., & Gersons, B. P. R. (2005). Effects of appraisal and coping on the neuroendocrine response to extreme stress. *Neuroscience and Biobehavioral Reviews*, *29*(3), 457–467. Elsevier. Retrieved from http://dx.doi.org/10.1016/j.neubiorev.2004.12.006. | [PDF](lectures/pdf/Appraisal&NeuroendocrineResponse.pdf) |.
+            - Etkin, A., Büchel, C., & Gross, J. J. (2015). The neural bases of emotion regulation. *Nature Reviews Neuroscience*, *16*(11), 693–700. nature.com. Retrieved from http://dx.doi.org/10.1038/nrn4044. | [PDF](lectures/pdf/The_neural_bases_of_emotion_re.pdf) |.
     - Student presentation Group D
         - Neurodegeneration & disorder: Kaitlin, Sam, Daryl, & Emily
-            - Wajda, D. A., & Sosnoff, J. J. (2015). Cognitive-motor interference in multiple sclerosis: a systematic review of evidence, correlates, and consequences. BioMed research international, 2015, 720856. hindawi.com. Retrieved from http://dx.doi.org/10.1155/2015/720856. | [PDF](lectures/pdf/Cognitive motor interference in MS.pdf) |.
-            - A. Bobholz, Julie & Gremley, Shelley. (2011). Multiple Sclerosis and Other Demyelinating Disorders. 10.1007/978-0-387-76978-3_20. |  [PDF](lectures/pdf/Bobholz & Gremley.MS ch.2011.pdf) |.
+            - Wajda, D. A., & Sosnoff, J. J. (2015). Cognitive-motor interference in multiple sclerosis: A systematic review of evidence, correlates, and consequences. *BioMed Research International*, 2015, 720856. hindawi.com. Retrieved from http://dx.doi.org/10.1155/2015/720856. | [PDF](lectures/pdf/Cognitive motor interference in MS.pdf) |.
+            - Bobholz, J. & Gremley, S. (2011). Multiple sclerosis and other demyelinating disorders. 10.1007/978-0-387-76978-3_20. |  [PDF](lectures/pdf/Bobholz & Gremley.MS ch.2011.pdf) |.
 
 ## Week 16
 
