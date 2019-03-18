@@ -171,18 +171,6 @@ Ochsner, Kevin N., and James J. Gross. (2008). Cognitive Emotion Regulation. *Cu
 - The distinct neurobiological correlates of emotional valence and discrete emotions (e.g., the neurobiological differences of positive v. negative emotions, more specifically fear v. anger, etc.)
 - The neural correlates of various cognitive emotion regulation strategies (e.g., the neurobiology of distraction or cognitive reappraisal, emotion regulation across positive and negative emotion valence, etc.)  
 
-## Natalia Van Doren
-
-Barrett, L. F., & Wager, T. D. (2006). The Structure of Emotion. *Current Directions in Psychological Science*, *15*(2), 79-83. doi:10.1111/j.0963-7214.2006.00411.x
-
-Vytal, K., & Hamann, S. (2010). Neuroimaging Support for Discrete Neural Correlates of Basic Emotions: A Voxel-based Meta-analysis. *Journal of Cognitive Neuroscience*, *22*(12), 2864-2885. doi:10.1162/jocn.2009.21366
-
-### Key terms and concepts
-
-- To what extent and how does the researcher hypotheses influence the decisions on were to draw the line in terms of what regions / voxels to analyze? Given the lack of consistency across researchers, it seems like voxel-hacking could occur, and it’s unclear to me what criteria are used to make these decisions about parsing voxels in a way that is not biased towards the research question.
-- How can we evaluate “distinct neural correlates”? What criteria are used to determine ‘distinctness’, and what is a sufficient criteria to say that a neural correlate is distinct? Part of the debate here seems to be about how this information is interpreted. For example, Barrett and Wager argue the patterns are not distinct because they are more general to approach / withdraw systems; whereas Vital and Hamann argue that patterns are distinct because they differ from other emotional activation patterns in a statistically significant manner. Given that multiple functions are performed by any given area or network of the brain, it seems odd in the Barrett paper to make the argument that because the patterns of activation of certain emotions are also associated with approach and withdrawal that it renders these emotions as indistinct in terms of activation patterns.
-- Both papers bring up the notion of consistency of activation, and draw opposite conclusions. I’m interested in learning more about how to evaluate consistency—what is considered a ’consistent’ pattern of activation? Are there specific thresholds that should be reached?
-
 ## Lauren Vasquez
 
 Doom, J. R., Doyle, C. M., & Gunnar, M. R. (2017). Social stress buffering by friends in childhood and adolescence: Effects on HPA and oxytocin activity. *Social Neuroscience*, *12*(1), 8-21. doi: 10.1080/17470919.2016.1149095

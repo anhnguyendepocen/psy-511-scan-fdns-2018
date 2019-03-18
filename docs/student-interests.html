@@ -96,6 +96,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +113,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -130,6 +132,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,18 +190,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -400,24 +498,11 @@ $(document).ready(function () {
 </ul>
 </div>
 </div>
-<div id="natalia-van-doren" class="section level2">
-<h2>Natalia Van Doren</h2>
-<p>Barrett, L. F., &amp; Wager, T. D. (2006). The Structure of Emotion. <em>Current Directions in Psychological Science</em>, <em>15</em>(2), 79-83. <a href="doi:10.1111/j.0963-7214.2006.00411.x" class="uri">doi:10.1111/j.0963-7214.2006.00411.x</a></p>
-<p>Vytal, K., &amp; Hamann, S. (2010). Neuroimaging Support for Discrete Neural Correlates of Basic Emotions: A Voxel-based Meta-analysis. <em>Journal of Cognitive Neuroscience</em>, <em>22</em>(12), 2864-2885. <a href="doi:10.1162/jocn.2009.21366" class="uri">doi:10.1162/jocn.2009.21366</a></p>
-<div id="key-terms-and-concepts-12" class="section level3">
-<h3>Key terms and concepts</h3>
-<ul>
-<li>To what extent and how does the researcher hypotheses influence the decisions on were to draw the line in terms of what regions / voxels to analyze? Given the lack of consistency across researchers, it seems like voxel-hacking could occur, and it’s unclear to me what criteria are used to make these decisions about parsing voxels in a way that is not biased towards the research question.</li>
-<li>How can we evaluate “distinct neural correlates”? What criteria are used to determine ‘distinctness’, and what is a sufficient criteria to say that a neural correlate is distinct? Part of the debate here seems to be about how this information is interpreted. For example, Barrett and Wager argue the patterns are not distinct because they are more general to approach / withdraw systems; whereas Vital and Hamann argue that patterns are distinct because they differ from other emotional activation patterns in a statistically significant manner. Given that multiple functions are performed by any given area or network of the brain, it seems odd in the Barrett paper to make the argument that because the patterns of activation of certain emotions are also associated with approach and withdrawal that it renders these emotions as indistinct in terms of activation patterns.</li>
-<li>Both papers bring up the notion of consistency of activation, and draw opposite conclusions. I’m interested in learning more about how to evaluate consistency—what is considered a ’consistent’ pattern of activation? Are there specific thresholds that should be reached?</li>
-</ul>
-</div>
-</div>
 <div id="lauren-vasquez" class="section level2">
 <h2>Lauren Vasquez</h2>
 <p>Doom, J. R., Doyle, C. M., &amp; Gunnar, M. R. (2017). Social stress buffering by friends in childhood and adolescence: Effects on HPA and oxytocin activity. <em>Social Neuroscience</em>, <em>12</em>(1), 8-21. doi: 10.1080/17470919.2016.1149095</p>
 <p>Esposito, E. A., Jones, M. J., Doom, J. R., MacIsaac, J. L., Gunnar, M. R., &amp; Kobor, M. S. (2016). Differential DNA methylation in peripheral blood mononuclear cells in adolescents exposed to significant early but not later childhood adversity. <em>Development and Psychopathology</em>, <em>28</em>(4pt2), 1385-1399. <a href="https://doi.org/10.1017/S0954579416000055" class="uri">https://doi.org/10.1017/S0954579416000055</a></p>
-<div id="key-terms-and-concepts-13" class="section level3">
+<div id="key-terms-and-concepts-12" class="section level3">
 <h3>Key terms and concepts</h3>
 <ul>
 <li>Hypothalamic Pituitary Adrenal (HPA) axis activity</li>
@@ -430,7 +515,7 @@ $(document).ready(function () {
 <h2>Shane Wise</h2>
 <p>Hipp, J. F., &amp; Siegel, M. (2013). Dissociating neuronal gamma-band activity from cranial and ocular muscle activity in EEG. <em>Frontiers in Human Neuroscience</em>, <em>7</em>, 338. doi: 10.3389/fnhum.2013.00338</p>
 <p>McClure, E. B., Adler, A., Monk, C. S., Cameron, J., Smith, S., Nelson, E. E., … &amp; Pine, D. S. (2007). fMRI predictors of treatment outcome in pediatric anxiety disorders. <em>Psychopharmacology</em>, <em>191</em>(1), 97-105. <a href="doi:10.1016/j.biopsych.2005.08.012" class="uri">doi:10.1016/j.biopsych.2005.08.012</a></p>
-<div id="key-terms-and-concepts-14" class="section level3">
+<div id="key-terms-and-concepts-13" class="section level3">
 <h3>Key terms and concepts</h3>
 <ul>
 <li>Beamforming</li>
@@ -446,7 +531,7 @@ $(document).ready(function () {
 <h2>Elizabeth Youatt</h2>
 <p>Harrewijn, A. van der Molen, M.J.W., van Vliet, I.M., Tissier, R.L.M., Westenburg, P.M. (2018) Behavioral and EEG responses to social evaluation: A two-generation family study on social anxiety. <em>Neuroimage: Clinical</em>, <em>17</em>(2018), 549-562. Retrieved from <a href="https://doi.org/10.1016/j.nicl.2017.11.010" class="uri">https://doi.org/10.1016/j.nicl.2017.11.010</a></p>
 <p>Kahle, S., Utendale, W.T., Widaman, K.F., Hastings, P.D. (2018) Parasympathetic regulation and inhibitory control predict the development of externalizing problems in early childhood. <em>Journal of Abnormal Child Psychology</em>, <em>46</em>(2), 237-249. Retrieved from <a href="https://link.springer.com/article/10.1007/s10802-017-0305-6" class="uri">https://link.springer.com/article/10.1007/s10802-017-0305-6</a></p>
-<div id="key-terms-and-concepts-15" class="section level3">
+<div id="key-terms-and-concepts-14" class="section level3">
 <h3>Key terms and concepts</h3>
 <ul>
 <li>EEG/ERP</li>
@@ -462,7 +547,7 @@ $(document).ready(function () {
 <h2>Anna Zhou</h2>
 <p>Foulkes, L., &amp; Blakemore, S.J. (2018). Studying individual differences in human adolescent brain development. <em>Nature Neuroscience</em>, <em>21</em>(3), 315–323. <a href="https://doi.org/10.1038/s41593-018-0078-4" class="uri">https://doi.org/10.1038/s41593-018-0078-4</a></p>
 <p>Cavanagh, J. F., Cohen, M. X., &amp; Allen, J. J. B. (2009). Prelude to and Resolution of an Error: EEG Phase Synchrony Reveals Cognitive Control Dynamics during Action Monitoring. <em>Journal of Neuroscience</em>, <em>29</em>(1), 98–105. <a href="https://doi.org/10.1523/JNEUROSCI.4137-08.2009" class="uri">https://doi.org/10.1523/JNEUROSCI.4137-08.2009</a></p>
-<div id="key-terms-and-concepts-16" class="section level3">
+<div id="key-terms-and-concepts-15" class="section level3">
 <h3>Key terms and concepts</h3>
 <ul>
 <li>“disentangling genuine age-related changes from test-retest reliability error” in fMRI</li>
